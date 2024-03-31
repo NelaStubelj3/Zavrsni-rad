@@ -1,0 +1,92 @@
+6.004331,0.38367,aoi,scheduling,foreground,"(1305, 820.8, 1536, 432.0)"
+6.006252,0.38367,aoi,scheduling,overdue,"(1305, 820.8, 1536, 432.0)"
+6.014617,0.38367,aoi,scheduling,task_title,"(1305, 864.0, 1536, 820.8)"
+6.036794,0.38367,aoi,scheduling,timeline,"(1328.1, 781.92, 1367.37, 509.76)"
+6.044489,0.38367,aoi,scheduling,elapsed_time,"(1305, 820.8, 1536, 432.0)"
+6.046918,0.38367,aoi,scheduling,sysmon,"(1374.3, 781.92, 1413.57, 509.76)"
+6.049315,0.38367,aoi,scheduling,track,"(1408.95, 781.92, 1448.22, 509.76)"
+6.053187,0.38367,aoi,scheduling,communications,"(1443.6, 781.92, 1482.87, 509.76)"
+6.055758,0.38367,aoi,scheduling,resman,"(1478.25, 781.92, 1517.52, 509.76)"
+6.055863,0.38367,parameter,scheduling,title,Scheduling
+6.055894,0.38367,parameter,scheduling,taskplacement,topright
+6.055921,0.38367,parameter,scheduling,taskupdatetime,1000
+6.055952,0.38367,parameter,scheduling,taskfeedback-overdue-active,0
+6.05598,0.38367,parameter,scheduling,taskfeedback-overdue-color,"(241, 100, 100, 255)"
+6.056009,0.38367,parameter,scheduling,taskfeedback-overdue-delayms,2000
+6.056036,0.38367,parameter,scheduling,taskfeedback-overdue-blinkdurationms,1000
+6.056062,0.38367,parameter,scheduling,taskfeedback-overdue-_nexttoggletime,0
+6.056098,0.38367,parameter,scheduling,taskfeedback-overdue-_is_visible,0
+6.056129,0.38367,parameter,scheduling,taskfeedback-overdue-widget,<core.widgets.frame.Frame object at 0x000001D17BFDEBB0>
+6.056178,0.38367,parameter,scheduling,minduration,8
+6.056206,0.38367,parameter,scheduling,displaychronometer,1
+6.056233,0.38367,parameter,scheduling,reversechronometer,0
+6.056257,0.38367,parameter,scheduling,displayedplugins,"['sysmon', 'track', 'communications', 'resman']"
+6.056486,0.38367,state,scheduling,"foreground, visibility",1
+6.056676,0.38367,state,scheduling,"overdue, visibility",1
+6.063504,0.38367,event,scheduling,self,start
+6.070978,0.453418,state,scheduling,"foreground, visibility",0
+6.07103,0.453418,state,scheduling,"overdue, visibility",0
+6.071393,0.453418,state,scheduling,"sysmon, top_bound_color","(142, 219, 176, 255)"
+6.071734,0.453418,state,scheduling,"track, top_bound_color","(142, 219, 176, 255)"
+6.071923,0.453418,state,scheduling,"communications, top_bound_color","(142, 219, 176, 255)"
+6.408996,0.550633,state,scheduling,"foreground, visibility",1
+9.214045,0.550633,state,scheduling,"overdue, visibility",1
+9.224695,0.590058,state,scheduling,"foreground, visibility",0
+9.224734,0.590058,state,scheduling,"overdue, visibility",0
+9.650815,1.016867,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:01
+10.650453,2.016051,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:02
+11.635776,3.00117,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:03
+12.636925,4.00097,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:04
+13.652176,5.016682,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:05
+14.651281,6.016164,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:06
+15.650633,7.015368,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:07
+16.650454,8.015786,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:08
+17.650802,9.015903,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:09
+18.648524,10.014171,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:10
+19.649119,11.015098,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:11
+20.648497,12.013763,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:12
+21.648876,13.014147,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:13
+22.648159,14.013362,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:14
+23.647627,15.013076,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:15
+24.648162,16.013295,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:16
+25.648701,17.014534,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:17
+26.647529,18.012344,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:18
+27.646353,19.011215,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:19
+28.646095,20.010816,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:20
+29.645649,21.010832,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:21
+30.64509,22.010279,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:22
+31.645632,23.01011,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:23
+32.644213,24.009566,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:24
+33.64457,25.009284,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:25
+33.645063,25.009284,state,scheduling,"resman, top_bound_color","(142, 219, 176, 255)"
+34.643935,26.009056,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:26
+35.644152,27.008656,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:27
+36.64327,28.008351,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:28
+37.643402,29.008458,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:29
+38.642438,30.007754,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:30
+39.642217,31.007448,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:31
+40.64306,32.008297,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:32
+41.64192,33.006851,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:33
+42.641314,34.006553,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:34
+43.641846,35.0066,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:35
+44.641451,36.007211,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:36
+45.64031,37.005585,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:37
+46.639809,38.005246,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:38
+47.640467,39.004941,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:39
+48.639654,40.004793,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:40
+49.640247,41.004979,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:41
+50.638826,42.003998,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:42
+51.639385,43.004637,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:43
+52.638845,44.004282,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:44
+53.638737,45.003988,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:45
+54.637913,46.002791,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:46
+55.638088,47.003494,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:47
+56.638712,48.003898,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:48
+57.63658,49.001863,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:49
+58.637039,50.002491,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:50
+59.636151,51.001277,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:51
+60.635607,52.0009,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:52
+61.635993,53.001509,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:53
+62.636245,54.0006,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:54
+65.298703,54.401355,state,scheduling,"foreground, visibility",1
+65.298842,54.401355,event,scheduling,self,stop

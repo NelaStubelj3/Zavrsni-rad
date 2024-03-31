@@ -1,0 +1,7 @@
+<h1>Presentation of Tasks</h1>
+
+<p>In the upper right corner of the screen, the participant has a scheduler, which indicates for each task (represented by a capital letter and a timeline) the phases during which it will be active.</p>
+
+<p>There is also an automation system capable of sharing the workload with the participant. When automation is active for a specific task, the scheduler represents it.</p>
+
+<p>This assists the participant in managing their effort and resource allocation.</p>

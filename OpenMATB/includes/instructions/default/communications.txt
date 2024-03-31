@@ -1,0 +1,3 @@
+<h1>Presentation of Tasks</h1>
+
+<p>In the communication task, the participant is required to respond to audio instructions regarding the frequencies of their radios. Some messages are directed at them (their call sign), but they should ignore other messages (different call signs).</p>

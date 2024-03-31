@@ -1,0 +1,98 @@
+710.362837,0.245517,aoi,scheduling,foreground,"(1632, 1026.0, 1920, 540.0)"
+710.363298,0.245517,aoi,scheduling,overdue,"(1632, 1026.0, 1920, 540.0)"
+710.365489,0.245517,aoi,scheduling,task_title,"(1632, 1080.0, 1920, 1026.0)"
+710.373331,0.245517,aoi,scheduling,timeline,"(1660.8, 977.4000000000001, 1709.76, 637.2)"
+710.3759,0.245517,aoi,scheduling,elapsed_time,"(1632, 1026.0, 1920, 540.0)"
+710.376907,0.245517,aoi,scheduling,sysmon,"(1718.4, 977.4000000000001, 1767.3600000000001, 637.2)"
+710.377968,0.245517,aoi,scheduling,track,"(1761.6, 977.4000000000001, 1810.56, 637.2)"
+710.378945,0.245517,aoi,scheduling,communications,"(1804.8, 977.4000000000001, 1853.76, 637.2)"
+710.379934,0.245517,aoi,scheduling,resman,"(1848.0, 977.4000000000001, 1896.96, 637.2)"
+710.380038,0.245517,parameter,scheduling,title,Scheduling
+710.380062,0.245517,parameter,scheduling,taskplacement,topright
+710.380078,0.245517,parameter,scheduling,taskupdatetime,1000
+710.380095,0.245517,parameter,scheduling,taskfeedback-overdue-active,0
+710.380111,0.245517,parameter,scheduling,taskfeedback-overdue-color,"(241, 100, 100, 255)"
+710.380128,0.245517,parameter,scheduling,taskfeedback-overdue-delayms,2000
+710.380143,0.245517,parameter,scheduling,taskfeedback-overdue-blinkdurationms,1000
+710.380157,0.245517,parameter,scheduling,taskfeedback-overdue-_nexttoggletime,0
+710.380171,0.245517,parameter,scheduling,taskfeedback-overdue-_is_visible,0
+710.380185,0.245517,parameter,scheduling,taskfeedback-overdue-widget,<core.widgets.frame.Frame object at 0x0000013F61FDC910>
+710.380202,0.245517,parameter,scheduling,minduration,8
+710.380215,0.245517,parameter,scheduling,displaychronometer,1
+710.380229,0.245517,parameter,scheduling,reversechronometer,0
+710.380242,0.245517,parameter,scheduling,displayedplugins,"['sysmon', 'track', 'communications', 'resman']"
+710.380389,0.245517,state,scheduling,"foreground, visibility",1
+710.380517,0.245517,state,scheduling,"overdue, visibility",1
+710.384633,0.245517,event,scheduling,self,start
+710.394056,0.278703,state,scheduling,"foreground, visibility",0
+710.394106,0.278703,state,scheduling,"overdue, visibility",0
+710.394244,0.278703,state,scheduling,"sysmon, top_bound_color","(142, 219, 176, 255)"
+710.394458,0.278703,state,scheduling,"track, top_bound_color","(142, 219, 176, 255)"
+710.394592,0.278703,state,scheduling,"communications, top_bound_color","(142, 219, 176, 255)"
+710.547834,0.350592,state,scheduling,"foreground, visibility",1
+711.261142,0.350592,state,scheduling,"overdue, visibility",1
+711.277961,0.379222,state,scheduling,"foreground, visibility",0
+711.278029,0.379222,state,scheduling,"overdue, visibility",0
+711.90275,1.003437,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:01
+712.899801,2.000581,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:02
+713.899529,3.000309,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:03
+714.899574,4.000369,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:04
+715.899477,5.000192,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:05
+716.899428,6.000234,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:06
+717.915996,7.016843,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:07
+718.915854,8.016726,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:08
+719.899575,9.000285,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:09
+720.915935,10.016742,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:10
+721.899147,11.000006,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:11
+722.899283,12.000078,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:12
+723.915582,13.016412,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:13
+724.899378,14.000115,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:14
+725.915757,15.01656,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:15
+726.915594,16.01645,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:16
+727.90003,17.000543,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:17
+728.91587,18.016723,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:18
+729.915547,19.016395,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:19
+730.899274,20.000017,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:20
+731.899666,21.000173,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:21
+732.91572,22.016491,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:22
+733.915532,23.016401,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:23
+734.916149,24.016694,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:24
+735.901683,25.002507,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:25
+735.901983,25.002507,state,scheduling,"resman, top_bound_color","(142, 219, 176, 255)"
+736.91586,26.016545,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:26
+737.915507,27.016302,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:27
+738.899247,28.000047,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:28
+739.915842,29.016461,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:29
+740.915882,30.016409,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:30
+741.901491,31.002322,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:31
+742.915232,32.016025,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:32
+743.915208,33.016024,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:33
+744.915708,34.016476,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:34
+745.915097,35.015906,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:35
+746.914893,36.015769,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:36
+747.901254,37.002137,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:37
+748.914999,38.015789,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:38
+749.915272,39.016015,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:39
+750.914776,40.015589,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:40
+751.916413,41.016974,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:41
+752.914825,42.015649,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:42
+753.915867,43.016527,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:43
+754.89937,44.000049,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:44
+755.899695,45.000177,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:45
+756.915631,46.016286,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:46
+757.915412,47.016004,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:47
+758.901616,48.002336,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:48
+759.915238,49.015813,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:49
+760.915483,50.016064,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:50
+761.915463,51.016062,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:51
+762.915124,52.015735,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:52
+763.915296,53.015945,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:53
+764.91466,54.015372,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:54
+765.915372,55.016013,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:55
+766.915,56.015633,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:56
+767.914636,57.015406,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:57
+768.914315,58.015117,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:58
+769.900506,59.001377,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:59
+770.914151,60.014985,state,scheduling,"elapsed_time, text",Elapsed time 	 00:01:00
+770.981237,60.081766,state,scheduling,"foreground, visibility",1
+770.981279,60.081766,event,scheduling,self,stop

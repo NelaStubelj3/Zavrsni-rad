@@ -1,0 +1,36 @@
+logtime,scenario_time,type,module,address,value
+0.583023,0,scenario_path,,,includes\scenarios\basic.txt
+0.602619,0,seed_value,communications,,
+0.602665,0,seed_output,communications,,DTW834
+0.602751,0,seed_value,communications,,
+0.602765,0,seed_output,communications,,LPP463
+0.602834,0,seed_value,communications,,
+0.602846,0,seed_output,communications,,QNZ454
+0.602914,0,seed_value,communications,,
+0.602926,0,seed_output,communications,,FDV753
+0.602999,0,seed_value,communications,,
+0.603011,0,seed_output,communications,,XVZ241
+0.603083,0,seed_value,communications,,
+0.603095,0,seed_output,communications,,EHA972
+0.603166,0,seed_value,communications,,
+0.603178,0,seed_output,communications,,WMS232
+0.603249,0,seed_value,communications,,
+0.603262,0,seed_output,communications,,MYA347
+0.603333,0,seed_value,communications,,
+0.603346,0,seed_output,communications,,UPW443
+0.603412,0,seed_value,communications,,
+0.603424,0,seed_output,communications,,DXE892
+0.603455,0,seed_value,communications,,
+0.603465,0,seed_output,communications,,121.76255
+0.603487,0,seed_value,communications,,
+0.603496,0,seed_output,communications,,115.511246
+0.603516,0,seed_value,communications,,
+0.603526,0,seed_output,communications,,111.098028
+0.603545,0,seed_value,communications,,
+0.603554,0,seed_output,communications,,135.992022
+0.610152,0,version,,,1.3.0
+6.72265,0,dialog,,,OpenMATB end
+6.737541,0.01708,event,sysmon,scales-1-key,F8
+7.239004,0.01708,dialog,,,Warning end
+7.239454,0.03436,event,resman,tank-b-target,1000
+7.239563,0.03436,manual,,,end

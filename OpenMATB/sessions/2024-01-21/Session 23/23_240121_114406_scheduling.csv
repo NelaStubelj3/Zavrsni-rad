@@ -1,0 +1,50 @@
+2.698639,0.393044,aoi,scheduling,foreground,"(1305, 820.8, 1536, 432.0)"
+2.700534,0.393044,aoi,scheduling,overdue,"(1305, 820.8, 1536, 432.0)"
+2.708042,0.393044,aoi,scheduling,task_title,"(1305, 864.0, 1536, 820.8)"
+2.734447,0.393044,aoi,scheduling,timeline,"(1328.1, 781.92, 1367.37, 509.76)"
+2.743432,0.393044,aoi,scheduling,elapsed_time,"(1305, 820.8, 1536, 432.0)"
+2.749133,0.393044,aoi,scheduling,sysmon,"(1374.3, 781.92, 1413.57, 509.76)"
+2.75288,0.393044,aoi,scheduling,track,"(1408.95, 781.92, 1448.22, 509.76)"
+2.779115,0.393044,aoi,scheduling,communications,"(1443.6, 781.92, 1482.87, 509.76)"
+2.782659,0.393044,aoi,scheduling,resman,"(1478.25, 781.92, 1517.52, 509.76)"
+2.782799,0.393044,parameter,scheduling,title,Scheduling
+2.782846,0.393044,parameter,scheduling,taskplacement,topright
+2.782885,0.393044,parameter,scheduling,taskupdatetime,1000
+2.782932,0.393044,parameter,scheduling,taskfeedback-overdue-active,0
+2.782977,0.393044,parameter,scheduling,taskfeedback-overdue-color,"(241, 100, 100, 255)"
+2.783026,0.393044,parameter,scheduling,taskfeedback-overdue-delayms,2000
+2.783068,0.393044,parameter,scheduling,taskfeedback-overdue-blinkdurationms,1000
+2.783116,0.393044,parameter,scheduling,taskfeedback-overdue-_nexttoggletime,0
+2.783165,0.393044,parameter,scheduling,taskfeedback-overdue-_is_visible,0
+2.783276,0.393044,parameter,scheduling,taskfeedback-overdue-widget,<core.widgets.frame.Frame object at 0x000001F921200C40>
+2.783337,0.393044,parameter,scheduling,minduration,8
+2.783373,0.393044,parameter,scheduling,displaychronometer,1
+2.783406,0.393044,parameter,scheduling,reversechronometer,0
+2.783432,0.393044,parameter,scheduling,displayedplugins,"['sysmon', 'track', 'communications', 'resman']"
+2.783763,0.393044,state,scheduling,"foreground, visibility",1
+2.784099,0.393044,state,scheduling,"overdue, visibility",1
+2.79699,0.393044,event,scheduling,self,start
+2.808183,0.506586,state,scheduling,"foreground, visibility",0
+2.808261,0.506586,state,scheduling,"overdue, visibility",0
+2.808617,0.506586,state,scheduling,"sysmon, top_bound_color","(142, 219, 176, 255)"
+2.810348,0.506586,state,scheduling,"communications, top_bound_color","(142, 219, 176, 255)"
+2.810619,0.506586,state,scheduling,"resman, top_bound_color","(142, 219, 176, 255)"
+3.303914,1.001023,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:01
+4.302825,2.000466,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:02
+5.302344,3.00016,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:03
+6.317781,4.016189,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:04
+7.317604,5.015845,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:05
+8.317081,6.015773,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:06
+9.317408,7.015896,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:07
+10.316177,8.014799,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:08
+11.317872,9.015999,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:09
+12.315622,10.014394,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:10
+13.315473,11.013843,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:11
+14.31553,12.013531,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:12
+15.314883,13.013264,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:13
+16.314694,14.012973,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:14
+17.314255,15.012597,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:15
+18.314455,16.012699,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:16
+19.314961,17.013264,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:17
+25.341542,17.929256,state,scheduling,"foreground, visibility",1
+25.341607,17.929256,event,scheduling,self,stop

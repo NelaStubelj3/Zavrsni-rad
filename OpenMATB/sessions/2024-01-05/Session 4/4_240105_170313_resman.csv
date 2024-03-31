@@ -1,0 +1,540 @@
+461.457986,0.034108,event,resman,tank-b-target,1000
+461.558855,0.133958,aoi,resman,foreground,"(576, 486.0, 1632, 0.0)"
+461.559438,0.133958,aoi,resman,overdue,"(576, 486.0, 1632, 0.0)"
+461.566892,0.133958,aoi,resman,task_title,"(576, 540.0, 1632, 486.0)"
+461.567574,0.133958,aoi,resman,automode,"(1006.848, 309.15000000000003, 1165.248, 282.15000000000003)"
+461.568276,0.133958,aoi,resman,status_foreground,"(1632, 486.0, 1920, 0.0)"
+461.570602,0.133958,aoi,resman,status_title,"(1632, 540.0, 1920, 486.0)"
+461.572114,0.133958,aoi,resman,pump_1_flow,"(1632, 486.0, 1920, 432.0)"
+461.573814,0.133958,aoi,resman,pump_2_flow,"(1632, 432.00000000000006, 1920, 378.00000000000006)"
+461.575639,0.133958,aoi,resman,pump_3_flow,"(1632, 378.00000000000006, 1920, 324.00000000000006)"
+461.577159,0.133958,aoi,resman,pump_4_flow,"(1632, 324.0, 1920, 270.0)"
+461.578894,0.133958,aoi,resman,pump_5_flow,"(1632, 270.0, 1920, 216.0)"
+461.580182,0.133958,aoi,resman,pump_6_flow,"(1632, 216.00000000000003, 1920, 162.00000000000003)"
+461.581478,0.133958,aoi,resman,pump_7_flow,"(1632, 161.99999999999997, 1920, 107.99999999999997)"
+461.58291,0.133958,aoi,resman,pump_8_flow,"(1632, 107.99999999999999, 1920, 53.999999999999986)"
+461.584268,0.133958,aoi,resman,tank_a,"(723.84, 437.4, 882.24, 267.3)"
+461.585861,0.133958,aoi,resman,tank_b,"(1251.8400000000001, 437.4, 1410.2400000000002, 267.3)"
+461.587139,0.133958,aoi,resman,tank_c,"(628.8, 243.0, 734.4, 72.89999999999999)"
+461.58887,0.133958,aoi,resman,tank_d,"(1156.8000000000002, 243.0, 1262.4, 72.89999999999999)"
+461.589939,0.133958,aoi,resman,tank_e,"(892.8, 243.0, 1019.52, 72.89999999999999)"
+461.59116,0.133958,aoi,resman,tank_f,"(1420.8000000000002, 243.0, 1547.5200000000002, 72.89999999999999)"
+461.597855,0.133958,parameter,resman,title,Resources management
+461.597884,0.133958,parameter,resman,taskplacement,bottommid
+461.5979,0.133958,parameter,resman,taskupdatetime,2000
+461.597919,0.133958,parameter,resman,taskfeedback-overdue-active,0
+461.597934,0.133958,parameter,resman,taskfeedback-overdue-color,"(241, 100, 100, 255)"
+461.597953,0.133958,parameter,resman,taskfeedback-overdue-delayms,2000
+461.597968,0.133958,parameter,resman,taskfeedback-overdue-blinkdurationms,1000
+461.597983,0.133958,parameter,resman,taskfeedback-overdue-_nexttoggletime,0
+461.597998,0.133958,parameter,resman,taskfeedback-overdue-_is_visible,0
+461.598013,0.133958,parameter,resman,taskfeedback-overdue-widget,<core.widgets.frame.Frame object at 0x0000029CA413AA90>
+461.598031,0.133958,parameter,resman,automaticsolver,0
+461.598044,0.133958,parameter,resman,displayautomationstate,1
+461.598057,0.133958,parameter,resman,pumpcoloroff,"(255, 255, 255, 255)"
+461.59807,0.133958,parameter,resman,pumpcoloron,"(142, 219, 176, 255)"
+461.598084,0.133958,parameter,resman,pumpcolorfailure,"(241, 100, 100, 255)"
+461.598097,0.133958,parameter,resman,toleranceradius,250
+461.598109,0.133958,parameter,resman,statuslocation,bottomright
+461.598121,0.133958,parameter,resman,displaystatus,1
+461.598133,0.133958,parameter,resman,tolerancecolor,"(50, 50, 50, 255)"
+461.598146,0.133958,parameter,resman,tolerancecoloroutside,"(50, 50, 50, 255)"
+461.598161,0.133958,parameter,resman,tank-a-level,2500
+461.598174,0.133958,parameter,resman,tank-a-max,4000
+461.598186,0.133958,parameter,resman,tank-a-target,2500
+461.598198,0.133958,parameter,resman,tank-a-depletable,1
+461.59821,0.133958,parameter,resman,tank-a-lossperminute,800
+461.598222,0.133958,parameter,resman,tank-a-_infoside,left
+461.598234,0.133958,parameter,resman,tank-a-_response_time,0
+461.598246,0.133958,parameter,resman,tank-a-_is_in_tolerance,
+461.598258,0.133958,parameter,resman,tank-a-_tolerance_color,"(50, 50, 50, 255)"
+461.598272,0.133958,parameter,resman,tank-a-widget,<core.widgets.tank.Tank object at 0x0000029CA41828D0>
+461.598287,0.133958,parameter,resman,tank-b-level,2500
+461.5983,0.133958,parameter,resman,tank-b-max,4000
+461.598312,0.133958,parameter,resman,tank-b-target,1000
+461.598325,0.133958,parameter,resman,tank-b-depletable,1
+461.598337,0.133958,parameter,resman,tank-b-lossperminute,800
+461.598351,0.133958,parameter,resman,tank-b-_infoside,right
+461.598362,0.133958,parameter,resman,tank-b-_response_time,0
+461.598375,0.133958,parameter,resman,tank-b-_is_in_tolerance,
+461.598388,0.133958,parameter,resman,tank-b-_tolerance_color,"(50, 50, 50, 255)"
+461.598402,0.133958,parameter,resman,tank-b-widget,<core.widgets.tank.Tank object at 0x0000029CA418C610>
+461.598417,0.133958,parameter,resman,tank-c-level,1000
+461.598429,0.133958,parameter,resman,tank-c-max,2000
+461.59844,0.133958,parameter,resman,tank-c-target,
+461.598452,0.133958,parameter,resman,tank-c-depletable,1
+461.598464,0.133958,parameter,resman,tank-c-lossperminute,0
+461.598476,0.133958,parameter,resman,tank-c-_infoside,left
+461.598488,0.133958,parameter,resman,tank-c-widget,<core.widgets.tank.Tank object at 0x0000029CA41829D0>
+461.598503,0.133958,parameter,resman,tank-d-level,1000
+461.598515,0.133958,parameter,resman,tank-d-max,2000
+461.598527,0.133958,parameter,resman,tank-d-target,
+461.598538,0.133958,parameter,resman,tank-d-depletable,1
+461.59855,0.133958,parameter,resman,tank-d-lossperminute,0
+461.598562,0.133958,parameter,resman,tank-d-_infoside,left
+461.598574,0.133958,parameter,resman,tank-d-widget,<core.widgets.tank.Tank object at 0x0000029CA41A1C10>
+461.59859,0.133958,parameter,resman,tank-e-level,3000
+461.598605,0.133958,parameter,resman,tank-e-max,4000
+461.598616,0.133958,parameter,resman,tank-e-target,
+461.598628,0.133958,parameter,resman,tank-e-depletable,0
+461.59864,0.133958,parameter,resman,tank-e-lossperminute,0
+461.598651,0.133958,parameter,resman,tank-e-_infoside,right
+461.598663,0.133958,parameter,resman,tank-e-widget,<core.widgets.tank.Tank object at 0x0000029CA41A2090>
+461.598678,0.133958,parameter,resman,tank-f-level,3000
+461.59869,0.133958,parameter,resman,tank-f-max,4000
+461.598701,0.133958,parameter,resman,tank-f-target,
+461.598713,0.133958,parameter,resman,tank-f-depletable,0
+461.598725,0.133958,parameter,resman,tank-f-lossperminute,0
+461.598736,0.133958,parameter,resman,tank-f-_infoside,right
+461.598748,0.133958,parameter,resman,tank-f-widget,<core.widgets.tank.Tank object at 0x0000029CA41B31D0>
+461.598764,0.133958,parameter,resman,pump-1-flow,800
+461.598775,0.133958,parameter,resman,pump-1-state,off
+461.598787,0.133958,parameter,resman,pump-1-key,_1
+461.598799,0.133958,parameter,resman,pump-1-_fromtank,c
+461.598823,0.133958,parameter,resman,pump-1-_totank,a
+461.598838,0.133958,parameter,resman,pump-1-statuswidget,<core.widgets.pumpflow.PumpFlow object at 0x0000029CA6E21310>
+461.598854,0.133958,parameter,resman,pump-1-widget,<core.widgets.pump.Pump object at 0x0000029CA41B3790>
+461.598869,0.133958,parameter,resman,pump-2-flow,600
+461.598881,0.133958,parameter,resman,pump-2-state,off
+461.598893,0.133958,parameter,resman,pump-2-key,_2
+461.598905,0.133958,parameter,resman,pump-2-_fromtank,e
+461.598916,0.133958,parameter,resman,pump-2-_totank,a
+461.598928,0.133958,parameter,resman,pump-2-statuswidget,<core.widgets.pumpflow.PumpFlow object at 0x0000029CA4165E50>
+461.598942,0.133958,parameter,resman,pump-2-widget,<core.widgets.pump.Pump object at 0x0000029CA41C31D0>
+461.598957,0.133958,parameter,resman,pump-3-flow,800
+461.59897,0.133958,parameter,resman,pump-3-state,off
+461.598981,0.133958,parameter,resman,pump-3-key,_3
+461.598993,0.133958,parameter,resman,pump-3-_fromtank,d
+461.599004,0.133958,parameter,resman,pump-3-_totank,b
+461.599016,0.133958,parameter,resman,pump-3-statuswidget,<core.widgets.pumpflow.PumpFlow object at 0x0000029CA4164DD0>
+461.599031,0.133958,parameter,resman,pump-3-widget,<core.widgets.pump.Pump object at 0x0000029CA418DA90>
+461.599046,0.133958,parameter,resman,pump-4-flow,600
+461.599058,0.133958,parameter,resman,pump-4-state,off
+461.59907,0.133958,parameter,resman,pump-4-key,_4
+461.599082,0.133958,parameter,resman,pump-4-_fromtank,f
+461.599093,0.133958,parameter,resman,pump-4-_totank,b
+461.599105,0.133958,parameter,resman,pump-4-statuswidget,<core.widgets.pumpflow.PumpFlow object at 0x0000029CA4166A10>
+461.599124,0.133958,parameter,resman,pump-4-widget,<core.widgets.pump.Pump object at 0x0000029CA41CC050>
+461.599139,0.133958,parameter,resman,pump-5-flow,600
+461.599151,0.133958,parameter,resman,pump-5-state,off
+461.599162,0.133958,parameter,resman,pump-5-key,_5
+461.599174,0.133958,parameter,resman,pump-5-_fromtank,e
+461.599185,0.133958,parameter,resman,pump-5-_totank,c
+461.599197,0.133958,parameter,resman,pump-5-statuswidget,<core.widgets.pumpflow.PumpFlow object at 0x0000029CA4172490>
+461.599212,0.133958,parameter,resman,pump-5-widget,<core.widgets.pump.Pump object at 0x0000029CA41D5990>
+461.599226,0.133958,parameter,resman,pump-6-flow,600
+461.599238,0.133958,parameter,resman,pump-6-state,off
+461.59925,0.133958,parameter,resman,pump-6-key,_6
+461.599261,0.133958,parameter,resman,pump-6-_fromtank,f
+461.599272,0.133958,parameter,resman,pump-6-_totank,d
+461.599283,0.133958,parameter,resman,pump-6-statuswidget,<core.widgets.pumpflow.PumpFlow object at 0x0000029CA41719D0>
+461.599298,0.133958,parameter,resman,pump-6-widget,<core.widgets.pump.Pump object at 0x0000029CA41D7310>
+461.599312,0.133958,parameter,resman,pump-7-flow,400
+461.599324,0.133958,parameter,resman,pump-7-state,off
+461.599335,0.133958,parameter,resman,pump-7-key,_7
+461.599348,0.133958,parameter,resman,pump-7-_fromtank,a
+461.599359,0.133958,parameter,resman,pump-7-_totank,b
+461.59937,0.133958,parameter,resman,pump-7-statuswidget,<core.widgets.pumpflow.PumpFlow object at 0x0000029CA4172D50>
+461.599385,0.133958,parameter,resman,pump-7-widget,<core.widgets.pump.Pump object at 0x0000029CA41C0490>
+461.599399,0.133958,parameter,resman,pump-8-flow,400
+461.599411,0.133958,parameter,resman,pump-8-state,off
+461.599422,0.133958,parameter,resman,pump-8-key,_8
+461.599434,0.133958,parameter,resman,pump-8-_fromtank,b
+461.599446,0.133958,parameter,resman,pump-8-_totank,a
+461.599457,0.133958,parameter,resman,pump-8-statuswidget,<core.widgets.pumpflow.PumpFlow object at 0x0000029CA4181450>
+461.599471,0.133958,parameter,resman,pump-8-widget,<core.widgets.pump.Pump object at 0x0000029CA6DE2B50>
+461.601589,0.133958,state,resman,"foreground, visibility",1
+461.601742,0.133958,state,resman,"overdue, visibility",1
+461.602527,0.133958,state,resman,"status_foreground, visibility",1
+461.611247,0.133958,state,resman,"status_foreground, visibility",0
+461.611282,0.133958,event,resman,self,start
+461.619881,0.196018,performance,resman,a_in_tolerance,1
+461.619922,0.196018,performance,resman,a_deviation,0
+461.619946,0.196018,performance,resman,b_in_tolerance,0
+461.619965,0.196018,performance,resman,b_deviation,1500
+461.620006,0.196018,state,resman,"foreground, visibility",0
+461.620798,0.196018,state,resman,"automode, text",MANUAL
+461.620834,0.196018,state,resman,"overdue, visibility",0
+461.856439,0.350579,state,resman,"foreground, visibility",1
+461.85649,0.350579,state,resman,"status_foreground, visibility",1
+472.186582,0.350579,state,resman,"overdue, visibility",1
+472.187304,0.350579,state,resman,"status_foreground, visibility",0
+472.203611,0.379075,state,resman,"foreground, visibility",0
+472.203641,0.379075,state,resman,"overdue, visibility",0
+472.203742,0.379075,event,resman,automaticsolver,1
+474.024769,2.200592,performance,resman,a_in_tolerance,1
+474.024829,2.200592,performance,resman,a_deviation,7
+474.02485,2.200592,performance,resman,b_in_tolerance,0
+474.024866,2.200592,performance,resman,b_deviation,1461
+474.025164,2.200592,state,resman,"automode, text",AUTO
+474.025208,2.200592,state,resman,"pump_2, triangle","(142, 219, 176, 255)"
+474.025481,2.200592,state,resman,"pump_2_flow, 2",600
+474.025517,2.200592,state,resman,"pump_5, triangle","(142, 219, 176, 255)"
+474.025705,2.200592,state,resman,"pump_5_flow, 5",600
+474.02573,2.200592,state,resman,"pump_6, triangle","(142, 219, 176, 255)"
+474.025914,2.200592,state,resman,"pump_6_flow, 6",600
+474.025943,2.200592,state,resman,"pump_8, triangle","(142, 219, 176, 255)"
+474.026105,2.200592,state,resman,"pump_8_flow, 8",400
+474.026138,2.200592,state,resman,"tank_a, fluid_level",2507
+474.026253,2.200592,state,resman,"tank_a, fluid_label",2507
+474.026287,2.200592,state,resman,"tank_b, fluid_level",2461
+474.0264,2.200592,state,resman,"tank_b, fluid_label",2461
+474.026432,2.200592,state,resman,"tank_c, fluid_level",1020
+474.026548,2.200592,state,resman,"tank_c, fluid_label",1020
+474.026577,2.200592,state,resman,"tank_d, fluid_level",1020
+474.026688,2.200592,state,resman,"tank_d, fluid_label",1020
+476.040434,4.215789,performance,resman,a_in_tolerance,1
+476.040457,4.215789,performance,resman,a_deviation,1
+476.040475,4.215789,performance,resman,b_in_tolerance,0
+476.04049,4.215789,performance,resman,b_deviation,1435
+476.040557,4.215789,state,resman,"pump_8, triangle","(255, 255, 255, 255)"
+476.040823,4.215789,state,resman,"pump_8_flow, 8",0
+476.040852,4.215789,state,resman,"tank_a, fluid_level",2501
+476.04098,4.215789,state,resman,"tank_a, fluid_label",2501
+476.041014,4.215789,state,resman,"tank_b, fluid_level",2435
+476.041129,4.215789,state,resman,"tank_b, fluid_label",2435
+476.041158,4.215789,state,resman,"tank_c, fluid_level",1040
+476.04127,4.215789,state,resman,"tank_c, fluid_label",1040
+476.041294,4.215789,state,resman,"tank_d, fluid_level",1040
+476.041405,4.215789,state,resman,"tank_d, fluid_label",1040
+478.056379,6.232016,performance,resman,a_in_tolerance,1
+478.056445,6.232016,performance,resman,a_deviation,-5
+478.05647,6.232016,performance,resman,b_in_tolerance,0
+478.056488,6.232016,performance,resman,b_deviation,1409
+478.056587,6.232016,state,resman,"tank_a, fluid_level",2495
+478.057221,6.232016,state,resman,"tank_a, fluid_label",2495
+478.057269,6.232016,state,resman,"tank_b, fluid_level",2409
+478.057418,6.232016,state,resman,"tank_b, fluid_label",2409
+478.057453,6.232016,state,resman,"tank_c, fluid_level",1060
+478.057588,6.232016,state,resman,"tank_c, fluid_label",1060
+478.057615,6.232016,state,resman,"tank_d, fluid_level",1060
+478.05774,6.232016,state,resman,"tank_d, fluid_label",1060
+480.057705,8.23345,performance,resman,a_in_tolerance,1
+480.057773,8.23345,performance,resman,a_deviation,-11
+480.057799,8.23345,performance,resman,b_in_tolerance,0
+480.057819,8.23345,performance,resman,b_deviation,1383
+480.057907,8.23345,state,resman,"tank_a, fluid_level",2489
+480.058271,8.23345,state,resman,"tank_a, fluid_label",2489
+480.058315,8.23345,state,resman,"tank_b, fluid_level",2383
+480.058442,8.23345,state,resman,"tank_b, fluid_label",2383
+480.058473,8.23345,state,resman,"tank_c, fluid_level",1080
+480.058587,8.23345,state,resman,"tank_c, fluid_label",1080
+480.058611,8.23345,state,resman,"tank_d, fluid_level",1080
+480.058719,8.23345,state,resman,"tank_d, fluid_label",1080
+482.057725,10.233486,performance,resman,a_in_tolerance,1
+482.057771,10.233486,performance,resman,a_deviation,-17
+482.057796,10.233486,performance,resman,b_in_tolerance,0
+482.057815,10.233486,performance,resman,b_deviation,1357
+482.057882,10.233486,state,resman,"tank_a, fluid_level",2483
+482.058104,10.233486,state,resman,"tank_a, fluid_label",2483
+482.058138,10.233486,state,resman,"tank_b, fluid_level",2357
+482.05826,10.233486,state,resman,"tank_b, fluid_label",2357
+482.058289,10.233486,state,resman,"tank_c, fluid_level",1100
+482.058398,10.233486,state,resman,"tank_c, fluid_label",1100
+482.058422,10.233486,state,resman,"tank_d, fluid_level",1100
+482.058527,10.233486,state,resman,"tank_d, fluid_label",1100
+484.057722,12.233579,performance,resman,a_in_tolerance,1
+484.057771,12.233579,performance,resman,a_deviation,-23
+484.057793,12.233579,performance,resman,b_in_tolerance,0
+484.057809,12.233579,performance,resman,b_deviation,1331
+484.057873,12.233579,state,resman,"tank_a, fluid_level",2477
+484.05817,12.233579,state,resman,"tank_a, fluid_label",2477
+484.058205,12.233579,state,resman,"tank_b, fluid_level",2331
+484.058327,12.233579,state,resman,"tank_b, fluid_label",2331
+484.058357,12.233579,state,resman,"tank_c, fluid_level",1120
+484.058471,12.233579,state,resman,"tank_c, fluid_label",1120
+484.058628,12.233579,state,resman,"tank_d, fluid_level",1120
+484.058756,12.233579,state,resman,"tank_d, fluid_label",1120
+486.074725,14.250039,performance,resman,a_in_tolerance,1
+486.074753,14.250039,performance,resman,a_deviation,-29
+486.074773,14.250039,performance,resman,b_in_tolerance,0
+486.074789,14.250039,performance,resman,b_deviation,1305
+486.074845,14.250039,state,resman,"tank_a, fluid_level",2471
+486.075046,14.250039,state,resman,"tank_a, fluid_label",2471
+486.075092,14.250039,state,resman,"tank_b, fluid_level",2305
+486.075223,14.250039,state,resman,"tank_b, fluid_label",2305
+486.075255,14.250039,state,resman,"tank_c, fluid_level",1140
+486.075378,14.250039,state,resman,"tank_c, fluid_label",1140
+486.075403,14.250039,state,resman,"tank_d, fluid_level",1140
+486.075543,14.250039,state,resman,"tank_d, fluid_label",1140
+486.841879,15.016789,event,resman,pump-3-state,failure
+486.857167,15.033015,state,resman,"pump_3, triangle","(241, 100, 100, 255)"
+488.09099,16.266724,performance,resman,a_in_tolerance,1
+488.091048,16.266724,performance,resman,a_deviation,-35
+488.091073,16.266724,performance,resman,b_in_tolerance,0
+488.091093,16.266724,performance,resman,b_deviation,1279
+488.091169,16.266724,state,resman,"tank_a, fluid_level",2465
+488.091388,16.266724,state,resman,"tank_a, fluid_label",2465
+488.091422,16.266724,state,resman,"tank_b, fluid_level",2279
+488.091543,16.266724,state,resman,"tank_b, fluid_label",2279
+488.091573,16.266724,state,resman,"tank_c, fluid_level",1160
+488.091684,16.266724,state,resman,"tank_c, fluid_label",1160
+488.091708,16.266724,state,resman,"tank_d, fluid_level",1160
+488.091825,16.266724,state,resman,"tank_d, fluid_label",1160
+490.09175,18.267241,performance,resman,a_in_tolerance,1
+490.091836,18.267241,performance,resman,a_deviation,-41
+490.091855,18.267241,performance,resman,b_in_tolerance,0
+490.091875,18.267241,performance,resman,b_deviation,1253
+490.091948,18.267241,state,resman,"tank_a, fluid_level",2459
+490.092159,18.267241,state,resman,"tank_a, fluid_label",2459
+490.092196,18.267241,state,resman,"tank_b, fluid_level",2253
+490.092323,18.267241,state,resman,"tank_b, fluid_label",2253
+490.092355,18.267241,state,resman,"tank_c, fluid_level",1180
+490.092479,18.267241,state,resman,"tank_c, fluid_label",1180
+490.092504,18.267241,state,resman,"tank_d, fluid_level",1180
+490.092623,18.267241,state,resman,"tank_d, fluid_label",1180
+492.107641,20.283165,performance,resman,a_in_tolerance,1
+492.107669,20.283165,performance,resman,a_deviation,-47
+492.107688,20.283165,performance,resman,b_in_tolerance,0
+492.107705,20.283165,performance,resman,b_deviation,1227
+492.107776,20.283165,state,resman,"tank_a, fluid_level",2453
+492.108029,20.283165,state,resman,"tank_a, fluid_label",2453
+492.108065,20.283165,state,resman,"tank_b, fluid_level",2227
+492.108192,20.283165,state,resman,"tank_b, fluid_label",2227
+492.108223,20.283165,state,resman,"tank_c, fluid_level",1200
+492.108364,20.283165,state,resman,"tank_c, fluid_label",1200
+492.108388,20.283165,state,resman,"tank_d, fluid_level",1200
+492.108503,20.283165,state,resman,"tank_d, fluid_label",1200
+494.123773,22.299672,performance,resman,a_in_tolerance,1
+494.123819,22.299672,performance,resman,a_deviation,-53
+494.123847,22.299672,performance,resman,b_in_tolerance,0
+494.123869,22.299672,performance,resman,b_deviation,1201
+494.123946,22.299672,state,resman,"tank_a, fluid_level",2447
+494.12426,22.299672,state,resman,"tank_a, fluid_label",2447
+494.124297,22.299672,state,resman,"tank_b, fluid_level",2201
+494.124437,22.299672,state,resman,"tank_b, fluid_label",2201
+494.12447,22.299672,state,resman,"tank_c, fluid_level",1220
+494.124589,22.299672,state,resman,"tank_c, fluid_label",1220
+494.124614,22.299672,state,resman,"tank_d, fluid_level",1220
+494.124729,22.299672,state,resman,"tank_d, fluid_label",1220
+496.12482,24.300074,performance,resman,a_in_tolerance,1
+496.124848,24.300074,performance,resman,a_deviation,-33
+496.124865,24.300074,performance,resman,b_in_tolerance,0
+496.12488,24.300074,performance,resman,b_deviation,1175
+496.12492,24.300074,state,resman,"pump_1, triangle","(142, 219, 176, 255)"
+496.125204,24.300074,state,resman,"pump_1_flow, 1",800
+496.125263,24.300074,state,resman,"tank_a, fluid_level",2467
+496.125391,24.300074,state,resman,"tank_a, fluid_label",2467
+496.125428,24.300074,state,resman,"tank_b, fluid_level",2175
+496.12555,24.300074,state,resman,"tank_b, fluid_label",2175
+496.12558,24.300074,state,resman,"tank_c, fluid_level",1214
+496.125693,24.300074,state,resman,"tank_c, fluid_label",1214
+496.125718,24.300074,state,resman,"tank_d, fluid_level",1240
+496.12583,24.300074,state,resman,"tank_d, fluid_label",1240
+496.841292,25.016329,event,resman,pump-3-state,off
+496.857256,25.033169,state,resman,"pump_3, triangle","(255, 255, 255, 255)"
+496.857359,25.033169,event,resman,automaticsolver,0
+498.140673,26.316271,performance,resman,a_in_tolerance,1
+498.140706,26.316271,performance,resman,a_deviation,-13
+498.140728,26.316271,performance,resman,b_in_tolerance,0
+498.140747,26.316271,performance,resman,b_deviation,1149
+498.141079,26.316271,state,resman,"automode, text",MANUAL
+498.141144,26.316271,state,resman,"tank_a, fluid_level",2487
+498.141291,26.316271,state,resman,"tank_a, fluid_label",2487
+498.141325,26.316271,state,resman,"tank_b, fluid_level",2149
+498.141451,26.316271,state,resman,"tank_b, fluid_label",2149
+498.141483,26.316271,state,resman,"tank_c, fluid_level",1208
+498.141598,26.316271,state,resman,"tank_c, fluid_label",1208
+498.141623,26.316271,state,resman,"tank_d, fluid_level",1260
+498.141743,26.316271,state,resman,"tank_d, fluid_label",1260
+500.157,28.332876,performance,resman,a_in_tolerance,1
+500.157049,28.332876,performance,resman,a_deviation,7
+500.157075,28.332876,performance,resman,b_in_tolerance,0
+500.157096,28.332876,performance,resman,b_deviation,1123
+500.15718,28.332876,state,resman,"tank_a, fluid_level",2507
+500.157515,28.332876,state,resman,"tank_a, fluid_label",2507
+500.15756,28.332876,state,resman,"tank_b, fluid_level",2123
+500.157711,28.332876,state,resman,"tank_b, fluid_label",2123
+500.157741,28.332876,state,resman,"tank_c, fluid_level",1202
+500.157863,28.332876,state,resman,"tank_c, fluid_label",1202
+500.157889,28.332876,state,resman,"tank_d, fluid_level",1280
+500.158001,28.332876,state,resman,"tank_d, fluid_label",1280
+501.873887,30.049407,event,resman,pump-7-state,failure
+501.890329,30.066163,state,resman,"pump_7, triangle","(241, 100, 100, 255)"
+502.173754,30.349337,performance,resman,a_in_tolerance,1
+502.173782,30.349337,performance,resman,a_deviation,27
+502.173802,30.349337,performance,resman,b_in_tolerance,0
+502.173817,30.349337,performance,resman,b_deviation,1097
+502.173885,30.349337,state,resman,"tank_a, fluid_level",2527
+502.174106,30.349337,state,resman,"tank_a, fluid_label",2527
+502.174139,30.349337,state,resman,"tank_b, fluid_level",2097
+502.174265,30.349337,state,resman,"tank_b, fluid_label",2097
+502.174296,30.349337,state,resman,"tank_c, fluid_level",1196
+502.174412,30.349337,state,resman,"tank_c, fluid_label",1196
+502.174436,30.349337,state,resman,"tank_d, fluid_level",1300
+502.174545,30.349337,state,resman,"tank_d, fluid_label",1300
+504.174567,32.349806,performance,resman,a_in_tolerance,1
+504.174603,32.349806,performance,resman,a_deviation,47
+504.174622,32.349806,performance,resman,b_in_tolerance,0
+504.174641,32.349806,performance,resman,b_deviation,1071
+504.174716,32.349806,state,resman,"tank_a, fluid_level",2547
+504.17492,32.349806,state,resman,"tank_a, fluid_label",2547
+504.174955,32.349806,state,resman,"tank_b, fluid_level",2071
+504.175087,32.349806,state,resman,"tank_b, fluid_label",2071
+504.175126,32.349806,state,resman,"tank_c, fluid_level",1190
+504.175253,32.349806,state,resman,"tank_c, fluid_label",1190
+504.175278,32.349806,state,resman,"tank_d, fluid_level",1320
+504.17539,32.349806,state,resman,"tank_d, fluid_label",1320
+506.190172,34.365972,performance,resman,a_in_tolerance,1
+506.190215,34.365972,performance,resman,a_deviation,67
+506.190235,34.365972,performance,resman,b_in_tolerance,0
+506.190458,34.365972,performance,resman,b_deviation,1045
+506.190531,34.365972,state,resman,"tank_a, fluid_level",2567
+506.190755,34.365972,state,resman,"tank_a, fluid_label",2567
+506.19079,34.365972,state,resman,"tank_b, fluid_level",2045
+506.190917,34.365972,state,resman,"tank_b, fluid_label",2045
+506.190948,34.365972,state,resman,"tank_c, fluid_level",1184
+506.191063,34.365972,state,resman,"tank_c, fluid_label",1184
+506.191097,34.365972,state,resman,"tank_d, fluid_level",1340
+506.191216,34.365972,state,resman,"tank_d, fluid_label",1340
+507.007231,35.182909,state,resman,"pump_3, triangle","(142, 219, 176, 255)"
+507.007545,35.182909,state,resman,"pump_3_flow, 3",800
+508.19064,36.366192,performance,resman,a_in_tolerance,1
+508.19072,36.366192,performance,resman,a_deviation,87
+508.190741,36.366192,performance,resman,b_in_tolerance,0
+508.19076,36.366192,performance,resman,b_deviation,1045
+508.190832,36.366192,state,resman,"tank_a, fluid_level",2587
+508.191035,36.366192,state,resman,"tank_a, fluid_label",2587
+508.19108,36.366192,state,resman,"tank_c, fluid_level",1178
+508.191205,36.366192,state,resman,"tank_c, fluid_label",1178
+508.19123,36.366192,state,resman,"tank_d, fluid_level",1334
+508.191348,36.366192,state,resman,"tank_d, fluid_label",1334
+508.656959,36.832818,state,resman,"pump_4, triangle","(142, 219, 176, 255)"
+508.657323,36.832818,state,resman,"pump_4_flow, 4",600
+510.206797,38.382433,performance,resman,a_in_tolerance,1
+510.206831,38.382433,performance,resman,a_deviation,107
+510.206855,38.382433,performance,resman,b_in_tolerance,0
+510.206875,38.382433,performance,resman,b_deviation,1065
+510.206935,38.382433,state,resman,"tank_a, fluid_level",2607
+510.207224,38.382433,state,resman,"tank_a, fluid_label",2607
+510.207261,38.382433,state,resman,"tank_b, fluid_level",2065
+510.207406,38.382433,state,resman,"tank_b, fluid_label",2065
+510.207439,38.382433,state,resman,"tank_c, fluid_level",1172
+510.207557,38.382433,state,resman,"tank_c, fluid_label",1172
+510.207582,38.382433,state,resman,"tank_d, fluid_level",1328
+510.207695,38.382433,state,resman,"tank_d, fluid_label",1328
+511.841561,40.016354,event,resman,pump-7-state,off
+511.857117,40.032689,state,resman,"pump_7, triangle","(255, 255, 255, 255)"
+512.223234,40.399129,performance,resman,a_in_tolerance,1
+512.223297,40.399129,performance,resman,a_deviation,127
+512.223324,40.399129,performance,resman,b_in_tolerance,0
+512.223346,40.399129,performance,resman,b_deviation,1085
+512.223421,40.399129,state,resman,"tank_a, fluid_level",2627
+512.223753,40.399129,state,resman,"tank_a, fluid_label",2627
+512.223808,40.399129,state,resman,"tank_b, fluid_level",2085
+512.223973,40.399129,state,resman,"tank_b, fluid_label",2085
+512.224016,40.399129,state,resman,"tank_c, fluid_level",1166
+512.22413,40.399129,state,resman,"tank_c, fluid_label",1166
+512.224154,40.399129,state,resman,"tank_d, fluid_level",1322
+512.224278,40.399129,state,resman,"tank_d, fluid_label",1322
+514.223304,42.399227,performance,resman,a_in_tolerance,1
+514.223354,42.399227,performance,resman,a_deviation,147
+514.223379,42.399227,performance,resman,b_in_tolerance,0
+514.223403,42.399227,performance,resman,b_deviation,1105
+514.223484,42.399227,state,resman,"tank_a, fluid_level",2647
+514.223768,42.399227,state,resman,"tank_a, fluid_label",2647
+514.223804,42.399227,state,resman,"tank_b, fluid_level",2105
+514.223931,42.399227,state,resman,"tank_b, fluid_label",2105
+514.22397,42.399227,state,resman,"tank_c, fluid_level",1160
+514.224086,42.399227,state,resman,"tank_c, fluid_label",1160
+514.224111,42.399227,state,resman,"tank_d, fluid_level",1316
+514.224222,42.399227,state,resman,"tank_d, fluid_label",1316
+516.24056,44.416099,performance,resman,a_in_tolerance,1
+516.240585,44.416099,performance,resman,a_deviation,167
+516.240604,44.416099,performance,resman,b_in_tolerance,0
+516.24062,44.416099,performance,resman,b_deviation,1125
+516.240677,44.416099,state,resman,"tank_a, fluid_level",2667
+516.24088,44.416099,state,resman,"tank_a, fluid_label",2667
+516.240915,44.416099,state,resman,"tank_b, fluid_level",2125
+516.241041,44.416099,state,resman,"tank_b, fluid_label",2125
+516.241073,44.416099,state,resman,"tank_c, fluid_level",1154
+516.241189,44.416099,state,resman,"tank_c, fluid_label",1154
+516.241213,44.416099,state,resman,"tank_d, fluid_level",1310
+516.241321,44.416099,state,resman,"tank_d, fluid_label",1310
+518.25702,46.432642,performance,resman,a_in_tolerance,1
+518.257098,46.432642,performance,resman,a_deviation,187
+518.257124,46.432642,performance,resman,b_in_tolerance,0
+518.257144,46.432642,performance,resman,b_deviation,1145
+518.257228,46.432642,state,resman,"tank_a, fluid_level",2687
+518.257448,46.432642,state,resman,"tank_a, fluid_label",2687
+518.257484,46.432642,state,resman,"tank_b, fluid_level",2145
+518.257605,46.432642,state,resman,"tank_b, fluid_label",2145
+518.257636,46.432642,state,resman,"tank_c, fluid_level",1148
+518.257751,46.432642,state,resman,"tank_c, fluid_label",1148
+518.257775,46.432642,state,resman,"tank_d, fluid_level",1304
+518.257884,46.432642,state,resman,"tank_d, fluid_label",1304
+520.273715,48.449167,performance,resman,a_in_tolerance,1
+520.273741,48.449167,performance,resman,a_deviation,207
+520.27376,48.449167,performance,resman,b_in_tolerance,0
+520.273776,48.449167,performance,resman,b_deviation,1165
+520.273836,48.449167,state,resman,"tank_a, fluid_level",2707
+520.274029,48.449167,state,resman,"tank_a, fluid_label",2707
+520.274063,48.449167,state,resman,"tank_b, fluid_level",2165
+520.274183,48.449167,state,resman,"tank_b, fluid_label",2165
+520.274214,48.449167,state,resman,"tank_c, fluid_level",1142
+520.274331,48.449167,state,resman,"tank_c, fluid_label",1142
+520.274356,48.449167,state,resman,"tank_d, fluid_level",1298
+520.274465,48.449167,state,resman,"tank_d, fluid_label",1298
+522.289748,50.46531,performance,resman,a_in_tolerance,1
+522.289779,50.46531,performance,resman,a_deviation,227
+522.2898,50.46531,performance,resman,b_in_tolerance,0
+522.289819,50.46531,performance,resman,b_deviation,1185
+522.289887,50.46531,state,resman,"tank_a, fluid_level",2727
+522.290104,50.46531,state,resman,"tank_a, fluid_label",2727
+522.29014,50.46531,state,resman,"tank_b, fluid_level",2185
+522.290278,50.46531,state,resman,"tank_b, fluid_label",2185
+522.290308,50.46531,state,resman,"tank_c, fluid_level",1136
+522.290421,50.46531,state,resman,"tank_c, fluid_label",1136
+522.290445,50.46531,state,resman,"tank_d, fluid_level",1292
+522.290554,50.46531,state,resman,"tank_d, fluid_label",1292
+524.289475,52.465419,performance,resman,a_in_tolerance,1
+524.289535,52.465419,performance,resman,a_deviation,247
+524.28956,52.465419,performance,resman,b_in_tolerance,0
+524.28958,52.465419,performance,resman,b_deviation,1205
+524.289656,52.465419,state,resman,"tank_a, fluid_level",2747
+524.28993,52.465419,state,resman,"tank_a, fluid_label",2747
+524.289967,52.465419,state,resman,"tank_b, fluid_level",2205
+524.290096,52.465419,state,resman,"tank_b, fluid_label",2205
+524.290128,52.465419,state,resman,"tank_c, fluid_level",1130
+524.290244,52.465419,state,resman,"tank_c, fluid_label",1130
+524.290268,52.465419,state,resman,"tank_d, fluid_level",1286
+524.290377,52.465419,state,resman,"tank_d, fluid_label",1286
+526.306568,54.482077,performance,resman,a_in_tolerance,0
+526.306598,54.482077,performance,resman,a_deviation,267
+526.306621,54.482077,performance,resman,b_in_tolerance,0
+526.30664,54.482077,performance,resman,b_deviation,1225
+526.306705,54.482077,state,resman,"tank_a, fluid_level",2767
+526.306901,54.482077,state,resman,"tank_a, fluid_label",2767
+526.306935,54.482077,state,resman,"tank_b, fluid_level",2225
+526.307057,54.482077,state,resman,"tank_b, fluid_label",2225
+526.307088,54.482077,state,resman,"tank_c, fluid_level",1124
+526.307203,54.482077,state,resman,"tank_c, fluid_label",1124
+526.307229,54.482077,state,resman,"tank_d, fluid_level",1280
+526.307341,54.482077,state,resman,"tank_d, fluid_label",1280
+528.323273,56.498755,performance,resman,a_in_tolerance,0
+528.323304,56.498755,performance,resman,a_deviation,287
+528.323372,56.498755,performance,resman,b_in_tolerance,0
+528.323394,56.498755,performance,resman,b_deviation,1245
+528.323467,56.498755,state,resman,"tank_a, fluid_level",2787
+528.323661,56.498755,state,resman,"tank_a, fluid_label",2787
+528.323693,56.498755,state,resman,"tank_b, fluid_level",2245
+528.323815,56.498755,state,resman,"tank_b, fluid_label",2245
+528.323845,56.498755,state,resman,"tank_c, fluid_level",1118
+528.323957,56.498755,state,resman,"tank_c, fluid_label",1118
+528.32398,56.498755,state,resman,"tank_d, fluid_level",1274
+528.324086,56.498755,state,resman,"tank_d, fluid_label",1274
+530.339662,58.515232,performance,resman,a_in_tolerance,0
+530.339688,58.515232,performance,resman,a_deviation,307
+530.339705,58.515232,performance,resman,b_in_tolerance,0
+530.339721,58.515232,performance,resman,b_deviation,1265
+530.339787,58.515232,state,resman,"tank_a, fluid_level",2807
+530.340057,58.515232,state,resman,"tank_a, fluid_label",2807
+530.340092,58.515232,state,resman,"tank_b, fluid_level",2265
+530.340218,58.515232,state,resman,"tank_b, fluid_label",2265
+530.34025,58.515232,state,resman,"tank_c, fluid_level",1112
+530.340377,58.515232,state,resman,"tank_c, fluid_label",1112
+530.340403,58.515232,state,resman,"tank_d, fluid_level",1268
+530.34051,58.515232,state,resman,"tank_d, fluid_label",1268
+531.840161,60.01474,state,resman,"foreground, visibility",1
+531.840219,60.01474,state,resman,"status_foreground, visibility",1
+531.84024,60.01474,event,resman,self,stop

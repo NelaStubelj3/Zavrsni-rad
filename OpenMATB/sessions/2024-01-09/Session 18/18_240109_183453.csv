@@ -1,0 +1,8 @@
+logtime,scenario_time,type,module,address,value
+0.796667,0,scenario_path,,,includes\scenarios\scenarij_1.txt
+0.830331,0,version,,,1.3.0
+1.967437,0,dialog,,,OpenMATB end
+1.989396,0.018331,event,sysmon,feedbacks-positive-color,"(0, 255, 0, 255)"
+10.130237,0.018331,dialog,,,Error(s) end
+10.130562,0.035896,event,sysmon,feedbacks-negative-color,"(255, 0, 0, 255)"
+10.130638,0.035896,manual,,,end
