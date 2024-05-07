@@ -9,7 +9,7 @@ from core.widgets import Scale, Light
 from plugins.abstract import AbstractPlugin
 
 class Sysmon(AbstractPlugin):
-    def __init__(self, taskplacement='topleft', taskupdatetime=200):
+    def __init__(self, taskplacement='topleft', taskupdatetime=100):
         super().__init__(taskplacement, taskupdatetime)
 
         #self.keys = {'_1', '_2', '_3', '_4', '_5', '_6'}

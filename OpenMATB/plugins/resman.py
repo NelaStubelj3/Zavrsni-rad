@@ -9,7 +9,7 @@ from plugins.abstract import AbstractPlugin
 
 
 class Resman(AbstractPlugin):
-    def __init__(self, taskplacement='bottommid', taskupdatetime=2000):
+    def __init__(self, taskplacement='bottommid', taskupdatetime=100):
         super().__init__(taskplacement, taskupdatetime)
 
         #self.keys = {'NUM_1','NUM_2','NUM_3','NUM_4','NUM_5','NUM_6','NUM_7', 'NUM_8', '_1', '_2','_3','_4','_5','_6','_7', '_8'}

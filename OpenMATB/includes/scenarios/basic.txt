@@ -57,7 +57,7 @@
 
 # 3.c. Tracking events
 # Schedule automatic solving
-0:00:20;track;automaticsolver;True
+0:00:20;track;automaticsolver;False
 0:00:40;track;automaticsolver;False
 
 
