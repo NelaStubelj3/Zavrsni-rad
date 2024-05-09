@@ -1,0 +1,41 @@
+2731.13802,0.270217,aoi,scheduling,foreground,"(1632, 1026.0, 1920, 540.0)"
+2731.138406,0.270217,aoi,scheduling,overdue,"(1632, 1026.0, 1920, 540.0)"
+2731.140328,0.270217,aoi,scheduling,task_title,"(1632, 1080.0, 1920, 1026.0)"
+2731.147828,0.270217,aoi,scheduling,timeline,"(1660.8, 977.4000000000001, 1709.76, 637.2)"
+2731.150329,0.270217,aoi,scheduling,elapsed_time,"(1632, 1026.0, 1920, 540.0)"
+2731.151409,0.270217,aoi,scheduling,sysmon,"(1718.4, 977.4000000000001, 1767.3600000000001, 637.2)"
+2731.15247,0.270217,aoi,scheduling,track,"(1761.6, 977.4000000000001, 1810.56, 637.2)"
+2731.153463,0.270217,aoi,scheduling,communications,"(1804.8, 977.4000000000001, 1853.76, 637.2)"
+2731.154533,0.270217,aoi,scheduling,resman,"(1848.0, 977.4000000000001, 1896.96, 637.2)"
+2731.154574,0.270217,parameter,scheduling,title,Scheduling
+2731.154592,0.270217,parameter,scheduling,taskplacement,topright
+2731.154607,0.270217,parameter,scheduling,taskupdatetime,1000
+2731.154623,0.270217,parameter,scheduling,taskfeedback-overdue-active,0
+2731.154639,0.270217,parameter,scheduling,taskfeedback-overdue-color,"(241, 100, 100, 255)"
+2731.154655,0.270217,parameter,scheduling,taskfeedback-overdue-delayms,2000
+2731.154669,0.270217,parameter,scheduling,taskfeedback-overdue-blinkdurationms,1000
+2731.154687,0.270217,parameter,scheduling,taskfeedback-overdue-_nexttoggletime,0
+2731.154701,0.270217,parameter,scheduling,taskfeedback-overdue-_is_visible,0
+2731.154716,0.270217,parameter,scheduling,taskfeedback-overdue-widget,<core.widgets.frame.Frame object at 0x7f6dedef65e0>
+2731.154734,0.270217,parameter,scheduling,minduration,8
+2731.154748,0.270217,parameter,scheduling,displaychronometer,1
+2731.154762,0.270217,parameter,scheduling,reversechronometer,0
+2731.154775,0.270217,parameter,scheduling,displayedplugins,"['sysmon', 'track', 'communications', 'resman']"
+2731.154895,0.270217,state,scheduling,"foreground, visibility",1
+2731.155004,0.270217,state,scheduling,"overdue, visibility",1
+2731.159317,0.270217,event,scheduling,self,start
+2731.163683,0.297522,state,scheduling,"foreground, visibility",0
+2731.163737,0.297522,state,scheduling,"overdue, visibility",0
+2731.163886,0.297522,state,scheduling,"sysmon, top_bound_color","(142, 219, 176, 255)"
+2731.164388,0.297522,state,scheduling,"communications, top_bound_color","(142, 219, 176, 255)"
+2731.164504,0.297522,state,scheduling,"resman, top_bound_color","(142, 219, 176, 255)"
+2731.874249,1.006836,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:01
+2732.874391,2.007007,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:02
+2733.874585,3.007196,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:03
+2734.873814,4.006551,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:04
+2735.874192,5.006754,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:05
+2736.873938,6.006506,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:06
+2737.873385,7.005997,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:07
+2754.895043,8.007255,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:08
+2754.900374,8.007255,state,scheduling,"foreground, visibility",1
+2754.900458,8.007255,event,scheduling,self,stop

@@ -73,23 +73,8 @@
 
 0:00:00;track;automaticsolver;True
 
-0:00:20;track;automaticsolver;False
-0:00:30;track;automaticsolver;True
+0:00:01;track;automaticsolver;False
 
-0:01:20;track;automaticsolver;False
-0:01:30;track;automaticsolver;True
-
-0:01:40;track;automaticsolver;False
-0:01:50;track;automaticsolver;True
-
-0:02:10;track;automaticsolver;False
-0:02:20;track;automaticsolver;True
-
-0:02:40;track;automaticsolver;False
-0:02:50;track;automaticsolver;True
-
-0:03:40;track;automaticsolver;False
-0:03:50;track;automaticsolver;True
 
 # 3.d. Communication events
 

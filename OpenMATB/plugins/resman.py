@@ -245,10 +245,10 @@ class Resman(AbstractPlugin):
                         tolerance_color = self.parameters['tolerancecoloroutside']
                         this_tank['_response_time'] += self.parameters['taskupdatetime']
                     elif this_tank['_response_time'] > 0:  # Back in the tolerance zone
-                        self.log_performance(f'{tank_l}_response_time', this_tank['_response_time'])
+                        #self.log_performance(f'{tank_l}_response_time', this_tank['_response_time'])
                         this_tank['_response_time'] = 0
                     this_tank['_tolerance_color'] = tolerance_color
-
+                self.log_performance(f'{tank_l}_response_time', this_tank['_response_time'])
                 deviation = this_tank['level'] - this_tank['target']
                 self.log_performance(f'{tank_l}_in_tolerance', this_tank['_is_in_tolerance'])
                 self.log_performance(f'{tank_l}_deviation', deviation)

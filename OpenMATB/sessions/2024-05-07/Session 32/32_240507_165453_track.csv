@@ -1,0 +1,474 @@
+2730.916831,0.050583,event,track,cursorcolor,"(0, 153, 0, 255)"
+2731.108931,0.240927,aoi,track,foreground,"(672, 1026.0, 1632, 540.0)"
+2731.109319,0.240927,aoi,track,overdue,"(672, 1026.0, 1632, 540.0)"
+2731.111284,0.240927,aoi,track,task_title,"(672, 1080.0, 1632, 1026.0)"
+2731.111825,0.240927,aoi,track,automode,"(957.5999999999999, 618.3, 1101.6, 591.3)"
+2731.112393,0.240927,aoi,track,reticle,"(957.6, 977.4000000000001, 1346.4, 588.6)"
+2731.112436,0.240927,input,track,joystick_x,0
+2731.112461,0.240927,input,track,joystick_y,0
+2731.112481,0.240927,performance,track,joystick_x,0
+2731.112496,0.240927,performance,track,joystick_y,0
+2731.112517,0.240927,parameter,track,title,Tracking
+2731.112534,0.240927,parameter,track,taskplacement,topmid
+2731.112549,0.240927,parameter,track,taskupdatetime,100
+2731.112566,0.240927,parameter,track,taskfeedback-overdue-active,0
+2731.112582,0.240927,parameter,track,taskfeedback-overdue-color,"(241, 100, 100, 255)"
+2731.112599,0.240927,parameter,track,taskfeedback-overdue-delayms,2000
+2731.112614,0.240927,parameter,track,taskfeedback-overdue-blinkdurationms,1000
+2731.112629,0.240927,parameter,track,taskfeedback-overdue-_nexttoggletime,0
+2731.112645,0.240927,parameter,track,taskfeedback-overdue-_is_visible,0
+2731.112661,0.240927,parameter,track,taskfeedback-overdue-widget,<core.widgets.frame.Frame object at 0x7f6defe57b50>
+2731.11268,0.240927,parameter,track,cursorcolor,"(0, 153, 0, 255)"
+2731.112696,0.240927,parameter,track,cursorcoloroutside,"(241, 100, 100, 255)"
+2731.112712,0.240927,parameter,track,automaticsolver,0
+2731.112726,0.240927,parameter,track,displayautomationstate,1
+2731.112741,0.240927,parameter,track,targetproportion,0.25
+2731.112756,0.240927,parameter,track,joystickforce,1
+2731.11277,0.240927,parameter,track,inverseaxis,0
+2731.112936,0.240927,state,track,"foreground, visibility",1
+2731.113041,0.240927,state,track,"overdue, visibility",1
+2731.113947,0.240927,event,track,self,start
+2731.116591,0.250325,input,track,joystick_x,0
+2731.116665,0.250325,input,track,joystick_y,0
+2731.116688,0.250325,performance,track,joystick_x,0
+2731.116703,0.250325,performance,track,joystick_y,0
+2731.116734,0.250325,performance,track,cursor_in_target,1
+2731.116755,0.250325,performance,track,center_deviation,0.0
+2731.116798,0.250325,state,track,"foreground, visibility",0
+2731.117331,0.250325,state,track,"automode, text",MANUAL
+2731.117373,0.250325,state,track,"overdue, visibility",0
+2731.117462,0.250325,state,track,"reticle, cursor_relative_x",1.555174
+2731.117484,0.250325,state,track,"reticle, cursor_relative_y",1.866195
+2731.117506,0.250325,state,track,"reticle, cursor_proportional_x",0.004
+2731.117533,0.250325,state,track,"reticle, cursor_proportional_y",0.0048
+2731.184486,0.316025,event,track,automaticsolver,1
+2731.221373,0.353491,performance,track,cursor_in_target,1
+2731.221401,0.353491,performance,track,center_deviation,2.429249
+2731.221643,0.353491,state,track,"automode, text",AUTO
+2731.221739,0.353491,state,track,"reticle, cursor_relative_x",2.332713
+2731.221768,0.353491,state,track,"reticle, cursor_relative_y",2.799209
+2731.221793,0.353491,state,track,"reticle, cursor_proportional_x",0.006
+2731.221823,0.353491,state,track,"reticle, cursor_proportional_y",0.0072
+2731.325524,0.456576,performance,track,cursor_in_target,1
+2731.325577,0.456576,performance,track,center_deviation,3.643778
+2731.325751,0.456576,state,track,"reticle, cursor_relative_x",3.110193
+2731.325805,0.456576,state,track,"reticle, cursor_relative_y",3.732122
+2731.32585,0.456576,state,track,"reticle, cursor_proportional_x",0.007999
+2731.325905,0.456576,state,track,"reticle, cursor_proportional_y",0.009599
+2731.426184,0.557169,performance,track,cursor_in_target,1
+2731.426238,0.557169,performance,track,center_deviation,4.858192
+2731.426416,0.557169,state,track,"reticle, cursor_relative_x",3.887595
+2731.42647,0.557169,state,track,"reticle, cursor_relative_y",4.6649
+2731.426515,0.557169,state,track,"reticle, cursor_proportional_x",0.009999
+2731.42657,0.557169,state,track,"reticle, cursor_proportional_y",0.011998
+2731.542559,0.673552,performance,track,cursor_in_target,1
+2731.542612,0.673552,performance,track,center_deviation,6.072453
+2731.542786,0.673552,state,track,"reticle, cursor_relative_x",4.6649
+2731.542837,0.673552,state,track,"reticle, cursor_relative_y",5.597511
+2731.542882,0.673552,state,track,"reticle, cursor_proportional_x",0.011998
+2731.54294,0.673552,state,track,"reticle, cursor_proportional_y",0.014397
+2731.659111,0.790179,performance,track,cursor_in_target,1
+2731.659167,0.790179,performance,track,center_deviation,7.286523
+2731.659349,0.790179,state,track,"reticle, cursor_relative_x",5.442089
+2731.659407,0.790179,state,track,"reticle, cursor_relative_y",6.52992
+2731.659478,0.790179,state,track,"reticle, cursor_proportional_x",0.013997
+2731.659563,0.790179,state,track,"reticle, cursor_proportional_y",0.016795
+2731.775828,0.906867,performance,track,cursor_in_target,1
+2731.775885,0.906867,performance,track,center_deviation,8.500364
+2731.776091,0.906867,state,track,"reticle, cursor_relative_x",6.219141
+2731.776158,0.906867,state,track,"reticle, cursor_relative_y",7.462094
+2731.776203,0.906867,state,track,"reticle, cursor_proportional_x",0.015996
+2731.776261,0.906867,state,track,"reticle, cursor_proportional_y",0.019193
+2731.89259,1.023478,performance,track,cursor_in_target,1
+2731.892645,1.023478,performance,track,center_deviation,9.713936
+2731.892822,1.023478,state,track,"reticle, cursor_relative_x",6.996038
+2731.892872,1.023478,state,track,"reticle, cursor_relative_y",8.393999
+2731.892917,1.023478,state,track,"reticle, cursor_proportional_x",0.017994
+2731.892973,1.023478,state,track,"reticle, cursor_proportional_y",0.02159
+2732.010008,1.140382,performance,track,cursor_in_target,1
+2732.010056,1.140382,performance,track,center_deviation,10.927203
+2732.01023,1.140382,state,track,"reticle, cursor_relative_x",7.77276
+2732.010279,1.140382,state,track,"reticle, cursor_relative_y",9.325602
+2732.010323,1.140382,state,track,"reticle, cursor_proportional_x",0.019992
+2732.01038,1.140382,state,track,"reticle, cursor_proportional_y",0.023986
+2732.126562,1.256927,performance,track,cursor_in_target,1
+2732.126613,1.256927,performance,track,center_deviation,12.140126
+2732.126791,1.256927,state,track,"reticle, cursor_relative_x",8.549288
+2732.126842,1.256927,state,track,"reticle, cursor_relative_y",10.25687
+2732.126887,1.256927,state,track,"reticle, cursor_proportional_x",0.021989
+2732.126943,1.256927,state,track,"reticle, cursor_proportional_y",0.026381
+2732.243134,1.373566,performance,track,cursor_in_target,1
+2732.243184,1.373566,performance,track,center_deviation,13.352667
+2732.243357,1.373566,state,track,"reticle, cursor_relative_x",9.325602
+2732.243407,1.373566,state,track,"reticle, cursor_relative_y",11.187768
+2732.243452,1.373566,state,track,"reticle, cursor_proportional_x",0.023986
+2732.243509,1.373566,state,track,"reticle, cursor_proportional_y",0.028775
+2732.343362,1.473685,performance,track,cursor_in_target,1
+2732.343411,1.473685,performance,track,center_deviation,14.564787
+2732.343586,1.473685,state,track,"reticle, cursor_relative_x",10.101683
+2732.343636,1.473685,state,track,"reticle, cursor_relative_y",12.118263
+2732.343681,1.473685,state,track,"reticle, cursor_proportional_x",0.025982
+2732.343739,1.473685,state,track,"reticle, cursor_proportional_y",0.031168
+2732.459525,1.58993,performance,track,cursor_in_target,1
+2732.459572,1.58993,performance,track,center_deviation,15.776448
+2732.459742,1.58993,state,track,"reticle, cursor_relative_x",10.877512
+2732.459792,1.58993,state,track,"reticle, cursor_relative_y",13.048323
+2732.459836,1.58993,state,track,"reticle, cursor_proportional_x",0.027977
+2732.459891,1.58993,state,track,"reticle, cursor_proportional_y",0.033561
+2732.559789,1.690253,performance,track,cursor_in_target,1
+2732.559838,1.690253,performance,track,center_deviation,16.987613
+2732.560051,1.690253,state,track,"reticle, cursor_relative_x",11.653068
+2732.56011,1.690253,state,track,"reticle, cursor_relative_y",13.977912
+2732.560232,1.690253,state,track,"reticle, cursor_proportional_x",0.029972
+2732.560292,1.690253,state,track,"reticle, cursor_proportional_y",0.035951
+2732.676278,1.806669,performance,track,cursor_in_target,1
+2732.676326,1.806669,performance,track,center_deviation,18.198242
+2732.676505,1.806669,state,track,"reticle, cursor_relative_x",12.428333
+2732.676557,1.806669,state,track,"reticle, cursor_relative_y",14.906998
+2732.676602,1.806669,state,track,"reticle, cursor_proportional_x",0.031966
+2732.676658,1.806669,state,track,"reticle, cursor_proportional_y",0.038341
+2732.793251,1.923622,performance,track,cursor_in_target,1
+2732.793299,1.923622,performance,track,center_deviation,19.408299
+2732.793472,1.923622,state,track,"reticle, cursor_relative_x",13.203288
+2732.793522,1.923622,state,track,"reticle, cursor_relative_y",15.835548
+2732.793566,1.923622,state,track,"reticle, cursor_proportional_x",0.033959
+2732.793623,1.923622,state,track,"reticle, cursor_proportional_y",0.040729
+2732.909353,2.039794,performance,track,cursor_in_target,1
+2732.909401,2.039794,performance,track,center_deviation,20.617744
+2732.909574,2.039794,state,track,"reticle, cursor_relative_x",13.977912
+2732.909655,2.039794,state,track,"reticle, cursor_relative_y",16.763527
+2732.909704,2.039794,state,track,"reticle, cursor_proportional_x",0.035951
+2732.909761,2.039794,state,track,"reticle, cursor_proportional_y",0.043116
+2733.0097,2.140135,performance,track,cursor_in_target,1
+2733.009747,2.140135,performance,track,center_deviation,21.826541
+2733.009922,2.140135,state,track,"reticle, cursor_relative_x",14.752187
+2733.009973,2.140135,state,track,"reticle, cursor_relative_y",17.690903
+2733.010019,2.140135,state,track,"reticle, cursor_proportional_x",0.037943
+2733.010076,2.140135,state,track,"reticle, cursor_proportional_y",0.045501
+2733.125425,2.2558,performance,track,cursor_in_target,1
+2733.125502,2.2558,performance,track,center_deviation,23.03465
+2733.12577,2.2558,state,track,"reticle, cursor_relative_x",15.526093
+2733.125853,2.2558,state,track,"reticle, cursor_relative_y",18.617642
+2733.125922,2.2558,state,track,"reticle, cursor_proportional_x",0.039933
+2733.12602,2.2558,state,track,"reticle, cursor_proportional_y",0.047885
+2733.226444,2.356857,performance,track,cursor_in_target,1
+2733.226494,2.356857,performance,track,center_deviation,24.242033
+2733.226666,2.356857,state,track,"reticle, cursor_relative_x",16.299611
+2733.226716,2.356857,state,track,"reticle, cursor_relative_y",19.543711
+2733.226759,2.356857,state,track,"reticle, cursor_proportional_x",0.041923
+2733.226815,2.356857,state,track,"reticle, cursor_proportional_y",0.050267
+2733.326387,2.456918,performance,track,cursor_in_target,1
+2733.326433,2.456918,performance,track,center_deviation,25.448654
+2733.326612,2.456918,state,track,"reticle, cursor_relative_x",17.072721
+2733.326663,2.456918,state,track,"reticle, cursor_relative_y",20.469077
+2733.326706,2.456918,state,track,"reticle, cursor_proportional_x",0.043911
+2733.326762,2.456918,state,track,"reticle, cursor_proportional_y",0.052647
+2733.442713,2.573198,performance,track,cursor_in_target,1
+2733.44276,2.573198,performance,track,center_deviation,26.654473
+2733.442933,2.573198,state,track,"reticle, cursor_relative_x",17.845405
+2733.442982,2.573198,state,track,"reticle, cursor_relative_y",21.393705
+2733.443026,2.573198,state,track,"reticle, cursor_proportional_x",0.045899
+2733.443083,2.573198,state,track,"reticle, cursor_proportional_y",0.055025
+2733.542972,2.673346,performance,track,cursor_in_target,1
+2733.543019,2.673346,performance,track,center_deviation,27.859453
+2733.543188,2.673346,state,track,"reticle, cursor_relative_x",18.617642
+2733.543238,2.673346,state,track,"reticle, cursor_relative_y",22.317564
+2733.543282,2.673346,state,track,"reticle, cursor_proportional_x",0.047885
+2733.543336,2.673346,state,track,"reticle, cursor_proportional_y",0.057401
+2733.659404,2.789887,performance,track,cursor_in_target,1
+2733.659452,2.789887,performance,track,center_deviation,29.063555
+2733.659625,2.789887,state,track,"reticle, cursor_relative_x",19.389415
+2733.659675,2.789887,state,track,"reticle, cursor_relative_y",23.240618
+2733.659722,2.789887,state,track,"reticle, cursor_proportional_x",0.04987
+2733.659779,2.789887,state,track,"reticle, cursor_proportional_y",0.059775
+2733.775904,2.906462,performance,track,cursor_in_target,1
+2733.775951,2.906462,performance,track,center_deviation,30.266743
+2733.776172,2.906462,state,track,"reticle, cursor_relative_x",20.160702
+2733.776223,2.906462,state,track,"reticle, cursor_relative_y",24.162837
+2733.776266,2.906462,state,track,"reticle, cursor_proportional_x",0.051854
+2733.776322,2.906462,state,track,"reticle, cursor_proportional_y",0.062147
+2733.877683,3.007196,performance,track,cursor_in_target,1
+2733.877733,3.007196,performance,track,center_deviation,31.468978
+2733.877906,3.007196,state,track,"reticle, cursor_relative_x",20.931485
+2733.877955,3.007196,state,track,"reticle, cursor_relative_y",25.084185
+2733.877998,3.007196,state,track,"reticle, cursor_proportional_x",0.053836
+2733.878054,3.007196,state,track,"reticle, cursor_proportional_y",0.064517
+2733.993189,3.123563,performance,track,cursor_in_target,1
+2733.993235,3.123563,performance,track,center_deviation,32.670222
+2733.993403,3.123563,state,track,"reticle, cursor_relative_x",21.701745
+2733.993455,3.123563,state,track,"reticle, cursor_relative_y",26.00463
+2733.9935,3.123563,state,track,"reticle, cursor_proportional_x",0.055817
+2733.993555,3.123563,state,track,"reticle, cursor_proportional_y",0.066884
+2734.109329,3.239817,performance,track,cursor_in_target,1
+2734.109377,3.239817,performance,track,center_deviation,33.870438
+2734.109552,3.239817,state,track,"reticle, cursor_relative_x",22.471463
+2734.109603,3.239817,state,track,"reticle, cursor_relative_y",26.924139
+2734.109648,3.239817,state,track,"reticle, cursor_proportional_x",0.057797
+2734.109706,3.239817,state,track,"reticle, cursor_proportional_y",0.069249
+2734.20976,3.340133,performance,track,cursor_in_target,1
+2734.209807,3.340133,performance,track,center_deviation,35.069587
+2734.209979,3.340133,state,track,"reticle, cursor_relative_x",23.240618
+2734.210028,3.340133,state,track,"reticle, cursor_relative_y",27.842679
+2734.210073,3.340133,state,track,"reticle, cursor_proportional_x",0.059775
+2734.21013,3.340133,state,track,"reticle, cursor_proportional_y",0.071612
+2734.326107,3.456574,performance,track,cursor_in_target,1
+2734.326155,3.456574,performance,track,center_deviation,36.267632
+2734.326325,3.456574,state,track,"reticle, cursor_relative_x",24.009193
+2734.326376,3.456574,state,track,"reticle, cursor_relative_y",28.760217
+2734.32642,3.456574,state,track,"reticle, cursor_proportional_x",0.061752
+2734.326476,3.456574,state,track,"reticle, cursor_proportional_y",0.073972
+2734.426127,3.556635,performance,track,cursor_in_target,1
+2734.426173,3.556635,performance,track,center_deviation,37.464536
+2734.426334,3.556635,state,track,"reticle, cursor_relative_x",24.777167
+2734.426382,3.556635,state,track,"reticle, cursor_relative_y",29.676719
+2734.426422,3.556635,state,track,"reticle, cursor_proportional_x",0.063727
+2734.426503,3.556635,state,track,"reticle, cursor_proportional_y",0.076329
+2734.526321,3.656813,performance,track,cursor_in_target,1
+2734.526369,3.656813,performance,track,center_deviation,38.66026
+2734.526544,3.656813,state,track,"reticle, cursor_relative_x",25.544523
+2734.526592,3.656813,state,track,"reticle, cursor_relative_y",30.592153
+2734.526635,3.656813,state,track,"reticle, cursor_proportional_x",0.065701
+2734.526691,3.656813,state,track,"reticle, cursor_proportional_y",0.078684
+2734.642779,3.773304,performance,track,cursor_in_target,1
+2734.642828,3.773304,performance,track,center_deviation,39.854767
+2734.643004,3.773304,state,track,"reticle, cursor_relative_x",26.311239
+2734.643055,3.773304,state,track,"reticle, cursor_relative_y",31.506485
+2734.6431,3.773304,state,track,"reticle, cursor_proportional_x",0.067673
+2734.643155,3.773304,state,track,"reticle, cursor_proportional_y",0.081035
+2734.743012,3.873395,performance,track,cursor_in_target,1
+2734.743062,3.873395,performance,track,center_deviation,41.04802
+2734.743238,3.873395,state,track,"reticle, cursor_relative_x",27.077298
+2734.74329,3.873395,state,track,"reticle, cursor_relative_y",32.419684
+2734.743335,3.873395,state,track,"reticle, cursor_proportional_x",0.069643
+2734.743389,3.873395,state,track,"reticle, cursor_proportional_y",0.083384
+2734.859135,3.989619,performance,track,cursor_in_target,1
+2734.859183,3.989619,performance,track,center_deviation,42.23998
+2734.859356,3.989619,state,track,"reticle, cursor_relative_x",27.842679
+2734.859407,3.989619,state,track,"reticle, cursor_relative_y",33.331715
+2734.859451,3.989619,state,track,"reticle, cursor_proportional_x",0.071612
+2734.859507,3.989619,state,track,"reticle, cursor_proportional_y",0.08573
+2734.959328,4.089816,performance,track,cursor_in_target,1
+2734.959376,4.089816,performance,track,center_deviation,43.430611
+2734.959551,4.089816,state,track,"reticle, cursor_relative_x",28.607365
+2734.959601,4.089816,state,track,"reticle, cursor_relative_y",34.242546
+2734.959645,4.089816,state,track,"reticle, cursor_proportional_x",0.073579
+2734.9597,4.089816,state,track,"reticle, cursor_proportional_y",0.088072
+2735.060125,4.19011,performance,track,cursor_in_target,1
+2735.060181,4.19011,performance,track,center_deviation,44.619875
+2735.060354,4.19011,state,track,"reticle, cursor_relative_x",29.371335
+2735.060404,4.19011,state,track,"reticle, cursor_relative_y",35.152145
+2735.060446,4.19011,state,track,"reticle, cursor_proportional_x",0.075544
+2735.060499,4.19011,state,track,"reticle, cursor_proportional_y",0.090412
+2735.176128,4.306614,performance,track,cursor_in_target,1
+2735.176177,4.306614,performance,track,center_deviation,45.807735
+2735.176351,4.306614,state,track,"reticle, cursor_relative_x",30.134572
+2735.1764,4.306614,state,track,"reticle, cursor_relative_y",36.060478
+2735.176445,4.306614,state,track,"reticle, cursor_proportional_x",0.077507
+2735.176562,4.306614,state,track,"reticle, cursor_proportional_y",0.092748
+2735.276421,4.406745,performance,track,cursor_in_target,1
+2735.276466,4.406745,performance,track,center_deviation,46.994153
+2735.276625,4.406745,state,track,"reticle, cursor_relative_x",30.897054
+2735.27667,4.406745,state,track,"reticle, cursor_relative_y",36.967512
+2735.276715,4.406745,state,track,"reticle, cursor_proportional_x",0.079468
+2735.276769,4.406745,state,track,"reticle, cursor_proportional_y",0.095081
+2735.39276,4.523102,performance,track,cursor_in_target,1
+2735.392807,4.523102,performance,track,center_deviation,48.179092
+2735.392978,4.523102,state,track,"reticle, cursor_relative_x",31.658765
+2735.393031,4.523102,state,track,"reticle, cursor_relative_y",37.873217
+2735.393077,4.523102,state,track,"reticle, cursor_proportional_x",0.081427
+2735.393131,4.523102,state,track,"reticle, cursor_proportional_y",0.097411
+2735.492938,4.623265,performance,track,cursor_in_target,0
+2735.492986,4.623265,performance,track,center_deviation,49.362515
+2735.493158,4.623265,state,track,"reticle, cursor_relative_x",32.419684
+2735.493207,4.623265,state,track,"reticle, cursor_relative_y",38.777557
+2735.493251,4.623265,state,track,"reticle, cursor_proportional_x",0.083384
+2735.493306,4.623265,state,track,"reticle, cursor_proportional_y",0.099737
+2735.493453,4.623265,state,track,"reticle, cursor_color","(241, 100, 100, 255)"
+2735.609909,4.740281,performance,track,cursor_in_target,0
+2735.609957,4.740281,performance,track,center_deviation,50.544385
+2735.610132,4.740281,state,track,"reticle, cursor_relative_x",33.179792
+2735.610185,4.740281,state,track,"reticle, cursor_relative_y",39.680502
+2735.610229,4.740281,state,track,"reticle, cursor_proportional_x",0.085339
+2735.610284,4.740281,state,track,"reticle, cursor_proportional_y",0.102059
+2735.726081,4.856449,performance,track,cursor_in_target,0
+2735.726129,4.856449,performance,track,center_deviation,51.724664
+2735.726301,4.856449,state,track,"reticle, cursor_relative_x",33.939071
+2735.726351,4.856449,state,track,"reticle, cursor_relative_y",40.582018
+2735.726394,4.856449,state,track,"reticle, cursor_proportional_x",0.087292
+2735.726449,4.856449,state,track,"reticle, cursor_proportional_y",0.104378
+2735.826039,4.95653,performance,track,cursor_in_target,0
+2735.826088,4.95653,performance,track,center_deviation,52.903315
+2735.826262,4.95653,state,track,"reticle, cursor_relative_x",34.697501
+2735.826312,4.95653,state,track,"reticle, cursor_relative_y",41.482073
+2735.826355,4.95653,state,track,"reticle, cursor_proportional_x",0.089243
+2735.826407,4.95653,state,track,"reticle, cursor_proportional_y",0.106693
+2735.926287,5.056729,performance,track,cursor_in_target,0
+2735.926339,5.056729,performance,track,center_deviation,54.080301
+2735.926579,5.056729,state,track,"reticle, cursor_relative_x",35.455064
+2735.926633,5.056729,state,track,"reticle, cursor_relative_y",42.380635
+2735.926676,5.056729,state,track,"reticle, cursor_proportional_x",0.091191
+2735.926731,5.056729,state,track,"reticle, cursor_proportional_y",0.109004
+2736.026518,5.15677,performance,track,cursor_in_target,0
+2736.026574,5.15677,performance,track,center_deviation,55.255586
+2736.02676,5.15677,state,track,"reticle, cursor_relative_x",36.211741
+2736.026811,5.15677,state,track,"reticle, cursor_relative_y",43.277671
+2736.026854,5.15677,state,track,"reticle, cursor_proportional_x",0.093137
+2736.026909,5.15677,state,track,"reticle, cursor_proportional_y",0.111311
+2736.142645,5.273018,performance,track,cursor_in_target,0
+2736.142694,5.273018,performance,track,center_deviation,56.429133
+2736.142869,5.273018,state,track,"reticle, cursor_relative_x",36.967512
+2736.14292,5.273018,state,track,"reticle, cursor_relative_y",44.173149
+2736.142963,5.273018,state,track,"reticle, cursor_proportional_x",0.095081
+2736.143017,5.273018,state,track,"reticle, cursor_proportional_y",0.113614
+2736.243203,5.3736,performance,track,cursor_in_target,0
+2736.243249,5.3736,performance,track,center_deviation,57.600903
+2736.24342,5.3736,state,track,"reticle, cursor_relative_x",37.72236
+2736.243471,5.3736,state,track,"reticle, cursor_relative_y",45.067037
+2736.243514,5.3736,state,track,"reticle, cursor_proportional_x",0.097023
+2736.243568,5.3736,state,track,"reticle, cursor_proportional_y",0.115913
+2736.358524,5.489263,performance,track,cursor_in_target,0
+2736.358567,5.489263,performance,track,center_deviation,58.770862
+2736.358725,5.489263,state,track,"reticle, cursor_relative_x",38.476264
+2736.358772,5.489263,state,track,"reticle, cursor_relative_y",45.959303
+2736.358812,5.489263,state,track,"reticle, cursor_proportional_x",0.098962
+2736.358864,5.489263,state,track,"reticle, cursor_proportional_y",0.118208
+2736.459168,5.589577,performance,track,cursor_in_target,0
+2736.459215,5.589577,performance,track,center_deviation,59.938972
+2736.459388,5.589577,state,track,"reticle, cursor_relative_x",39.229206
+2736.459437,5.589577,state,track,"reticle, cursor_relative_y",46.849914
+2736.45948,5.589577,state,track,"reticle, cursor_proportional_x",0.100898
+2736.459533,5.589577,state,track,"reticle, cursor_proportional_y",0.120499
+2736.559445,5.689803,performance,track,cursor_in_target,0
+2736.559493,5.689803,performance,track,center_deviation,61.105196
+2736.559667,5.689803,state,track,"reticle, cursor_relative_x",39.981167
+2736.559716,5.689803,state,track,"reticle, cursor_relative_y",47.738838
+2736.55976,5.689803,state,track,"reticle, cursor_proportional_x",0.102832
+2736.559815,5.689803,state,track,"reticle, cursor_proportional_y",0.122785
+2736.676067,5.806448,performance,track,cursor_in_target,0
+2736.676119,5.806448,performance,track,center_deviation,62.269498
+2736.676296,5.806448,state,track,"reticle, cursor_relative_x",40.732129
+2736.676348,5.806448,state,track,"reticle, cursor_relative_y",48.626044
+2736.676394,5.806448,state,track,"reticle, cursor_proportional_x",0.104764
+2736.676449,5.806448,state,track,"reticle, cursor_proportional_y",0.125067
+2736.776663,5.906943,performance,track,cursor_in_target,0
+2736.776778,5.906943,performance,track,center_deviation,63.431841
+2736.776957,5.906943,state,track,"reticle, cursor_relative_x",41.482073
+2736.777009,5.906943,state,track,"reticle, cursor_relative_y",49.511499
+2736.777055,5.906943,state,track,"reticle, cursor_proportional_x",0.106693
+2736.77711,5.906943,state,track,"reticle, cursor_proportional_y",0.127344
+2736.893043,6.023077,performance,track,cursor_in_target,0
+2736.893091,6.023077,performance,track,center_deviation,64.592189
+2736.893263,6.023077,state,track,"reticle, cursor_relative_x",42.23098
+2736.893315,6.023077,state,track,"reticle, cursor_relative_y",50.395172
+2736.893359,6.023077,state,track,"reticle, cursor_proportional_x",0.108619
+2736.893416,6.023077,state,track,"reticle, cursor_proportional_y",0.129617
+2736.99268,6.123085,performance,track,cursor_in_target,0
+2736.992732,6.123085,performance,track,center_deviation,65.750506
+2736.992913,6.123085,state,track,"reticle, cursor_relative_x",42.97883
+2736.992984,6.123085,state,track,"reticle, cursor_relative_y",51.27703
+2736.993054,6.123085,state,track,"reticle, cursor_proportional_x",0.110542
+2736.993118,6.123085,state,track,"reticle, cursor_proportional_y",0.131885
+2737.109189,6.239558,performance,track,cursor_in_target,0
+2737.10924,6.239558,performance,track,center_deviation,66.906754
+2737.109416,6.239558,state,track,"reticle, cursor_relative_x",43.725607
+2737.109468,6.239558,state,track,"reticle, cursor_relative_y",52.157043
+2737.109512,6.239558,state,track,"reticle, cursor_proportional_x",0.112463
+2737.109568,6.239558,state,track,"reticle, cursor_proportional_y",0.134149
+2737.209393,6.339839,performance,track,cursor_in_target,0
+2737.209441,6.339839,performance,track,center_deviation,68.060898
+2737.209614,6.339839,state,track,"reticle, cursor_relative_x",44.47129
+2737.209665,6.339839,state,track,"reticle, cursor_relative_y",53.035178
+2737.209711,6.339839,state,track,"reticle, cursor_proportional_x",0.114381
+2737.209766,6.339839,state,track,"reticle, cursor_proportional_y",0.136407
+2737.309626,6.439948,performance,track,cursor_in_target,0
+2737.309674,6.439948,performance,track,center_deviation,69.212902
+2737.30985,6.439948,state,track,"reticle, cursor_relative_x",45.215861
+2737.309899,6.439948,state,track,"reticle, cursor_relative_y",53.911404
+2737.309942,6.439948,state,track,"reticle, cursor_proportional_x",0.116296
+2737.309997,6.439948,state,track,"reticle, cursor_proportional_y",0.138661
+2737.42559,6.555995,performance,track,cursor_in_target,0
+2737.425639,6.555995,performance,track,center_deviation,70.362729
+2737.425811,6.555995,state,track,"reticle, cursor_relative_x",45.959303
+2737.425861,6.555995,state,track,"reticle, cursor_relative_y",54.785689
+2737.425904,6.555995,state,track,"reticle, cursor_proportional_x",0.118208
+2737.42596,6.555995,state,track,"reticle, cursor_proportional_y",0.14091
+2737.52578,6.656254,performance,track,cursor_in_target,0
+2737.525828,6.656254,performance,track,center_deviation,71.510343
+2737.526,6.656254,state,track,"reticle, cursor_relative_x",46.701595
+2737.526049,6.656254,state,track,"reticle, cursor_relative_y",55.658001
+2737.526093,6.656254,state,track,"reticle, cursor_proportional_x",0.120117
+2737.526148,6.656254,state,track,"reticle, cursor_proportional_y",0.143153
+2737.64265,6.772962,performance,track,cursor_in_target,0
+2737.642695,6.772962,performance,track,center_deviation,72.655709
+2737.642857,6.772962,state,track,"reticle, cursor_relative_x",47.442719
+2737.642934,6.772962,state,track,"reticle, cursor_relative_y",56.52831
+2737.642979,6.772962,state,track,"reticle, cursor_proportional_x",0.122023
+2737.64303,6.772962,state,track,"reticle, cursor_proportional_y",0.145392
+2737.74254,6.872984,performance,track,cursor_in_target,0
+2737.742588,6.872984,performance,track,center_deviation,73.79879
+2737.742762,6.872984,state,track,"reticle, cursor_relative_x",48.182658
+2737.742811,6.872984,state,track,"reticle, cursor_relative_y",57.396584
+2737.742853,6.872984,state,track,"reticle, cursor_proportional_x",0.123927
+2737.742909,6.872984,state,track,"reticle, cursor_proportional_y",0.147625
+2737.84263,6.973084,performance,track,cursor_in_target,0
+2737.842677,6.973084,performance,track,center_deviation,74.939552
+2737.842859,6.973084,state,track,"reticle, cursor_relative_x",48.921392
+2737.842912,6.973084,state,track,"reticle, cursor_relative_y",58.262792
+2737.842956,6.973084,state,track,"reticle, cursor_proportional_x",0.125827
+2737.843012,6.973084,state,track,"reticle, cursor_proportional_y",0.149853
+2737.959132,7.089571,performance,track,cursor_in_target,0
+2737.959181,7.089571,performance,track,center_deviation,76.077957
+2737.959356,7.089571,state,track,"reticle, cursor_relative_x",49.658902
+2737.959406,7.089571,state,track,"reticle, cursor_relative_y",59.126902
+2737.959449,7.089571,state,track,"reticle, cursor_proportional_x",0.127724
+2737.959504,7.089571,state,track,"reticle, cursor_proportional_y",0.152075
+2738.059304,7.189715,performance,track,cursor_in_target,0
+2738.059352,7.189715,performance,track,center_deviation,77.21397
+2738.059523,7.189715,state,track,"reticle, cursor_relative_x",50.395172
+2738.059574,7.189715,state,track,"reticle, cursor_relative_y",59.988884
+2738.059619,7.189715,state,track,"reticle, cursor_proportional_x",0.129617
+2738.059675,7.189715,state,track,"reticle, cursor_proportional_y",0.154292
+2738.176461,7.306354,performance,track,cursor_in_target,0
+2738.176511,7.306354,performance,track,center_deviation,78.347556
+2738.176688,7.306354,state,track,"reticle, cursor_relative_x",51.130181
+2738.176736,7.306354,state,track,"reticle, cursor_relative_y",60.848706
+2738.176777,7.306354,state,track,"reticle, cursor_proportional_x",0.131508
+2738.176828,7.306354,state,track,"reticle, cursor_proportional_y",0.156504
+2738.292525,7.422945,performance,track,cursor_in_target,0
+2738.292573,7.422945,performance,track,center_deviation,79.478679
+2738.292747,7.422945,state,track,"reticle, cursor_relative_x",51.863913
+2738.292798,7.422945,state,track,"reticle, cursor_relative_y",61.706338
+2738.292842,7.422945,state,track,"reticle, cursor_proportional_x",0.133395
+2738.292896,7.422945,state,track,"reticle, cursor_proportional_y",0.15871
+2738.392889,7.522957,performance,track,cursor_in_target,0
+2738.392935,7.522957,performance,track,center_deviation,80.607304
+2738.393108,7.522957,state,track,"reticle, cursor_relative_x",52.596347
+2738.393159,7.522957,state,track,"reticle, cursor_relative_y",62.561748
+2738.393202,7.522957,state,track,"reticle, cursor_proportional_x",0.135279
+2738.393258,7.522957,state,track,"reticle, cursor_proportional_y",0.16091
+2738.509217,7.639672,performance,track,cursor_in_target,0
+2738.509268,7.639672,performance,track,center_deviation,81.733396
+2738.50944,7.639672,state,track,"reticle, cursor_relative_x",53.327467
+2738.50949,7.639672,state,track,"reticle, cursor_relative_y",63.414906
+2738.509533,7.639672,state,track,"reticle, cursor_proportional_x",0.137159
+2738.509589,7.639672,state,track,"reticle, cursor_proportional_y",0.163104
+2738.609422,7.739737,performance,track,cursor_in_target,0
+2738.609468,7.739737,performance,track,center_deviation,82.856919
+2738.609639,7.739737,state,track,"reticle, cursor_relative_x",54.057254
+2738.60969,7.739737,state,track,"reticle, cursor_relative_y",64.265781
+2738.609732,7.739737,state,track,"reticle, cursor_proportional_x",0.139036
+2738.609788,7.739737,state,track,"reticle, cursor_proportional_y",0.165293
+2738.72643,7.856838,performance,track,cursor_in_target,0
+2738.726483,7.856838,performance,track,center_deviation,83.977838
+2738.726661,7.856838,state,track,"reticle, cursor_relative_x",54.785689
+2738.726714,7.856838,state,track,"reticle, cursor_relative_y",65.114342
+2738.726758,7.856838,state,track,"reticle, cursor_proportional_x",0.14091
+2738.726814,7.856838,state,track,"reticle, cursor_proportional_y",0.167475
+2738.842627,7.973048,performance,track,cursor_in_target,0
+2738.842673,7.973048,performance,track,center_deviation,85.096118
+2738.842844,7.973048,state,track,"reticle, cursor_relative_x",55.512754
+2738.842969,7.973048,state,track,"reticle, cursor_relative_y",65.960559
+2738.843015,7.973048,state,track,"reticle, cursor_proportional_x",0.14278
+2738.843073,7.973048,state,track,"reticle, cursor_proportional_y",0.169652
+2754.90818,8.007255,state,track,"foreground, visibility",1
+2754.908249,8.007255,event,track,self,stop
