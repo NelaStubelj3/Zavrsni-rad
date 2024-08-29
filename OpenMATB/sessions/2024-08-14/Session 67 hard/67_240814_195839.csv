@@ -1,0 +1,8 @@
+logtime,scenario_time,type,module,address,value
+53972.84211,0,scenario_path,,,includes/scenarios/scenario_hard_1.txt
+53972.845845,0,version,,,1.3.0
+53977.184462,0,dialog,,,OpenMATB end
+53977.202044,0.017631,event,sysmon,feedbacks-positive-color,"(0, 255, 0, 255)"
+53979.300572,0.017631,dialog,,,Warning end
+53979.300977,0.034977,event,sysmon,feedbacks-negative-color,"(255, 0, 0, 255)"
+53979.301062,0.034977,manual,,,end

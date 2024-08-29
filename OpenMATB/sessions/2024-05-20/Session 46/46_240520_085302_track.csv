@@ -1,0 +1,1407 @@
+1596.777507,0.04987,event,track,cursorcolor,"(0, 153, 0, 255)"
+1596.969142,0.239727,aoi,track,foreground,"(672, 1026.0, 1632, 540.0)"
+1596.969566,0.239727,aoi,track,overdue,"(672, 1026.0, 1632, 540.0)"
+1596.971557,0.239727,aoi,track,task_title,"(672, 1080.0, 1632, 1026.0)"
+1596.972131,0.239727,aoi,track,automode,"(957.5999999999999, 618.3, 1101.6, 591.3)"
+1596.972682,0.239727,aoi,track,reticle,"(957.6, 977.4000000000001, 1346.4, 588.6)"
+1596.972726,0.239727,input,track,joystick_x,0
+1596.972751,0.239727,input,track,joystick_y,0
+1596.972771,0.239727,performance,track,joystick_x,0
+1596.972785,0.239727,performance,track,joystick_y,0
+1596.972806,0.239727,parameter,track,title,Tracking
+1596.972822,0.239727,parameter,track,taskplacement,topmid
+1596.972837,0.239727,parameter,track,taskupdatetime,100
+1596.972854,0.239727,parameter,track,taskfeedback-overdue-active,0
+1596.97287,0.239727,parameter,track,taskfeedback-overdue-color,"(241, 100, 100, 255)"
+1596.972887,0.239727,parameter,track,taskfeedback-overdue-delayms,2000
+1596.972903,0.239727,parameter,track,taskfeedback-overdue-blinkdurationms,1000
+1596.972918,0.239727,parameter,track,taskfeedback-overdue-_nexttoggletime,0
+1596.972933,0.239727,parameter,track,taskfeedback-overdue-_is_visible,0
+1596.972948,0.239727,parameter,track,taskfeedback-overdue-widget,<core.widgets.frame.Frame object at 0x7f9b9725da60>
+1596.972967,0.239727,parameter,track,cursorcolor,"(0, 153, 0, 255)"
+1596.972983,0.239727,parameter,track,cursorcoloroutside,"(241, 100, 100, 255)"
+1596.972999,0.239727,parameter,track,automaticsolver,0
+1596.973013,0.239727,parameter,track,displayautomationstate,1
+1596.973028,0.239727,parameter,track,targetproportion,0.25
+1596.973043,0.239727,parameter,track,joystickforce,1
+1596.973057,0.239727,parameter,track,inverseaxis,0
+1596.973224,0.239727,state,track,"foreground, visibility",1
+1596.97333,0.239727,state,track,"overdue, visibility",1
+1596.974253,0.239727,event,track,self,start
+1596.97679,0.249251,input,track,joystick_x,0
+1596.976829,0.249251,input,track,joystick_y,0
+1596.976851,0.249251,performance,track,joystick_x,0
+1596.976866,0.249251,performance,track,joystick_y,0
+1596.976896,0.249251,performance,track,cursor_in_target,1
+1596.976919,0.249251,performance,track,center_deviation,0.0
+1596.976973,0.249251,state,track,"foreground, visibility",0
+1596.977463,0.249251,state,track,"automode, text",MANUAL
+1596.977517,0.249251,state,track,"overdue, visibility",0
+1596.9776,0.249251,state,track,"reticle, cursor_relative_x",1.555174
+1596.977623,0.249251,state,track,"reticle, cursor_relative_y",1.866195
+1596.977642,0.249251,state,track,"reticle, cursor_proportional_x",0.004
+1596.977666,0.249251,state,track,"reticle, cursor_proportional_y",0.0048
+1597.046505,0.316572,event,track,automaticsolver,1
+1597.080527,0.35234,performance,track,cursor_in_target,1
+1597.080622,0.35234,performance,track,center_deviation,2.429249
+1597.081058,0.35234,state,track,"automode, text",AUTO
+1597.081155,0.35234,state,track,"reticle, cursor_relative_x",1.332713
+1597.081181,0.35234,state,track,"reticle, cursor_relative_y",1.799209
+1597.081203,0.35234,state,track,"reticle, cursor_proportional_x",0.003428
+1597.08123,0.35234,state,track,"reticle, cursor_proportional_y",0.004628
+1597.184926,0.456199,performance,track,cursor_in_target,1
+1597.185023,0.456199,performance,track,center_deviation,2.239034
+1597.185209,0.456199,state,track,"reticle, cursor_relative_x",1.110193
+1597.185263,0.456199,state,track,"reticle, cursor_relative_y",1.732122
+1597.185307,0.456199,state,track,"reticle, cursor_proportional_x",0.002855
+1597.185363,0.456199,state,track,"reticle, cursor_proportional_y",0.004455
+1597.284959,0.556232,performance,track,cursor_in_target,1
+1597.285057,0.556232,performance,track,center_deviation,2.05737
+1597.285243,0.556232,state,track,"reticle, cursor_relative_x",0.887595
+1597.285299,0.556232,state,track,"reticle, cursor_relative_y",1.6649
+1597.285344,0.556232,state,track,"reticle, cursor_proportional_x",0.002283
+1597.285401,0.556232,state,track,"reticle, cursor_proportional_y",0.004282
+1597.40146,0.672779,performance,track,cursor_in_target,1
+1597.401556,0.672779,performance,track,center_deviation,1.886721
+1597.401744,0.672779,state,track,"reticle, cursor_relative_x",0.6649
+1597.401797,0.672779,state,track,"reticle, cursor_relative_y",1.597511
+1597.401843,0.672779,state,track,"reticle, cursor_proportional_x",0.00171
+1597.401899,0.672779,state,track,"reticle, cursor_proportional_y",0.004109
+1597.518176,0.789484,performance,track,cursor_in_target,1
+1597.518272,0.789484,performance,track,center_deviation,1.730356
+1597.518455,0.789484,state,track,"reticle, cursor_relative_x",0.442089
+1597.51851,0.789484,state,track,"reticle, cursor_relative_y",1.52992
+1597.518555,0.789484,state,track,"reticle, cursor_proportional_x",0.001137
+1597.518611,0.789484,state,track,"reticle, cursor_proportional_y",0.003935
+1597.618243,0.889544,performance,track,cursor_in_target,1
+1597.618339,0.889544,performance,track,center_deviation,1.592513
+1597.618521,0.889544,state,track,"reticle, cursor_relative_x",0.219141
+1597.618572,0.889544,state,track,"reticle, cursor_relative_y",1.462094
+1597.618617,0.889544,state,track,"reticle, cursor_proportional_x",0.000564
+1597.618673,0.889544,state,track,"reticle, cursor_proportional_y",0.003761
+1597.736073,1.0062,performance,track,cursor_in_target,1
+1597.736136,1.0062,performance,track,center_deviation,1.478425
+1597.736315,1.0062,state,track,"reticle, cursor_relative_x",-0.003962
+1597.736367,1.0062,state,track,"reticle, cursor_relative_y",1.393999
+1597.73641,1.0062,state,track,"reticle, cursor_proportional_x",-1e-05
+1597.736468,1.0062,state,track,"reticle, cursor_proportional_y",0.003585
+1597.73804,1.0062,event,track,automaticsolver,0
+1597.851277,1.122619,input,track,joystick_x,0.0
+1597.851379,1.122619,input,track,joystick_y,-0.25
+1597.851435,1.122619,performance,track,joystick_x,0.0
+1597.851469,1.122619,performance,track,joystick_y,-0.25
+1597.851532,1.122619,performance,track,cursor_in_target,1
+1597.851574,1.122619,performance,track,center_deviation,1.394005
+1597.852195,1.122619,state,track,"automode, text",MANUAL
+1597.85239,1.122619,state,track,"reticle, cursor_relative_x",0.77276
+1597.852445,1.122619,state,track,"reticle, cursor_relative_y",2.075602
+1597.852491,1.122619,state,track,"reticle, cursor_proportional_x",0.001988
+1597.852546,1.122619,state,track,"reticle, cursor_proportional_y",0.005338
+1597.968206,1.239427,input,track,joystick_x,0.0
+1597.968305,1.239427,input,track,joystick_y,0.25
+1597.968358,1.239427,performance,track,joystick_x,0.0
+1597.968392,1.239427,performance,track,joystick_y,0.25
+1597.968452,1.239427,performance,track,cursor_in_target,1
+1597.968497,1.239427,performance,track,center_deviation,2.214787
+1597.968674,1.239427,state,track,"reticle, cursor_relative_x",1.549288
+1597.968726,1.239427,state,track,"reticle, cursor_relative_y",3.25687
+1597.96877,1.239427,state,track,"reticle, cursor_proportional_x",0.003985
+1597.968823,1.239427,state,track,"reticle, cursor_proportional_y",0.008377
+1598.084514,1.355847,input,track,joystick_x,0.0
+1598.084625,1.355847,input,track,joystick_y,0.25
+1598.08468,1.355847,performance,track,joystick_x,0.0
+1598.084716,1.355847,performance,track,joystick_y,0.25
+1598.084776,1.355847,performance,track,cursor_in_target,1
+1598.084818,1.355847,performance,track,center_deviation,3.60659
+1598.084995,1.355847,state,track,"reticle, cursor_relative_x",2.325602
+1598.085045,1.355847,state,track,"reticle, cursor_relative_y",4.437768
+1598.085089,1.355847,state,track,"reticle, cursor_proportional_x",0.005981
+1598.085145,1.355847,state,track,"reticle, cursor_proportional_y",0.011414
+1598.184555,1.455875,input,track,joystick_x,0.0
+1598.184655,1.455875,input,track,joystick_y,0.25
+1598.184708,1.455875,performance,track,joystick_x,0.0
+1598.184742,1.455875,performance,track,joystick_y,0.25
+1598.184803,1.455875,performance,track,cursor_in_target,1
+1598.184845,1.455875,performance,track,center_deviation,5.010211
+1598.185021,1.455875,state,track,"reticle, cursor_relative_x",3.101683
+1598.185155,1.455875,state,track,"reticle, cursor_relative_y",5.618263
+1598.185203,1.455875,state,track,"reticle, cursor_proportional_x",0.007978
+1598.185258,1.455875,state,track,"reticle, cursor_proportional_y",0.01445
+1598.300805,1.572034,input,track,joystick_x,0.0
+1598.300904,1.572034,input,track,joystick_y,0.25
+1598.300959,1.572034,performance,track,joystick_x,0.0
+1598.300994,1.572034,performance,track,joystick_y,0.25
+1598.301054,1.572034,performance,track,cursor_in_target,1
+1598.3011,1.572034,performance,track,center_deviation,6.417579
+1598.301279,1.572034,state,track,"reticle, cursor_relative_x",3.877512
+1598.301329,1.572034,state,track,"reticle, cursor_relative_y",6.798323
+1598.301374,1.572034,state,track,"reticle, cursor_proportional_x",0.009973
+1598.301429,1.572034,state,track,"reticle, cursor_proportional_y",0.017485
+1598.400974,1.672306,input,track,joystick_x,0.0
+1598.401075,1.672306,input,track,joystick_y,0.25
+1598.401128,1.672306,performance,track,joystick_x,0.0
+1598.401162,1.672306,performance,track,joystick_y,0.25
+1598.401222,1.672306,performance,track,cursor_in_target,1
+1598.401268,1.672306,performance,track,center_deviation,7.826384
+1598.401444,1.672306,state,track,"reticle, cursor_relative_x",4.653068
+1598.401494,1.672306,state,track,"reticle, cursor_relative_y",7.977912
+1598.401537,1.672306,state,track,"reticle, cursor_proportional_x",0.011968
+1598.40159,1.672306,state,track,"reticle, cursor_proportional_y",0.020519
+1598.516239,1.787743,input,track,joystick_x,0.0
+1598.516339,1.787743,input,track,joystick_y,0.25
+1598.516395,1.787743,performance,track,joystick_x,0.0
+1598.51643,1.787743,performance,track,joystick_y,0.25
+1598.51649,1.787743,performance,track,cursor_in_target,1
+1598.51653,1.787743,performance,track,center_deviation,9.235698
+1598.516694,1.787743,state,track,"reticle, cursor_relative_x",5.428333
+1598.516743,1.787743,state,track,"reticle, cursor_relative_y",9.156998
+1598.516784,1.787743,state,track,"reticle, cursor_proportional_x",0.013962
+1598.516834,1.787743,state,track,"reticle, cursor_proportional_y",0.023552
+1598.617428,1.888799,input,track,joystick_x,-0.25
+1598.617533,1.888799,input,track,joystick_y,0.25
+1598.617584,1.888799,performance,track,joystick_x,-0.25
+1598.61762,1.888799,performance,track,joystick_y,0.25
+1598.617682,1.888799,performance,track,cursor_in_target,1
+1598.617725,1.888799,performance,track,center_deviation,10.645065
+1598.6179,1.888799,state,track,"reticle, cursor_relative_x",5.953288
+1598.617953,1.888799,state,track,"reticle, cursor_relative_y",10.335548
+1598.617998,1.888799,state,track,"reticle, cursor_proportional_x",0.015312
+1598.618054,1.888799,state,track,"reticle, cursor_proportional_y",0.026583
+1598.735153,2.005464,input,track,joystick_x,-0.25
+1598.735231,2.005464,input,track,joystick_y,0.25
+1598.735283,2.005464,performance,track,joystick_x,-0.25
+1598.735318,2.005464,performance,track,joystick_y,0.25
+1598.735378,2.005464,performance,track,cursor_in_target,1
+1598.735423,2.005464,performance,track,center_deviation,11.927497
+1598.735599,2.005464,state,track,"reticle, cursor_relative_x",6.477912
+1598.73565,2.005464,state,track,"reticle, cursor_relative_y",11.513527
+1598.735694,2.005464,state,track,"reticle, cursor_proportional_x",0.016661
+1598.735747,2.005464,state,track,"reticle, cursor_proportional_y",0.029613
+1598.851021,2.122369,input,track,joystick_x,-0.75
+1598.851128,2.122369,input,track,joystick_y,0.25
+1598.851182,2.122369,performance,track,joystick_x,-0.75
+1598.851218,2.122369,performance,track,joystick_y,0.25
+1598.85128,2.122369,performance,track,cursor_in_target,1
+1598.851324,2.122369,performance,track,center_deviation,13.210778
+1598.8515,2.122369,state,track,"reticle, cursor_relative_x",6.502187
+1598.851554,2.122369,state,track,"reticle, cursor_relative_y",12.690903
+1598.8516,2.122369,state,track,"reticle, cursor_proportional_x",0.016724
+1598.851654,2.122369,state,track,"reticle, cursor_proportional_y",0.032641
+1598.967117,2.238356,input,track,joystick_x,-0.75
+1598.967217,2.238356,input,track,joystick_y,0.25
+1598.967269,2.238356,performance,track,joystick_x,-0.75
+1598.967305,2.238356,performance,track,joystick_y,0.25
+1598.967363,2.238356,performance,track,cursor_in_target,1
+1598.967405,2.238356,performance,track,center_deviation,14.259644
+1598.967578,2.238356,state,track,"reticle, cursor_relative_x",6.526093
+1598.96763,2.238356,state,track,"reticle, cursor_relative_y",13.867642
+1598.967675,2.238356,state,track,"reticle, cursor_proportional_x",0.016785
+1598.967731,2.238356,state,track,"reticle, cursor_proportional_y",0.035668
+1599.067299,2.338713,input,track,joystick_x,-0.75
+1599.067396,2.338713,input,track,joystick_y,0.25
+1599.067454,2.338713,performance,track,joystick_x,-0.75
+1599.06749,2.338713,performance,track,joystick_y,0.25
+1599.06755,2.338713,performance,track,cursor_in_target,1
+1599.067595,2.338713,performance,track,center_deviation,15.326493
+1599.067773,2.338713,state,track,"reticle, cursor_relative_x",6.549611
+1599.067824,2.338713,state,track,"reticle, cursor_relative_y",15.043711
+1599.067867,2.338713,state,track,"reticle, cursor_proportional_x",0.016846
+1599.067922,2.338713,state,track,"reticle, cursor_proportional_y",0.038693
+1599.167401,2.438738,input,track,joystick_x,-0.75
+1599.167505,2.438738,input,track,joystick_y,0.25
+1599.167556,2.438738,performance,track,joystick_x,-0.75
+1599.16759,2.438738,performance,track,joystick_y,0.25
+1599.167651,2.438738,performance,track,cursor_in_target,1
+1599.167695,2.438738,performance,track,center_deviation,16.40764
+1599.167871,2.438738,state,track,"reticle, cursor_relative_x",6.572721
+1599.167922,2.438738,state,track,"reticle, cursor_relative_y",16.219077
+1599.167968,2.438738,state,track,"reticle, cursor_proportional_x",0.016905
+1599.168037,2.438738,state,track,"reticle, cursor_proportional_y",0.041716
+1599.267423,2.538785,input,track,joystick_x,-0.75
+1599.267524,2.538785,input,track,joystick_y,0.25
+1599.267577,2.538785,performance,track,joystick_x,-0.75
+1599.267612,2.538785,performance,track,joystick_y,0.25
+1599.267671,2.538785,performance,track,cursor_in_target,1
+1599.267715,2.538785,performance,track,center_deviation,17.50026
+1599.26789,2.538785,state,track,"reticle, cursor_relative_x",6.595405
+1599.26794,2.538785,state,track,"reticle, cursor_relative_y",17.393705
+1599.267983,2.538785,state,track,"reticle, cursor_proportional_x",0.016963
+1599.26805,2.538785,state,track,"reticle, cursor_proportional_y",0.044737
+1599.38372,2.654964,input,track,joystick_x,-0.75
+1599.383814,2.654964,input,track,joystick_y,0.25
+1599.383863,2.654964,performance,track,joystick_x,-0.75
+1599.383901,2.654964,performance,track,joystick_y,0.25
+1599.383962,2.654964,performance,track,cursor_in_target,1
+1599.384018,2.654964,performance,track,center_deviation,18.60216
+1599.384198,2.654964,state,track,"reticle, cursor_relative_x",6.617642
+1599.384248,2.654964,state,track,"reticle, cursor_relative_y",18.567564
+1599.384292,2.654964,state,track,"reticle, cursor_proportional_x",0.017021
+1599.384347,2.654964,state,track,"reticle, cursor_proportional_y",0.047756
+1599.483972,2.7553,input,track,joystick_x,-0.75
+1599.484092,2.7553,input,track,joystick_y,0.25
+1599.484145,2.7553,performance,track,joystick_x,-0.75
+1599.484179,2.7553,performance,track,joystick_y,0.25
+1599.484239,2.7553,performance,track,cursor_in_target,1
+1599.484282,2.7553,performance,track,center_deviation,19.711611
+1599.484471,2.7553,state,track,"reticle, cursor_relative_x",6.639415
+1599.484524,2.7553,state,track,"reticle, cursor_relative_y",19.740618
+1599.484632,2.7553,state,track,"reticle, cursor_proportional_x",0.017077
+1599.484691,2.7553,state,track,"reticle, cursor_proportional_y",0.050773
+1599.584043,2.855364,input,track,joystick_x,-0.75
+1599.584162,2.855364,input,track,joystick_y,0.25
+1599.584215,2.855364,performance,track,joystick_x,-0.75
+1599.58425,2.855364,performance,track,joystick_y,0.25
+1599.58431,2.855364,performance,track,cursor_in_target,1
+1599.584352,2.855364,performance,track,center_deviation,20.827238
+1599.584602,2.855364,state,track,"reticle, cursor_relative_x",6.660702
+1599.584653,2.855364,state,track,"reticle, cursor_relative_y",20.912837
+1599.584697,2.855364,state,track,"reticle, cursor_proportional_x",0.017131
+1599.584752,2.855364,state,track,"reticle, cursor_proportional_y",0.053788
+1599.687908,2.958867,input,track,joystick_x,-0.75
+1599.688041,2.958867,input,track,joystick_y,0.25
+1599.688108,2.958867,performance,track,joystick_x,-0.75
+1599.688155,2.958867,performance,track,joystick_y,0.25
+1599.688231,2.958867,performance,track,cursor_in_target,1
+1599.688286,2.958867,performance,track,center_deviation,21.947931
+1599.688521,2.958867,state,track,"reticle, cursor_relative_x",6.681485
+1599.688582,2.958867,state,track,"reticle, cursor_relative_y",22.084185
+1599.688639,2.958867,state,track,"reticle, cursor_proportional_x",0.017185
+1599.68871,2.958867,state,track,"reticle, cursor_proportional_y",0.056801
+1599.800544,3.071771,input,track,joystick_x,-0.75
+1599.800651,3.071771,input,track,joystick_y,0.25
+1599.800705,3.071771,performance,track,joystick_x,-0.75
+1599.800741,3.071771,performance,track,joystick_y,0.25
+1599.800803,3.071771,performance,track,cursor_in_target,1
+1599.800847,3.071771,performance,track,center_deviation,23.072786
+1599.801026,3.071771,state,track,"reticle, cursor_relative_x",6.701745
+1599.801079,3.071771,state,track,"reticle, cursor_relative_y",23.25463
+1599.801124,3.071771,state,track,"reticle, cursor_proportional_x",0.017237
+1599.801177,3.071771,state,track,"reticle, cursor_proportional_y",0.059811
+1599.9007,3.171866,input,track,joystick_x,-0.75
+1599.900799,3.171866,input,track,joystick_y,0.25
+1599.900853,3.171866,performance,track,joystick_x,-0.75
+1599.900889,3.171866,performance,track,joystick_y,0.25
+1599.90095,3.171866,performance,track,cursor_in_target,1
+1599.900994,3.171866,performance,track,center_deviation,24.201058
+1599.901172,3.171866,state,track,"reticle, cursor_relative_x",6.721463
+1599.901224,3.171866,state,track,"reticle, cursor_relative_y",24.424139
+1599.901269,3.171866,state,track,"reticle, cursor_proportional_x",0.017288
+1599.901324,3.171866,state,track,"reticle, cursor_proportional_y",0.062819
+1600.017109,3.28838,input,track,joystick_x,-0.75
+1600.017214,3.28838,input,track,joystick_y,0.25
+1600.017268,3.28838,performance,track,joystick_x,-0.75
+1600.017305,3.28838,performance,track,joystick_y,0.25
+1600.017365,3.28838,performance,track,cursor_in_target,1
+1600.017407,3.28838,performance,track,center_deviation,25.332127
+1600.017586,3.28838,state,track,"reticle, cursor_relative_x",6.740618
+1600.017637,3.28838,state,track,"reticle, cursor_relative_y",25.592679
+1600.017681,3.28838,state,track,"reticle, cursor_proportional_x",0.017337
+1600.017733,3.28838,state,track,"reticle, cursor_proportional_y",0.065825
+1600.133497,3.404856,input,track,joystick_x,-0.75
+1600.133603,3.404856,input,track,joystick_y,0.25
+1600.133656,3.404856,performance,track,joystick_x,-0.75
+1600.13369,3.404856,performance,track,joystick_y,0.25
+1600.133751,3.404856,performance,track,cursor_in_target,1
+1600.133792,3.404856,performance,track,center_deviation,26.465471
+1600.13397,3.404856,state,track,"reticle, cursor_relative_x",6.759193
+1600.134022,3.404856,state,track,"reticle, cursor_relative_y",26.760217
+1600.134065,3.404856,state,track,"reticle, cursor_proportional_x",0.017385
+1600.134119,3.404856,state,track,"reticle, cursor_proportional_y",0.068828
+1600.250325,3.521545,input,track,joystick_x,-0.75
+1600.250432,3.521545,input,track,joystick_y,0.25
+1600.250484,3.521545,performance,track,joystick_x,-0.75
+1600.250518,3.521545,performance,track,joystick_y,0.25
+1600.250577,3.521545,performance,track,cursor_in_target,1
+1600.250621,3.521545,performance,track,center_deviation,27.60065
+1600.2508,3.521545,state,track,"reticle, cursor_relative_x",6.777167
+1600.250853,3.521545,state,track,"reticle, cursor_relative_y",27.926719
+1600.250898,3.521545,state,track,"reticle, cursor_proportional_x",0.017431
+1600.250952,3.521545,state,track,"reticle, cursor_proportional_y",0.071828
+1600.366867,3.638239,input,track,joystick_x,-0.75
+1600.36697,3.638239,input,track,joystick_y,0.25
+1600.367025,3.638239,performance,track,joystick_x,-0.75
+1600.367061,3.638239,performance,track,joystick_y,0.25
+1600.367121,3.638239,performance,track,cursor_in_target,1
+1600.367166,3.638239,performance,track,center_deviation,28.737286
+1600.367343,3.638239,state,track,"reticle, cursor_relative_x",6.794523
+1600.367395,3.638239,state,track,"reticle, cursor_relative_y",29.092153
+1600.367439,3.638239,state,track,"reticle, cursor_proportional_x",0.017476
+1600.367494,3.638239,state,track,"reticle, cursor_proportional_y",0.074825
+1600.483528,3.75474,input,track,joystick_x,-0.75
+1600.483631,3.75474,input,track,joystick_y,0.0
+1600.483682,3.75474,performance,track,joystick_x,-0.75
+1600.483718,3.75474,performance,track,joystick_y,0.0
+1600.483841,3.75474,performance,track,cursor_in_target,1
+1600.48389,3.75474,performance,track,center_deviation,29.875055
+1600.484082,3.75474,state,track,"reticle, cursor_relative_x",6.811239
+1600.484135,3.75474,state,track,"reticle, cursor_relative_y",30.006485
+1600.48418,3.75474,state,track,"reticle, cursor_proportional_x",0.017519
+1600.484234,3.75474,state,track,"reticle, cursor_proportional_y",0.077177
+1600.583496,3.854845,input,track,joystick_x,-0.75
+1600.583605,3.854845,input,track,joystick_y,0.0
+1600.583657,3.854845,performance,track,joystick_x,-0.75
+1600.583691,3.854845,performance,track,joystick_y,0.0
+1600.583749,3.854845,performance,track,cursor_in_target,1
+1600.583793,3.854845,performance,track,center_deviation,30.769825
+1600.583968,3.854845,state,track,"reticle, cursor_relative_x",6.827298
+1600.584033,3.854845,state,track,"reticle, cursor_relative_y",30.919684
+1600.584078,3.854845,state,track,"reticle, cursor_proportional_x",0.01756
+1600.584132,3.854845,state,track,"reticle, cursor_proportional_y",0.079526
+1600.70025,3.971578,input,track,joystick_x,-0.75
+1600.700354,3.971578,input,track,joystick_y,0.0
+1600.700407,3.971578,performance,track,joystick_x,-0.75
+1600.700442,3.971578,performance,track,joystick_y,0.0
+1600.700501,3.971578,performance,track,cursor_in_target,1
+1600.700543,3.971578,performance,track,center_deviation,31.664473
+1600.700719,3.971578,state,track,"reticle, cursor_relative_x",6.842679
+1600.700768,3.971578,state,track,"reticle, cursor_relative_y",31.831715
+1600.700813,3.971578,state,track,"reticle, cursor_proportional_x",0.017599
+1600.700867,3.971578,state,track,"reticle, cursor_proportional_y",0.081872
+1600.816931,4.088146,input,track,joystick_x,-0.75
+1600.817028,4.088146,input,track,joystick_y,0.0
+1600.817079,4.088146,performance,track,joystick_x,-0.75
+1600.817113,4.088146,performance,track,joystick_y,0.0
+1600.817171,4.088146,performance,track,cursor_in_target,1
+1600.817216,4.088146,performance,track,center_deviation,32.558875
+1600.817393,4.088146,state,track,"reticle, cursor_relative_x",6.857365
+1600.817443,4.088146,state,track,"reticle, cursor_relative_y",32.742546
+1600.817487,4.088146,state,track,"reticle, cursor_proportional_x",0.017637
+1600.817541,4.088146,state,track,"reticle, cursor_proportional_y",0.084214
+1600.933223,4.204568,input,track,joystick_x,-0.75
+1600.933328,4.204568,input,track,joystick_y,0.0
+1600.933379,4.204568,performance,track,joystick_x,-0.75
+1600.933414,4.204568,performance,track,joystick_y,0.0
+1600.933471,4.204568,performance,track,cursor_in_target,1
+1600.933514,4.204568,performance,track,center_deviation,33.452919
+1600.93369,4.204568,state,track,"reticle, cursor_relative_x",6.871335
+1600.933741,4.204568,state,track,"reticle, cursor_relative_y",33.652145
+1600.933784,4.204568,state,track,"reticle, cursor_proportional_x",0.017673
+1600.933839,4.204568,state,track,"reticle, cursor_proportional_y",0.086554
+1601.033229,4.304573,input,track,joystick_x,-0.75
+1601.033333,4.304573,input,track,joystick_y,0.0
+1601.033383,4.304573,performance,track,joystick_x,-0.75
+1601.033418,4.304573,performance,track,joystick_y,0.0
+1601.033476,4.304573,performance,track,cursor_in_target,1
+1601.033587,4.304573,performance,track,center_deviation,34.3465
+1601.033771,4.304573,state,track,"reticle, cursor_relative_x",6.884572
+1601.033824,4.304573,state,track,"reticle, cursor_relative_y",34.560478
+1601.033868,4.304573,state,track,"reticle, cursor_proportional_x",0.017707
+1601.033922,4.304573,state,track,"reticle, cursor_proportional_y",0.08889
+1601.14999,4.42121,input,track,joystick_x,-0.75
+1601.150089,4.42121,input,track,joystick_y,0.0
+1601.150141,4.42121,performance,track,joystick_x,-0.75
+1601.150178,4.42121,performance,track,joystick_y,0.0
+1601.150236,4.42121,performance,track,cursor_in_target,1
+1601.15028,4.42121,performance,track,center_deviation,35.239522
+1601.150456,4.42121,state,track,"reticle, cursor_relative_x",6.897054
+1601.150507,4.42121,state,track,"reticle, cursor_relative_y",35.467512
+1601.150551,4.42121,state,track,"reticle, cursor_proportional_x",0.017739
+1601.150604,4.42121,state,track,"reticle, cursor_proportional_y",0.091223
+1601.249853,4.521215,input,track,joystick_x,-0.75
+1601.249958,4.521215,input,track,joystick_y,0.0
+1601.250007,4.521215,performance,track,joystick_x,-0.75
+1601.250043,4.521215,performance,track,joystick_y,0.0
+1601.250102,4.521215,performance,track,cursor_in_target,1
+1601.250161,4.521215,performance,track,center_deviation,36.131894
+1601.250416,4.521215,state,track,"reticle, cursor_relative_x",6.908765
+1601.250478,4.521215,state,track,"reticle, cursor_relative_y",36.373217
+1601.250524,4.521215,state,track,"reticle, cursor_proportional_x",0.017769
+1601.250577,4.521215,state,track,"reticle, cursor_proportional_y",0.093553
+1601.366377,4.637722,input,track,joystick_x,-0.75
+1601.36648,4.637722,input,track,joystick_y,0.0
+1601.366532,4.637722,performance,track,joystick_x,-0.75
+1601.366568,4.637722,performance,track,joystick_y,0.0
+1601.366627,4.637722,performance,track,cursor_in_target,1
+1601.366671,4.637722,performance,track,center_deviation,37.023532
+1601.366848,4.637722,state,track,"reticle, cursor_relative_x",6.919684
+1601.366901,4.637722,state,track,"reticle, cursor_relative_y",37.277557
+1601.366946,4.637722,state,track,"reticle, cursor_proportional_x",0.017798
+1601.367,4.637722,state,track,"reticle, cursor_proportional_y",0.095878
+1601.466484,4.737839,input,track,joystick_x,-0.75
+1601.46659,4.737839,input,track,joystick_y,0.0
+1601.466642,4.737839,performance,track,joystick_x,-0.75
+1601.466678,4.737839,performance,track,joystick_y,0.0
+1601.466737,4.737839,performance,track,cursor_in_target,1
+1601.466781,4.737839,performance,track,center_deviation,37.914355
+1601.466958,4.737839,state,track,"reticle, cursor_relative_x",6.929792
+1601.467011,4.737839,state,track,"reticle, cursor_relative_y",38.180502
+1601.467057,4.737839,state,track,"reticle, cursor_proportional_x",0.017824
+1601.467111,4.737839,state,track,"reticle, cursor_proportional_y",0.098201
+1601.583217,4.85454,input,track,joystick_x,-0.75
+1601.583319,4.85454,input,track,joystick_y,0.0
+1601.58337,4.85454,performance,track,joystick_x,-0.75
+1601.583406,4.85454,performance,track,joystick_y,0.0
+1601.583464,4.85454,performance,track,cursor_in_target,1
+1601.583508,4.85454,performance,track,center_deviation,38.804288
+1601.583686,4.85454,state,track,"reticle, cursor_relative_x",6.939071
+1601.583737,4.85454,state,track,"reticle, cursor_relative_y",39.082018
+1601.583781,4.85454,state,track,"reticle, cursor_proportional_x",0.017847
+1601.583834,4.85454,state,track,"reticle, cursor_proportional_y",0.10052
+1601.699773,4.971131,input,track,joystick_x,-0.75
+1601.699881,4.971131,input,track,joystick_y,0.0
+1601.699931,4.971131,performance,track,joystick_x,-0.75
+1601.699965,4.971131,performance,track,joystick_y,0.0
+1601.700045,4.971131,performance,track,cursor_in_target,1
+1601.70009,4.971131,performance,track,center_deviation,39.693259
+1601.700266,4.971131,state,track,"reticle, cursor_relative_x",6.947501
+1601.700318,4.971131,state,track,"reticle, cursor_relative_y",39.982073
+1601.700361,4.971131,state,track,"reticle, cursor_proportional_x",0.017869
+1601.700415,4.971131,state,track,"reticle, cursor_proportional_y",0.102835
+1601.816489,5.087657,input,track,joystick_x,-0.75
+1601.81659,5.087657,input,track,joystick_y,0.0
+1601.816641,5.087657,performance,track,joystick_x,-0.75
+1601.816676,5.087657,performance,track,joystick_y,0.0
+1601.816733,5.087657,performance,track,cursor_in_target,1
+1601.816779,5.087657,performance,track,center_deviation,40.581202
+1601.816954,5.087657,state,track,"reticle, cursor_relative_x",6.955064
+1601.817007,5.087657,state,track,"reticle, cursor_relative_y",40.880635
+1601.817052,5.087657,state,track,"reticle, cursor_proportional_x",0.017889
+1601.817105,5.087657,state,track,"reticle, cursor_proportional_y",0.105146
+1601.916366,5.187713,input,track,joystick_x,-0.75
+1601.916467,5.187713,input,track,joystick_y,0.0
+1601.916518,5.187713,performance,track,joystick_x,-0.75
+1601.916553,5.187713,performance,track,joystick_y,0.0
+1601.916611,5.187713,performance,track,cursor_in_target,1
+1601.916655,5.187713,performance,track,center_deviation,41.468051
+1601.916831,5.187713,state,track,"reticle, cursor_relative_x",6.961741
+1601.916882,5.187713,state,track,"reticle, cursor_relative_y",41.777671
+1601.916926,5.187713,state,track,"reticle, cursor_proportional_x",0.017906
+1601.916979,5.187713,state,track,"reticle, cursor_proportional_y",0.107453
+1602.033032,5.304361,input,track,joystick_x,-0.75
+1602.033139,5.304361,input,track,joystick_y,0.0
+1602.033191,5.304361,performance,track,joystick_x,-0.75
+1602.033225,5.304361,performance,track,joystick_y,0.0
+1602.033284,5.304361,performance,track,cursor_in_target,1
+1602.033326,5.304361,performance,track,center_deviation,42.353744
+1602.033504,5.304361,state,track,"reticle, cursor_relative_x",6.967512
+1602.033556,5.304361,state,track,"reticle, cursor_relative_y",42.673149
+1602.0336,5.304361,state,track,"reticle, cursor_proportional_x",0.017921
+1602.033654,5.304361,state,track,"reticle, cursor_proportional_y",0.109756
+1602.133045,5.404373,input,track,joystick_x,-0.75
+1602.13315,5.404373,input,track,joystick_y,0.0
+1602.133199,5.404373,performance,track,joystick_x,-0.75
+1602.133233,5.404373,performance,track,joystick_y,0.0
+1602.133291,5.404373,performance,track,cursor_in_target,1
+1602.133334,5.404373,performance,track,center_deviation,43.238223
+1602.13351,5.404373,state,track,"reticle, cursor_relative_x",6.97236
+1602.13356,5.404373,state,track,"reticle, cursor_relative_y",43.567037
+1602.133602,5.404373,state,track,"reticle, cursor_proportional_x",0.017933
+1602.133655,5.404373,state,track,"reticle, cursor_proportional_y",0.112055
+1602.249328,5.520703,input,track,joystick_x,-0.75
+1602.249433,5.520703,input,track,joystick_y,0.0
+1602.249484,5.520703,performance,track,joystick_x,-0.75
+1602.249519,5.520703,performance,track,joystick_y,0.0
+1602.249578,5.520703,performance,track,cursor_in_target,1
+1602.24962,5.520703,performance,track,center_deviation,44.121429
+1602.249797,5.520703,state,track,"reticle, cursor_relative_x",6.976264
+1602.249847,5.520703,state,track,"reticle, cursor_relative_y",44.459303
+1602.249891,5.520703,state,track,"reticle, cursor_proportional_x",0.017943
+1602.249945,5.520703,state,track,"reticle, cursor_proportional_y",0.11435
+1602.366141,5.637484,input,track,joystick_x,-0.75
+1602.366248,5.637484,input,track,joystick_y,0.0
+1602.366298,5.637484,performance,track,joystick_x,-0.75
+1602.366333,5.637484,performance,track,joystick_y,0.0
+1602.366392,5.637484,performance,track,cursor_in_target,1
+1602.366434,5.637484,performance,track,center_deviation,45.003309
+1602.366612,5.637484,state,track,"reticle, cursor_relative_x",6.979206
+1602.366665,5.637484,state,track,"reticle, cursor_relative_y",45.349914
+1602.366709,5.637484,state,track,"reticle, cursor_proportional_x",0.017951
+1602.366762,5.637484,state,track,"reticle, cursor_proportional_y",0.116641
+1602.482964,5.754091,input,track,joystick_x,-0.75
+1602.483107,5.754091,input,track,joystick_y,0.0
+1602.483191,5.754091,performance,track,joystick_x,-0.75
+1602.483249,5.754091,performance,track,joystick_y,0.0
+1602.483438,5.754091,performance,track,cursor_in_target,1
+1602.48352,5.754091,performance,track,center_deviation,45.883809
+1602.483839,5.754091,state,track,"reticle, cursor_relative_x",6.981167
+1602.483922,5.754091,state,track,"reticle, cursor_relative_y",46.238838
+1602.483994,5.754091,state,track,"reticle, cursor_proportional_x",0.017956
+1602.484093,5.754091,state,track,"reticle, cursor_proportional_y",0.118927
+1602.599349,5.87072,input,track,joystick_x,-0.75
+1602.599455,5.87072,input,track,joystick_y,0.0
+1602.599506,5.87072,performance,track,joystick_x,-0.75
+1602.599541,5.87072,performance,track,joystick_y,0.0
+1602.5996,5.87072,performance,track,cursor_in_target,1
+1602.599642,5.87072,performance,track,center_deviation,46.762879
+1602.599821,5.87072,state,track,"reticle, cursor_relative_x",6.982129
+1602.599872,5.87072,state,track,"reticle, cursor_relative_y",47.126044
+1602.599915,5.87072,state,track,"reticle, cursor_proportional_x",0.017958
+1602.599968,5.87072,state,track,"reticle, cursor_proportional_y",0.121209
+1602.715526,5.986918,input,track,joystick_x,-0.75
+1602.715622,5.986918,input,track,joystick_y,0.0
+1602.715671,5.986918,performance,track,joystick_x,-0.75
+1602.715704,5.986918,performance,track,joystick_y,0.0
+1602.715769,5.986918,performance,track,cursor_in_target,1
+1602.715813,5.986918,performance,track,center_deviation,47.640467
+1602.715991,5.986918,state,track,"reticle, cursor_relative_x",6.982073
+1602.716068,5.986918,state,track,"reticle, cursor_relative_y",48.011499
+1602.716113,5.986918,state,track,"reticle, cursor_proportional_x",0.017958
+1602.716166,5.986918,state,track,"reticle, cursor_proportional_y",0.123486
+1602.81619,6.087394,input,track,joystick_x,-0.75
+1602.816288,6.087394,input,track,joystick_y,0.0
+1602.816338,6.087394,performance,track,joystick_x,-0.75
+1602.816373,6.087394,performance,track,joystick_y,0.0
+1602.816431,6.087394,performance,track,cursor_in_target,1
+1602.816475,6.087394,performance,track,center_deviation,48.516527
+1602.816653,6.087394,state,track,"reticle, cursor_relative_x",6.98098
+1602.816703,6.087394,state,track,"reticle, cursor_relative_y",48.895172
+1602.816745,6.087394,state,track,"reticle, cursor_proportional_x",0.017955
+1602.816798,6.087394,state,track,"reticle, cursor_proportional_y",0.125759
+1602.932815,6.204088,input,track,joystick_x,0.75
+1602.932919,6.204088,input,track,joystick_y,5.0
+1602.93297,6.204088,performance,track,joystick_x,0.75
+1602.933005,6.204088,performance,track,joystick_y,5.0
+1602.933063,6.204088,performance,track,cursor_in_target,0
+1602.933108,6.204088,performance,track,center_deviation,49.39101
+1602.933445,6.204088,state,track,"reticle, cursor_relative_x",8.47883
+1602.933533,6.204088,state,track,"reticle, cursor_relative_y",54.77703
+1602.933598,6.204088,state,track,"reticle, cursor_proportional_x",0.021808
+1602.933654,6.204088,state,track,"reticle, cursor_proportional_y",0.140887
+1602.933805,6.204088,state,track,"reticle, cursor_color","(241, 100, 100, 255)"
+1603.049054,6.320402,input,track,joystick_x,4.0
+1603.049155,6.320402,input,track,joystick_y,10.0
+1603.049205,6.320402,performance,track,joystick_x,4.0
+1603.04924,6.320402,performance,track,joystick_y,10.0
+1603.049298,6.320402,performance,track,cursor_in_target,0
+1603.04934,6.320402,performance,track,center_deviation,55.429357
+1603.049519,6.320402,state,track,"reticle, cursor_relative_x",13.225607
+1603.04957,6.320402,state,track,"reticle, cursor_relative_y",65.657043
+1603.049614,6.320402,state,track,"reticle, cursor_proportional_x",0.034016
+1603.049669,6.320402,state,track,"reticle, cursor_proportional_y",0.168871
+1603.149295,6.420542,input,track,joystick_x,6.25
+1603.149391,6.420542,input,track,joystick_y,12.0
+1603.149441,6.420542,performance,track,joystick_x,6.25
+1603.149477,6.420542,performance,track,joystick_y,12.0
+1603.149534,6.420542,performance,track,cursor_in_target,0
+1603.149576,6.420542,performance,track,center_deviation,66.975846
+1603.149753,6.420542,state,track,"reticle, cursor_relative_x",20.22129
+1603.149805,6.420542,state,track,"reticle, cursor_relative_y",78.535178
+1603.149848,6.420542,state,track,"reticle, cursor_proportional_x",0.052009
+1603.149903,6.420542,state,track,"reticle, cursor_proportional_y",0.201994
+1603.265627,6.537,input,track,joystick_x,6.25
+1603.265726,6.537,input,track,joystick_y,12.0
+1603.265775,6.537,performance,track,joystick_x,6.25
+1603.265808,6.537,performance,track,joystick_y,12.0
+1603.265863,6.537,performance,track,cursor_in_target,0
+1603.265906,6.537,performance,track,center_deviation,81.0967
+1603.266082,6.537,state,track,"reticle, cursor_relative_x",27.215861
+1603.266134,6.537,state,track,"reticle, cursor_relative_y",91.411404
+1603.266178,6.537,state,track,"reticle, cursor_proportional_x",0.07
+1603.26623,6.537,state,track,"reticle, cursor_proportional_y",0.235112
+1603.381862,6.653279,input,track,joystick_x,4.0
+1603.381967,6.653279,input,track,joystick_y,7.25
+1603.382018,6.653279,performance,track,joystick_x,4.0
+1603.382052,6.653279,performance,track,joystick_y,7.25
+1603.382111,6.653279,performance,track,cursor_in_target,0
+1603.382155,6.653279,performance,track,center_deviation,95.376873
+1603.382331,6.653279,state,track,"reticle, cursor_relative_x",31.959303
+1603.382382,6.653279,state,track,"reticle, cursor_relative_y",99.535689
+1603.382426,6.653279,state,track,"reticle, cursor_proportional_x",0.0822
+1603.382479,6.653279,state,track,"reticle, cursor_proportional_y",0.256007
+1603.482266,6.753507,input,track,joystick_x,1.0
+1603.482363,6.753507,input,track,joystick_y,-0.75
+1603.482415,6.753507,performance,track,joystick_x,1.0
+1603.482448,6.753507,performance,track,joystick_y,-0.75
+1603.482509,6.753507,performance,track,cursor_in_target,0
+1603.482554,6.753507,performance,track,center_deviation,104.540664
+1603.482732,6.753507,state,track,"reticle, cursor_relative_x",33.701595
+1603.482783,6.753507,state,track,"reticle, cursor_relative_y",99.658001
+1603.482825,6.753507,state,track,"reticle, cursor_proportional_x",0.086681
+1603.482877,6.753507,state,track,"reticle, cursor_proportional_y",0.256322
+1603.599094,6.870454,input,track,joystick_x,-1.5
+1603.599196,6.870454,input,track,joystick_y,-7.75
+1603.599246,6.870454,performance,track,joystick_x,-1.5
+1603.599283,6.870454,performance,track,joystick_y,-7.75
+1603.599359,6.870454,performance,track,cursor_in_target,0
+1603.599404,6.870454,performance,track,center_deviation,105.202256
+1603.599583,6.870454,state,track,"reticle, cursor_relative_x",32.942719
+1603.599634,6.870454,state,track,"reticle, cursor_relative_y",92.77831
+1603.599678,6.870454,state,track,"reticle, cursor_proportional_x",0.084729
+1603.599732,6.870454,state,track,"reticle, cursor_proportional_y",0.238627
+1603.715316,6.986688,input,track,joystick_x,-3.0
+1603.715421,6.986688,input,track,joystick_y,-11.0
+1603.715473,6.986688,performance,track,joystick_x,-3.0
+1603.715507,6.986688,performance,track,joystick_y,-11.0
+1603.715565,6.986688,performance,track,cursor_in_target,0
+1603.715608,6.986688,performance,track,center_deviation,98.453226
+1603.715784,6.986688,state,track,"reticle, cursor_relative_x",30.682658
+1603.715834,6.986688,state,track,"reticle, cursor_relative_y",82.646584
+1603.715878,6.986688,state,track,"reticle, cursor_proportional_x",0.078916
+1603.715932,6.986688,state,track,"reticle, cursor_proportional_y",0.212568
+1603.815773,7.087011,input,track,joystick_x,-3.5
+1603.815871,7.087011,input,track,joystick_y,-12.0
+1603.815922,7.087011,performance,track,joystick_x,-3.5
+1603.815957,7.087011,performance,track,joystick_y,-12.0
+1603.816028,7.087011,performance,track,cursor_in_target,0
+1603.816075,7.087011,performance,track,center_deviation,88.158286
+1603.816255,7.087011,state,track,"reticle, cursor_relative_x",27.921392
+1603.816306,7.087011,state,track,"reticle, cursor_relative_y",71.512792
+1603.81635,7.087011,state,track,"reticle, cursor_proportional_x",0.071814
+1603.816403,7.087011,state,track,"reticle, cursor_proportional_y",0.183932
+1603.931844,7.203204,input,track,joystick_x,-4.25
+1603.931947,7.203204,input,track,joystick_y,-13.75
+1603.932097,7.203204,performance,track,joystick_x,-4.25
+1603.932156,7.203204,performance,track,joystick_y,-13.75
+1603.932247,7.203204,performance,track,cursor_in_target,0
+1603.932315,7.203204,performance,track,center_deviation,76.77033
+1603.93253,7.203204,state,track,"reticle, cursor_relative_x",24.408902
+1603.932582,7.203204,state,track,"reticle, cursor_relative_y",58.626902
+1603.932624,7.203204,state,track,"reticle, cursor_proportional_x",0.06278
+1603.932676,7.203204,state,track,"reticle, cursor_proportional_y",0.150789
+1604.049057,7.320274,input,track,joystick_x,-5.75
+1604.049208,7.320274,input,track,joystick_y,-19.0
+1604.049259,7.320274,performance,track,joystick_x,-5.75
+1604.049294,7.320274,performance,track,joystick_y,-19.0
+1604.049352,7.320274,performance,track,cursor_in_target,0
+1604.049394,7.320274,performance,track,center_deviation,63.505182
+1604.049614,7.320274,state,track,"reticle, cursor_relative_x",19.395172
+1604.049686,7.320274,state,track,"reticle, cursor_relative_y",40.488884
+1604.049731,7.320274,state,track,"reticle, cursor_proportional_x",0.049885
+1604.049787,7.320274,state,track,"reticle, cursor_proportional_y",0.104138
+1604.165367,7.436724,input,track,joystick_x,-6.5
+1604.165471,7.436724,input,track,joystick_y,-21.5
+1604.165521,7.436724,performance,track,joystick_x,-6.5
+1604.165556,7.436724,performance,track,joystick_y,-21.5
+1604.165615,7.436724,performance,track,cursor_in_target,1
+1604.165657,7.436724,performance,track,center_deviation,44.89457
+1604.165698,7.436724,performance,track,response_time,1100
+1604.165868,7.436724,state,track,"reticle, cursor_relative_x",13.630181
+1604.16592,7.436724,state,track,"reticle, cursor_relative_y",19.848706
+1604.165966,7.436724,state,track,"reticle, cursor_proportional_x",0.035057
+1604.166022,7.436724,state,track,"reticle, cursor_proportional_y",0.051051
+1604.16617,7.436724,state,track,"reticle, cursor_color","(0, 153, 0, 255)"
+1604.281968,7.553308,input,track,joystick_x,-6.5
+1604.282074,7.553308,input,track,joystick_y,-21.5
+1604.282127,7.553308,performance,track,joystick_x,-6.5
+1604.282162,7.553308,performance,track,joystick_y,-21.5
+1604.282221,7.553308,performance,track,cursor_in_target,1
+1604.282264,7.553308,performance,track,center_deviation,24.07806
+1604.282441,7.553308,state,track,"reticle, cursor_relative_x",7.863913
+1604.282492,7.553308,state,track,"reticle, cursor_relative_y",-0.793662
+1604.282538,7.553308,state,track,"reticle, cursor_proportional_x",0.020226
+1604.282592,7.553308,state,track,"reticle, cursor_proportional_y",-0.002041
+1604.398633,7.669866,input,track,joystick_x,-6.5
+1604.398732,7.669866,input,track,joystick_y,-18.25
+1604.398783,7.669866,performance,track,joystick_x,-6.5
+1604.398818,7.669866,performance,track,joystick_y,-18.25
+1604.398876,7.669866,performance,track,cursor_in_target,1
+1604.398917,7.669866,performance,track,center_deviation,7.903861
+1604.399095,7.669866,state,track,"reticle, cursor_relative_x",2.096347
+1604.399145,7.669866,state,track,"reticle, cursor_relative_y",-18.188252
+1604.399189,7.669866,state,track,"reticle, cursor_proportional_x",0.005392
+1604.399243,7.669866,state,track,"reticle, cursor_proportional_y",-0.04678
+1604.51513,7.786477,input,track,joystick_x,-4.75
+1604.515231,7.786477,input,track,joystick_y,-11.25
+1604.515283,7.786477,performance,track,joystick_x,-4.75
+1604.515318,7.786477,performance,track,joystick_y,-11.25
+1604.515378,7.786477,performance,track,cursor_in_target,1
+1604.515419,7.786477,performance,track,center_deviation,18.308664
+1604.515594,7.786477,state,track,"reticle, cursor_relative_x",-1.922533
+1604.515646,7.786477,state,track,"reticle, cursor_relative_y",-28.585094
+1604.51569,7.786477,state,track,"reticle, cursor_proportional_x",-0.004945
+1604.515744,7.786477,state,track,"reticle, cursor_proportional_y",-0.073521
+1604.632033,7.903345,input,track,joystick_x,-4.25
+1604.632137,7.903345,input,track,joystick_y,-8.25
+1604.632187,7.903345,performance,track,joystick_x,-4.25
+1604.632223,7.903345,performance,track,joystick_y,-8.25
+1604.632281,7.903345,performance,track,cursor_in_target,1
+1604.632327,7.903345,performance,track,center_deviation,28.649673
+1604.632504,7.903345,state,track,"reticle, cursor_relative_x",-5.442746
+1604.632556,7.903345,state,track,"reticle, cursor_relative_y",-35.984219
+1604.632599,7.903345,state,track,"reticle, cursor_proportional_x",-0.013999
+1604.632653,7.903345,state,track,"reticle, cursor_proportional_y",-0.092552
+1604.748621,8.019972,input,track,joystick_x,-4.25
+1604.748724,8.019972,input,track,joystick_y,-7.5
+1604.748776,8.019972,performance,track,joystick_x,-4.25
+1604.748812,8.019972,performance,track,joystick_y,-7.5
+1604.74887,8.019972,performance,track,cursor_in_target,1
+1604.748914,8.019972,performance,track,center_deviation,36.393509
+1604.749092,8.019972,state,track,"reticle, cursor_relative_x",-8.964311
+1604.749143,8.019972,state,track,"reticle, cursor_relative_y",-42.635658
+1604.749187,8.019972,state,track,"reticle, cursor_proportional_x",-0.023056
+1604.749241,8.019972,state,track,"reticle, cursor_proportional_y",-0.10966
+1604.864942,8.136292,input,track,joystick_x,-4.25
+1604.865043,8.136292,input,track,joystick_y,-3.0
+1604.865094,8.136292,performance,track,joystick_x,-4.25
+1604.865129,8.136292,performance,track,joystick_y,-3.0
+1604.865186,8.136292,performance,track,cursor_in_target,1
+1604.865231,8.136292,performance,track,center_deviation,43.567857
+1604.865409,8.136292,state,track,"reticle, cursor_relative_x",-12.487246
+1604.86546,8.136292,state,track,"reticle, cursor_relative_y",-44.789441
+1604.865505,8.136292,state,track,"reticle, cursor_proportional_x",-0.032117
+1604.86556,8.136292,state,track,"reticle, cursor_proportional_y",-0.115199
+1604.965084,8.236427,input,track,joystick_x,-2.75
+1604.965186,8.236427,input,track,joystick_y,1.25
+1604.965235,8.236427,performance,track,joystick_x,-2.75
+1604.96527,8.236427,performance,track,joystick_y,1.25
+1604.965328,8.236427,performance,track,cursor_in_target,1
+1604.965371,8.236427,performance,track,center_deviation,46.497584
+1604.965543,8.236427,state,track,"reticle, cursor_relative_x",-14.511568
+1604.965595,8.236427,state,track,"reticle, cursor_relative_y",-42.695598
+1604.96564,8.236427,state,track,"reticle, cursor_proportional_x",-0.037324
+1604.965694,8.236427,state,track,"reticle, cursor_proportional_y",-0.109814
+1605.081849,8.353067,input,track,joystick_x,-2.75
+1605.08195,8.353067,input,track,joystick_y,1.25
+1605.082001,8.353067,performance,track,joystick_x,-2.75
+1605.082037,8.353067,performance,track,joystick_y,1.25
+1605.082095,8.353067,performance,track,cursor_in_target,1
+1605.082141,8.353067,performance,track,center_deviation,45.094342
+1605.08232,8.353067,state,track,"reticle, cursor_relative_x",-16.537296
+1605.082372,8.353067,state,track,"reticle, cursor_relative_y",-40.60416
+1605.082415,8.353067,state,track,"reticle, cursor_proportional_x",-0.042534
+1605.082469,8.353067,state,track,"reticle, cursor_proportional_y",-0.104435
+1605.198484,8.469703,input,track,joystick_x,-2.5
+1605.198589,8.469703,input,track,joystick_y,2.0
+1605.19864,8.469703,performance,track,joystick_x,-2.5
+1605.198675,8.469703,performance,track,joystick_y,2.0
+1605.198732,8.469703,performance,track,cursor_in_target,1
+1605.198779,8.469703,performance,track,center_deviation,43.842673
+1605.198957,8.469703,state,track,"reticle, cursor_relative_x",-18.314449
+1605.199009,8.469703,state,track,"reticle, cursor_relative_y",-37.765158
+1605.199053,8.469703,state,track,"reticle, cursor_proportional_x",-0.047105
+1605.199108,8.469703,state,track,"reticle, cursor_proportional_y",-0.097133
+1605.315151,8.586359,input,track,joystick_x,-2.5
+1605.315252,8.586359,input,track,joystick_y,2.0
+1605.315302,8.586359,performance,track,joystick_x,-2.5
+1605.315336,8.586359,performance,track,joystick_y,2.0
+1605.315393,8.586359,performance,track,cursor_in_target,1
+1605.315438,8.586359,performance,track,center_deviation,41.97173
+1605.315615,8.586359,state,track,"reticle, cursor_relative_x",-20.093043
+1605.315666,8.586359,state,track,"reticle, cursor_relative_y",-34.928621
+1605.315781,8.586359,state,track,"reticle, cursor_proportional_x",-0.05168
+1605.315838,8.586359,state,track,"reticle, cursor_proportional_y",-0.089837
+1605.431727,8.703041,input,track,joystick_x,-2.5
+1605.431829,8.703041,input,track,joystick_y,2.0
+1605.431881,8.703041,performance,track,joystick_x,-2.5
+1605.431916,8.703041,performance,track,joystick_y,2.0
+1605.43206,8.703041,performance,track,cursor_in_target,1
+1605.432113,8.703041,performance,track,center_deviation,40.295644
+1605.432296,8.703041,state,track,"reticle, cursor_relative_x",-21.873098
+1605.432352,8.703041,state,track,"reticle, cursor_relative_y",-32.094579
+1605.432409,8.703041,state,track,"reticle, cursor_proportional_x",-0.056258
+1605.432464,8.703041,state,track,"reticle, cursor_proportional_y",-0.082548
+1605.548401,8.819606,input,track,joystick_x,-2.5
+1605.548503,8.819606,input,track,joystick_y,2.0
+1605.548555,8.819606,performance,track,joystick_x,-2.5
+1605.548589,8.819606,performance,track,joystick_y,2.0
+1605.548646,8.819606,performance,track,cursor_in_target,1
+1605.54869,8.819606,performance,track,center_deviation,38.839341
+1605.548871,8.819606,state,track,"reticle, cursor_relative_x",-23.65463
+1605.548925,8.819606,state,track,"reticle, cursor_relative_y",-29.263063
+1605.54897,8.819606,state,track,"reticle, cursor_proportional_x",-0.06084
+1605.549023,8.819606,state,track,"reticle, cursor_proportional_y",-0.075265
+1605.64852,8.919681,input,track,joystick_x,-2.25
+1605.648619,8.919681,input,track,joystick_y,1.75
+1605.648672,8.919681,performance,track,joystick_x,-2.25
+1605.648707,8.919681,performance,track,joystick_y,1.75
+1605.648764,8.919681,performance,track,cursor_in_target,1
+1605.648809,8.919681,performance,track,center_deviation,37.628027
+1605.648987,8.919681,state,track,"reticle, cursor_relative_x",-25.187659
+1605.649039,8.919681,state,track,"reticle, cursor_relative_y",-26.684103
+1605.649084,8.919681,state,track,"reticle, cursor_proportional_x",-0.064783
+1605.649138,8.919681,state,track,"reticle, cursor_proportional_y",-0.068632
+1605.764812,9.036134,input,track,joystick_x,-2.25
+1605.764915,9.036134,input,track,joystick_y,0.0
+1605.764966,9.036134,performance,track,joystick_x,-2.25
+1605.765002,9.036134,performance,track,joystick_y,0.0
+1605.765061,9.036134,performance,track,cursor_in_target,1
+1605.765105,9.036134,performance,track,center_deviation,36.694135
+1605.765283,9.036134,state,track,"reticle, cursor_relative_x",-26.722202
+1605.765335,9.036134,state,track,"reticle, cursor_relative_y",-25.857728
+1605.765379,9.036134,state,track,"reticle, cursor_proportional_x",-0.06873
+1605.765435,9.036134,state,track,"reticle, cursor_proportional_y",-0.066507
+1605.864882,9.136209,input,track,joystick_x,0.5
+1605.864985,9.136209,input,track,joystick_y,-2.25
+1605.865036,9.136209,performance,track,joystick_x,0.5
+1605.86507,9.136209,performance,track,joystick_y,-2.25
+1605.865128,9.136209,performance,track,cursor_in_target,1
+1605.865172,9.136209,performance,track,center_deviation,37.18465
+1605.865366,9.136209,state,track,"reticle, cursor_relative_x",-25.508277
+1605.86542,9.136209,state,track,"reticle, cursor_relative_y",-27.283968
+1605.865463,9.136209,state,track,"reticle, cursor_proportional_x",-0.065608
+1605.865517,9.136209,state,track,"reticle, cursor_proportional_y",-0.070175
+1605.981385,9.252569,input,track,joystick_x,3.0
+1605.981486,9.252569,input,track,joystick_y,-3.5
+1605.981538,9.252569,performance,track,joystick_x,3.0
+1605.981572,9.252569,performance,track,joystick_y,-3.5
+1605.98163,9.252569,performance,track,cursor_in_target,1
+1605.981674,9.252569,performance,track,center_deviation,37.350865
+1605.98185,9.252569,state,track,"reticle, cursor_relative_x",-21.795902
+1605.981903,9.252569,state,track,"reticle, cursor_relative_y",-29.962852
+1605.981947,9.252569,state,track,"reticle, cursor_proportional_x",-0.056059
+1605.982003,9.252569,state,track,"reticle, cursor_proportional_y",-0.077065
+1606.081609,9.352833,input,track,joystick_x,4.5
+1606.081711,9.352833,input,track,joystick_y,-3.0
+1606.081763,9.352833,performance,track,joystick_x,4.5
+1606.081798,9.352833,performance,track,joystick_y,-3.0
+1606.081855,9.352833,performance,track,cursor_in_target,1
+1606.081899,9.352833,performance,track,center_deviation,37.051773
+1606.082081,9.352833,state,track,"reticle, cursor_relative_x",-16.585094
+1606.082134,9.352833,state,track,"reticle, cursor_relative_y",-32.144412
+1606.082177,9.352833,state,track,"reticle, cursor_proportional_x",-0.042657
+1606.082233,9.352833,state,track,"reticle, cursor_proportional_y",-0.082676
+1606.197817,9.469147,input,track,joystick_x,7.5
+1606.197919,9.469147,input,track,joystick_y,0.25
+1606.197972,9.469147,performance,track,joystick_x,7.5
+1606.198008,9.469147,performance,track,joystick_y,0.25
+1606.198067,9.469147,performance,track,cursor_in_target,1
+1606.198112,9.469147,performance,track,center_deviation,36.170825
+1606.19829,9.469147,state,track,"reticle, cursor_relative_x",-8.375872
+1606.198344,9.469147,state,track,"reticle, cursor_relative_y",-31.078675
+1606.19839,9.469147,state,track,"reticle, cursor_proportional_x",-0.021543
+1606.198444,9.469147,state,track,"reticle, cursor_proportional_y",-0.079935
+1606.298044,9.569387,input,track,joystick_x,8.25
+1606.298146,9.569387,input,track,joystick_y,3.5
+1606.298198,9.569387,performance,track,joystick_x,8.25
+1606.298233,9.569387,performance,track,joystick_y,3.5
+1606.298291,9.569387,performance,track,cursor_in_target,1
+1606.298335,9.569387,performance,track,center_deviation,32.187564
+1606.298515,9.569387,state,track,"reticle, cursor_relative_x",0.581747
+1606.298567,9.569387,state,track,"reticle, cursor_relative_y",-26.765671
+1606.298612,9.569387,state,track,"reticle, cursor_proportional_x",0.001496
+1606.298668,9.569387,state,track,"reticle, cursor_proportional_y",-0.068842
+1606.414435,9.685765,input,track,joystick_x,7.75
+1606.414537,9.685765,input,track,joystick_y,6.75
+1606.414588,9.685765,performance,track,joystick_x,7.75
+1606.414624,9.685765,performance,track,joystick_y,6.75
+1606.414684,9.685765,performance,track,cursor_in_target,1
+1606.414729,9.685765,performance,track,center_deviation,26.771992
+1606.414907,9.685765,state,track,"reticle, cursor_relative_x",9.037746
+1606.414958,9.685765,state,track,"reticle, cursor_relative_y",-19.205429
+1606.415004,9.685765,state,track,"reticle, cursor_proportional_x",0.023245
+1606.415059,9.685765,state,track,"reticle, cursor_proportional_y",-0.049397
+1606.51463,9.785957,input,track,joystick_x,7.25
+1606.514731,9.785957,input,track,joystick_y,6.75
+1606.514781,9.785957,performance,track,joystick_x,7.25
+1606.514815,9.785957,performance,track,joystick_y,6.75
+1606.514874,9.785957,performance,track,cursor_in_target,1
+1606.514918,9.785957,performance,track,center_deviation,21.225677
+1606.515096,9.785957,state,track,"reticle, cursor_relative_x",16.992106
+1606.515147,9.785957,state,track,"reticle, cursor_relative_y",-11.647979
+1606.515192,9.785957,state,track,"reticle, cursor_proportional_x",0.043704
+1606.515246,9.785957,state,track,"reticle, cursor_proportional_y",-0.029959
+1606.631122,9.902394,input,track,joystick_x,5.5
+1606.631224,9.902394,input,track,joystick_y,6.5
+1606.631273,9.902394,performance,track,joystick_x,5.5
+1606.631307,9.902394,performance,track,joystick_y,6.5
+1606.631366,9.902394,performance,track,cursor_in_target,1
+1606.631409,9.902394,performance,track,center_deviation,20.601143
+1606.631589,9.902394,state,track,"reticle, cursor_relative_x",23.19481
+1606.631641,9.902394,state,track,"reticle, cursor_relative_y",-4.34335
+1606.631686,9.902394,state,track,"reticle, cursor_proportional_x",0.059657
+1606.63174,9.902394,state,track,"reticle, cursor_proportional_y",-0.011171
+1606.732452,10.002598,input,track,joystick_x,3.25
+1606.732527,10.002598,input,track,joystick_y,5.25
+1606.732576,10.002598,performance,track,joystick_x,3.25
+1606.732611,10.002598,performance,track,joystick_y,5.25
+1606.732673,10.002598,performance,track,cursor_in_target,1
+1606.732718,10.002598,performance,track,center_deviation,23.597963
+1606.733076,10.002598,state,track,"reticle, cursor_relative_x",27.14584
+1606.733161,10.002598,state,track,"reticle, cursor_relative_y",1.708429
+1606.733229,10.002598,state,track,"reticle, cursor_proportional_x",0.06982
+1606.733286,10.002598,state,track,"reticle, cursor_proportional_y",0.004394
+1606.831288,10.102604,input,track,joystick_x,1.25
+1606.831388,10.102604,input,track,joystick_y,3.25
+1606.831441,10.102604,performance,track,joystick_x,1.25
+1606.831477,10.102604,performance,track,joystick_y,3.25
+1606.831536,10.102604,performance,track,cursor_in_target,1
+1606.831581,10.102604,performance,track,center_deviation,27.199547
+1606.83176,10.102604,state,track,"reticle, cursor_relative_x",29.095179
+1606.831885,10.102604,state,track,"reticle, cursor_relative_y",5.75733
+1606.831958,10.102604,state,track,"reticle, cursor_proportional_x",0.074833
+1606.832067,10.102604,state,track,"reticle, cursor_proportional_y",0.014808
+1606.947802,10.219121,input,track,joystick_x,1.0
+1606.947902,10.219121,input,track,joystick_y,2.25
+1606.947955,10.219121,performance,track,joystick_x,1.0
+1606.94799,10.219121,performance,track,joystick_y,2.25
+1606.948085,10.219121,performance,track,cursor_in_target,1
+1606.948137,10.219121,performance,track,center_deviation,29.659337
+1606.948317,10.219121,state,track,"reticle, cursor_relative_x",30.79281
+1606.948368,10.219121,state,track,"reticle, cursor_relative_y",8.803324
+1606.948412,10.219121,state,track,"reticle, cursor_proportional_x",0.0792
+1606.948467,10.219121,state,track,"reticle, cursor_proportional_y",0.022642
+1607.047898,10.319229,input,track,joystick_x,1.0
+1607.047999,10.319229,input,track,joystick_y,1.75
+1607.048091,10.319229,performance,track,joystick_x,1.0
+1607.048127,10.319229,performance,track,joystick_y,1.75
+1607.048188,10.319229,performance,track,cursor_in_target,1
+1607.04823,10.319229,performance,track,center_deviation,32.026483
+1607.04841,10.319229,state,track,"reticle, cursor_relative_x",32.488714
+1607.048461,10.319229,state,track,"reticle, cursor_relative_y",11.346382
+1607.048506,10.319229,state,track,"reticle, cursor_proportional_x",0.083562
+1607.048563,10.319229,state,track,"reticle, cursor_proportional_y",0.029183
+1607.164365,10.435638,input,track,joystick_x,0.25
+1607.164468,10.435638,input,track,joystick_y,1.25
+1607.164521,10.435638,performance,track,joystick_x,0.25
+1607.164557,10.435638,performance,track,joystick_y,1.25
+1607.164617,10.435638,performance,track,cursor_in_target,1
+1607.16466,10.435638,performance,track,center_deviation,34.413034
+1607.16484,10.435638,state,track,"reticle, cursor_relative_x",33.432875
+1607.164891,10.435638,state,track,"reticle, cursor_relative_y",13.386476
+1607.164935,10.435638,state,track,"reticle, cursor_proportional_x",0.08599
+1607.164988,10.435638,state,track,"reticle, cursor_proportional_y",0.03443
+1607.281004,10.552283,input,track,joystick_x,0.25
+1607.281106,10.552283,input,track,joystick_y,1.25
+1607.281156,10.552283,performance,track,joystick_x,0.25
+1607.281191,10.552283,performance,track,joystick_y,1.25
+1607.281262,10.552283,performance,track,cursor_in_target,1
+1607.281306,10.552283,performance,track,center_deviation,36.01326
+1607.281482,10.552283,state,track,"reticle, cursor_relative_x",34.375275
+1607.281533,10.552283,state,track,"reticle, cursor_relative_y",15.423576
+1607.281576,10.552283,state,track,"reticle, cursor_proportional_x",0.088414
+1607.281629,10.552283,state,track,"reticle, cursor_proportional_y",0.03967
+1607.397666,10.668861,input,track,joystick_x,0.25
+1607.397766,10.668861,input,track,joystick_y,0.5
+1607.397821,10.668861,performance,track,joystick_x,0.25
+1607.397858,10.668861,performance,track,joystick_y,0.5
+1607.397918,10.668861,performance,track,cursor_in_target,1
+1607.397962,10.668861,performance,track,center_deviation,37.676866
+1607.39814,10.668861,state,track,"reticle, cursor_relative_x",35.315897
+1607.398192,10.668861,state,track,"reticle, cursor_relative_y",16.707656
+1607.398236,10.668861,state,track,"reticle, cursor_proportional_x",0.090833
+1607.39829,10.668861,state,track,"reticle, cursor_proportional_y",0.042972
+1607.499244,10.770542,input,track,joystick_x,0.25
+1607.499349,10.770542,input,track,joystick_y,0.5
+1607.499402,10.770542,performance,track,joystick_x,0.25
+1607.499438,10.770542,performance,track,joystick_y,0.5
+1607.499498,10.770542,performance,track,cursor_in_target,1
+1607.499543,10.770542,performance,track,center_deviation,39.068637
+1607.499724,10.770542,state,track,"reticle, cursor_relative_x",36.254724
+1607.499777,10.770542,state,track,"reticle, cursor_relative_y",17.988685
+1607.499821,10.770542,state,track,"reticle, cursor_proportional_x",0.093248
+1607.499876,10.770542,state,track,"reticle, cursor_proportional_y",0.046267
+1607.614273,10.885574,input,track,joystick_x,0.0
+1607.614378,10.885574,input,track,joystick_y,0.5
+1607.614433,10.885574,performance,track,joystick_x,0.0
+1607.614469,10.885574,performance,track,joystick_y,0.5
+1607.61453,10.885574,performance,track,cursor_in_target,1
+1607.614576,10.885574,performance,track,center_deviation,40.472186
+1607.61476,10.885574,state,track,"reticle, cursor_relative_x",36.941738
+1607.614812,10.885574,state,track,"reticle, cursor_relative_y",19.266638
+1607.614858,10.885574,state,track,"reticle, cursor_proportional_x",0.095015
+1607.614914,10.885574,state,track,"reticle, cursor_proportional_y",0.049554
+1607.731962,11.002128,input,track,joystick_x,0.0
+1607.732051,11.002128,input,track,joystick_y,0.5
+1607.732103,11.002128,performance,track,joystick_x,0.0
+1607.732138,11.002128,performance,track,joystick_y,0.5
+1607.732197,11.002128,performance,track,cursor_in_target,1
+1607.732242,11.002128,performance,track,center_deviation,41.664077
+1607.732418,11.002128,state,track,"reticle, cursor_relative_x",37.626922
+1607.732469,11.002128,state,track,"reticle, cursor_relative_y",20.541484
+1607.732511,11.002128,state,track,"reticle, cursor_proportional_x",0.096777
+1607.732566,11.002128,state,track,"reticle, cursor_proportional_y",0.052833
+1607.847354,11.118662,input,track,joystick_x,0.0
+1607.847455,11.118662,input,track,joystick_y,0.5
+1607.847508,11.118662,performance,track,joystick_x,0.0
+1607.847543,11.118662,performance,track,joystick_y,0.5
+1607.847602,11.118662,performance,track,cursor_in_target,1
+1607.847647,11.118662,performance,track,center_deviation,42.868845
+1607.847826,11.118662,state,track,"reticle, cursor_relative_x",38.31026
+1607.847877,11.118662,state,track,"reticle, cursor_relative_y",21.813197
+1607.847922,11.118662,state,track,"reticle, cursor_proportional_x",0.098535
+1607.847976,11.118662,state,track,"reticle, cursor_proportional_y",0.056104
+1607.96427,11.235552,input,track,joystick_x,0.0
+1607.964372,11.235552,input,track,joystick_y,0.5
+1607.964425,11.235552,performance,track,joystick_x,0.0
+1607.96446,11.235552,performance,track,joystick_y,0.5
+1607.96452,11.235552,performance,track,cursor_in_target,1
+1607.964567,11.235552,performance,track,center_deviation,44.085049
+1607.964745,11.235552,state,track,"reticle, cursor_relative_x",38.991733
+1607.964796,11.235552,state,track,"reticle, cursor_relative_y",23.081749
+1607.964839,11.235552,state,track,"reticle, cursor_proportional_x",0.100287
+1607.964894,11.235552,state,track,"reticle, cursor_proportional_y",0.059367
+1608.080911,11.352071,input,track,joystick_x,0.0
+1608.081013,11.352071,input,track,joystick_y,0.5
+1608.081067,11.352071,performance,track,joystick_x,0.0
+1608.081101,11.352071,performance,track,joystick_y,0.5
+1608.081163,11.352071,performance,track,cursor_in_target,1
+1608.081207,11.352071,performance,track,center_deviation,45.311394
+1608.081385,11.352071,state,track,"reticle, cursor_relative_x",39.671325
+1608.081437,11.352071,state,track,"reticle, cursor_relative_y",24.347112
+1608.081489,11.352071,state,track,"reticle, cursor_proportional_x",0.102035
+1608.081544,11.352071,state,track,"reticle, cursor_proportional_y",0.062621
+1608.180963,11.452211,input,track,joystick_x,0.0
+1608.181067,11.452211,input,track,joystick_y,0.5
+1608.181122,11.452211,performance,track,joystick_x,0.0
+1608.181234,11.452211,performance,track,joystick_y,0.5
+1608.181331,11.452211,performance,track,cursor_in_target,1
+1608.181407,11.452211,performance,track,center_deviation,46.546707
+1608.181661,11.452211,state,track,"reticle, cursor_relative_x",40.34902
+1608.181715,11.452211,state,track,"reticle, cursor_relative_y",25.609259
+1608.181759,11.452211,state,track,"reticle, cursor_proportional_x",0.103778
+1608.181813,11.452211,state,track,"reticle, cursor_proportional_y",0.065867
+1608.298155,11.569436,input,track,joystick_x,0.0
+1608.298259,11.569436,input,track,joystick_y,0.5
+1608.298313,11.569436,performance,track,joystick_x,0.0
+1608.298349,11.569436,performance,track,joystick_y,0.5
+1608.29841,11.569436,performance,track,cursor_in_target,1
+1608.298453,11.569436,performance,track,center_deviation,47.789931
+1608.298634,11.569436,state,track,"reticle, cursor_relative_x",41.024799
+1608.298753,11.569436,state,track,"reticle, cursor_relative_y",26.868161
+1608.298828,11.569436,state,track,"reticle, cursor_proportional_x",0.105516
+1608.298926,11.569436,state,track,"reticle, cursor_proportional_y",0.069105
+1608.413937,11.68523,input,track,joystick_x,0.0
+1608.414039,11.68523,input,track,joystick_y,0.5
+1608.414092,11.68523,performance,track,joystick_x,0.0
+1608.414126,11.68523,performance,track,joystick_y,0.5
+1608.414184,11.68523,performance,track,cursor_in_target,0
+1608.414228,11.68523,performance,track,center_deviation,49.040108
+1608.414408,11.68523,state,track,"reticle, cursor_relative_x",41.698646
+1608.41446,11.68523,state,track,"reticle, cursor_relative_y",28.123793
+1608.414503,11.68523,state,track,"reticle, cursor_proportional_x",0.10725
+1608.414558,11.68523,state,track,"reticle, cursor_proportional_y",0.072335
+1608.414709,11.68523,state,track,"reticle, cursor_color","(241, 100, 100, 255)"
+1608.530502,11.801822,input,track,joystick_x,0.0
+1608.530608,11.801822,input,track,joystick_y,0.5
+1608.53066,11.801822,performance,track,joystick_x,0.0
+1608.530694,11.801822,performance,track,joystick_y,0.5
+1608.530755,11.801822,performance,track,cursor_in_target,0
+1608.530797,11.801822,performance,track,center_deviation,50.29637
+1608.530975,11.801822,state,track,"reticle, cursor_relative_x",42.370545
+1608.531026,11.801822,state,track,"reticle, cursor_relative_y",29.376126
+1608.531072,11.801822,state,track,"reticle, cursor_proportional_x",0.108978
+1608.531127,11.801822,state,track,"reticle, cursor_proportional_y",0.075556
+1608.647406,11.918563,input,track,joystick_x,0.0
+1608.647506,11.918563,input,track,joystick_y,0.5
+1608.647559,11.918563,performance,track,joystick_x,0.0
+1608.647594,11.918563,performance,track,joystick_y,0.5
+1608.647653,11.918563,performance,track,cursor_in_target,0
+1608.647697,11.918563,performance,track,center_deviation,51.557927
+1608.647876,11.918563,state,track,"reticle, cursor_relative_x",43.040478
+1608.647928,11.918563,state,track,"reticle, cursor_relative_y",30.625133
+1608.647972,11.918563,state,track,"reticle, cursor_proportional_x",0.110701
+1608.648045,11.918563,state,track,"reticle, cursor_proportional_y",0.078768
+1608.763934,12.035229,input,track,joystick_x,0.0
+1608.764053,12.035229,input,track,joystick_y,0.5
+1608.764108,12.035229,performance,track,joystick_x,0.0
+1608.764143,12.035229,performance,track,joystick_y,0.5
+1608.764206,12.035229,performance,track,cursor_in_target,0
+1608.76425,12.035229,performance,track,center_deviation,52.824062
+1608.764428,12.035229,state,track,"reticle, cursor_relative_x",43.708429
+1608.764478,12.035229,state,track,"reticle, cursor_relative_y",31.870788
+1608.764522,12.035229,state,track,"reticle, cursor_proportional_x",0.112419
+1608.764576,12.035229,state,track,"reticle, cursor_proportional_y",0.081972
+1608.880534,12.151828,input,track,joystick_x,0.0
+1608.880635,12.151828,input,track,joystick_y,0.5
+1608.880685,12.151828,performance,track,joystick_x,0.0
+1608.88072,12.151828,performance,track,joystick_y,0.5
+1608.88078,12.151828,performance,track,cursor_in_target,0
+1608.880823,12.151828,performance,track,center_deviation,54.094121
+1608.881,12.151828,state,track,"reticle, cursor_relative_x",44.374381
+1608.881052,12.151828,state,track,"reticle, cursor_relative_y",33.113063
+1608.881095,12.151828,state,track,"reticle, cursor_proportional_x",0.114132
+1608.881227,12.151828,state,track,"reticle, cursor_proportional_y",0.085167
+1608.980728,12.251833,input,track,joystick_x,0.0
+1608.980826,12.251833,input,track,joystick_y,0.5
+1608.980879,12.251833,performance,track,joystick_x,0.0
+1608.980913,12.251833,performance,track,joystick_y,0.5
+1608.980974,12.251833,performance,track,cursor_in_target,0
+1608.981018,12.251833,performance,track,center_deviation,55.367506
+1608.981197,12.251833,state,track,"reticle, cursor_relative_x",45.038318
+1608.981252,12.251833,state,track,"reticle, cursor_relative_y",34.351933
+1608.981296,12.251833,state,track,"reticle, cursor_proportional_x",0.115839
+1608.981351,12.251833,state,track,"reticle, cursor_proportional_y",0.088354
+1609.096865,12.368189,input,track,joystick_x,-0.5
+1609.09697,12.368189,input,track,joystick_y,0.0
+1609.097022,12.368189,performance,track,joystick_x,-0.5
+1609.097057,12.368189,performance,track,joystick_y,0.0
+1609.097115,12.368189,performance,track,cursor_in_target,0
+1609.097159,12.368189,performance,track,center_deviation,56.64367
+1609.097339,12.368189,state,track,"reticle, cursor_relative_x",45.200222
+1609.097392,12.368189,state,track,"reticle, cursor_relative_y",35.08737
+1609.097436,12.368189,state,track,"reticle, cursor_proportional_x",0.116256
+1609.097492,12.368189,state,track,"reticle, cursor_proportional_y",0.090245
+1609.213581,12.484932,input,track,joystick_x,-0.5
+1609.213684,12.484932,input,track,joystick_y,-0.25
+1609.213737,12.484932,performance,track,joystick_x,-0.5
+1609.213776,12.484932,performance,track,joystick_y,-0.25
+1609.213836,12.484932,performance,track,cursor_in_target,0
+1609.213882,12.484932,performance,track,center_deviation,57.220482
+1609.214063,12.484932,state,track,"reticle, cursor_relative_x",45.360078
+1609.214116,12.484932,state,track,"reticle, cursor_relative_y",35.569347
+1609.21416,12.484932,state,track,"reticle, cursor_proportional_x",0.116667
+1609.214217,12.484932,state,track,"reticle, cursor_proportional_y",0.091485
+1609.313836,12.585072,input,track,joystick_x,-0.5
+1609.313936,12.585072,input,track,joystick_y,-0.75
+1609.313989,12.585072,performance,track,joystick_x,-0.5
+1609.314025,12.585072,performance,track,joystick_y,-0.75
+1609.314082,12.585072,performance,track,cursor_in_target,0
+1609.314126,12.585072,performance,track,center_deviation,57.642997
+1609.314305,12.585072,state,track,"reticle, cursor_relative_x",45.517868
+1609.314355,12.585072,state,track,"reticle, cursor_relative_y",35.547839
+1609.314398,12.585072,state,track,"reticle, cursor_proportional_x",0.117073
+1609.314452,12.585072,state,track,"reticle, cursor_proportional_y",0.09143
+1609.430208,12.701532,input,track,joystick_x,-1.75
+1609.430313,12.701532,input,track,joystick_y,-1.25
+1609.430362,12.701532,performance,track,joystick_x,-1.75
+1609.430397,12.701532,performance,track,joystick_y,-1.25
+1609.430456,12.701532,performance,track,cursor_in_target,0
+1609.4305,12.701532,performance,track,center_deviation,57.754006
+1609.430678,12.701532,state,track,"reticle, cursor_relative_x",44.423576
+1609.430729,12.701532,state,track,"reticle, cursor_relative_y",35.02282
+1609.430773,12.701532,state,track,"reticle, cursor_proportional_x",0.114258
+1609.430828,12.701532,state,track,"reticle, cursor_proportional_y",0.090079
+1609.530241,12.801572,input,track,joystick_x,-1.75
+1609.530342,12.801572,input,track,joystick_y,-1.25
+1609.530394,12.801572,performance,track,joystick_x,-1.75
+1609.53043,12.801572,performance,track,joystick_y,-1.25
+1609.530492,12.801572,performance,track,cursor_in_target,0
+1609.530538,12.801572,performance,track,center_deviation,56.569002
+1609.530716,12.801572,state,track,"reticle, cursor_relative_x",43.327187
+1609.530768,12.801572,state,track,"reticle, cursor_relative_y",34.494263
+1609.530814,12.801572,state,track,"reticle, cursor_proportional_x",0.111438
+1609.530949,12.801572,state,track,"reticle, cursor_proportional_y",0.08872
+1609.64723,12.918444,input,track,joystick_x,-1.75
+1609.647328,12.918444,input,track,joystick_y,-1.25
+1609.647381,12.918444,performance,track,joystick_x,-1.75
+1609.647416,12.918444,performance,track,joystick_y,-1.25
+1609.647476,12.918444,performance,track,cursor_in_target,0
+1609.647522,12.918444,performance,track,center_deviation,55.381398
+1609.6477,12.918444,state,track,"reticle, cursor_relative_x",42.228683
+1609.647751,12.918444,state,track,"reticle, cursor_relative_y",33.962141
+1609.647796,12.918444,state,track,"reticle, cursor_proportional_x",0.108613
+1609.647854,12.918444,state,track,"reticle, cursor_proportional_y",0.087351
+1609.763594,13.034942,input,track,joystick_x,-1.75
+1609.763698,13.034942,input,track,joystick_y,-1.25
+1609.763751,13.034942,performance,track,joystick_x,-1.75
+1609.763786,13.034942,performance,track,joystick_y,-1.25
+1609.763845,13.034942,performance,track,cursor_in_target,0
+1609.763888,13.034942,performance,track,center_deviation,54.191223
+1609.764169,13.034942,state,track,"reticle, cursor_relative_x",41.128048
+1609.764229,13.034942,state,track,"reticle, cursor_relative_y",33.426431
+1609.764276,13.034942,state,track,"reticle, cursor_proportional_x",0.105782
+1609.764333,13.034942,state,track,"reticle, cursor_proportional_y",0.085973
+1609.880321,13.151619,input,track,joystick_x,-1.75
+1609.880425,13.151619,input,track,joystick_y,-1.25
+1609.880478,13.151619,performance,track,joystick_x,-1.75
+1609.880513,13.151619,performance,track,joystick_y,-1.25
+1609.880572,13.151619,performance,track,cursor_in_target,0
+1609.880614,13.151619,performance,track,center_deviation,52.998515
+1609.880795,13.151619,state,track,"reticle, cursor_relative_x",40.025266
+1609.880846,13.151619,state,track,"reticle, cursor_relative_y",32.887105
+1609.880891,13.151619,state,track,"reticle, cursor_proportional_x",0.102946
+1609.880946,13.151619,state,track,"reticle, cursor_proportional_y",0.084586
+1609.996651,13.267989,input,track,joystick_x,-1.75
+1609.996754,13.267989,input,track,joystick_y,-1.25
+1609.996805,13.267989,performance,track,joystick_x,-1.75
+1609.996841,13.267989,performance,track,joystick_y,-1.25
+1609.996899,13.267989,performance,track,cursor_in_target,0
+1609.996942,13.267989,performance,track,center_deviation,51.803316
+1609.997124,13.267989,state,track,"reticle, cursor_relative_x",38.920321
+1609.997176,13.267989,state,track,"reticle, cursor_relative_y",32.344138
+1609.997221,13.267989,state,track,"reticle, cursor_proportional_x",0.100104
+1609.997277,13.267989,state,track,"reticle, cursor_proportional_y",0.08319
+1610.096795,13.368103,input,track,joystick_x,-1.75
+1610.096902,13.368103,input,track,joystick_y,-1.25
+1610.096952,13.368103,performance,track,joystick_x,-1.75
+1610.096988,13.368103,performance,track,joystick_y,-1.25
+1610.097048,13.368103,performance,track,cursor_in_target,0
+1610.09709,13.368103,performance,track,center_deviation,50.605678
+1610.097267,13.368103,state,track,"reticle, cursor_relative_x",37.813197
+1610.09732,13.368103,state,track,"reticle, cursor_relative_y",31.797504
+1610.097365,13.368103,state,track,"reticle, cursor_proportional_x",0.097256
+1610.097421,13.368103,state,track,"reticle, cursor_proportional_y",0.081784
+1610.213261,13.484612,input,track,joystick_x,-1.75
+1610.213363,13.484612,input,track,joystick_y,-1.25
+1610.213415,13.484612,performance,track,joystick_x,-1.75
+1610.213454,13.484612,performance,track,joystick_y,-1.25
+1610.213514,13.484612,performance,track,cursor_in_target,0
+1610.213558,13.484612,performance,track,center_deviation,49.405659
+1610.213735,13.484612,state,track,"reticle, cursor_relative_x",36.703878
+1610.213785,13.484612,state,track,"reticle, cursor_relative_y",31.247179
+1610.213829,13.484612,state,track,"reticle, cursor_proportional_x",0.094403
+1610.213885,13.484612,state,track,"reticle, cursor_proportional_y",0.080368
+1610.313429,13.584634,input,track,joystick_x,-1.75
+1610.313529,13.584634,input,track,joystick_y,-1.25
+1610.313581,13.584634,performance,track,joystick_x,-1.75
+1610.313616,13.584634,performance,track,joystick_y,-1.25
+1610.313674,13.584634,performance,track,cursor_in_target,1
+1610.313718,13.584634,performance,track,center_deviation,48.203328
+1610.313758,13.584634,performance,track,response_time,1700
+1610.31393,13.584634,state,track,"reticle, cursor_relative_x",35.592347
+1610.31398,13.584634,state,track,"reticle, cursor_relative_y",30.693137
+1610.314023,13.584634,state,track,"reticle, cursor_proportional_x",0.091544
+1610.314078,13.584634,state,track,"reticle, cursor_proportional_y",0.078943
+1610.314226,13.584634,state,track,"reticle, cursor_color","(0, 153, 0, 255)"
+1610.429772,13.701122,input,track,joystick_x,-1.75
+1610.429877,13.701122,input,track,joystick_y,-1.25
+1610.429929,13.701122,performance,track,joystick_x,-1.75
+1610.429965,13.701122,performance,track,joystick_y,-1.25
+1610.430023,13.701122,performance,track,cursor_in_target,1
+1610.430069,13.701122,performance,track,center_deviation,46.998764
+1610.430245,13.701122,state,track,"reticle, cursor_relative_x",34.478589
+1610.430295,13.701122,state,track,"reticle, cursor_relative_y",30.135353
+1610.43034,13.701122,state,track,"reticle, cursor_proportional_x",0.088679
+1610.430395,13.701122,state,track,"reticle, cursor_proportional_y",0.077509
+1610.529862,13.801196,input,track,joystick_x,-1.75
+1610.529963,13.801196,input,track,joystick_y,-1.25
+1610.530013,13.801196,performance,track,joystick_x,-1.75
+1610.530049,13.801196,performance,track,joystick_y,-1.25
+1610.530109,13.801196,performance,track,cursor_in_target,1
+1610.530153,13.801196,performance,track,center_deviation,45.792059
+1610.530331,13.801196,state,track,"reticle, cursor_relative_x",33.362588
+1610.530383,13.801196,state,track,"reticle, cursor_relative_y",29.573802
+1610.530427,13.801196,state,track,"reticle, cursor_proportional_x",0.085809
+1610.530481,13.801196,state,track,"reticle, cursor_proportional_y",0.076064
+1610.646612,13.917846,input,track,joystick_x,-1.75
+1610.646709,13.917846,input,track,joystick_y,-1.25
+1610.646761,13.917846,performance,track,joystick_x,-1.75
+1610.646797,13.917846,performance,track,joystick_y,-1.25
+1610.646855,13.917846,performance,track,cursor_in_target,1
+1610.646899,13.917846,performance,track,center_deviation,44.583316
+1610.647076,13.917846,state,track,"reticle, cursor_relative_x",32.244328
+1610.647127,13.917846,state,track,"reticle, cursor_relative_y",29.00846
+1610.64717,13.917846,state,track,"reticle, cursor_proportional_x",0.082933
+1610.647225,13.917846,state,track,"reticle, cursor_proportional_y",0.07461
+1610.74656,14.0179,input,track,joystick_x,-1.75
+1610.746663,14.0179,input,track,joystick_y,-1.25
+1610.746715,14.0179,performance,track,joystick_x,-1.75
+1610.74675,14.0179,performance,track,joystick_y,-1.25
+1610.746809,14.0179,performance,track,cursor_in_target,1
+1610.746854,14.0179,performance,track,center_deviation,43.372658
+1610.747034,14.0179,state,track,"reticle, cursor_relative_x",31.123793
+1610.747085,14.0179,state,track,"reticle, cursor_relative_y",28.439301
+1610.74713,14.0179,state,track,"reticle, cursor_proportional_x",0.080051
+1610.747184,14.0179,state,track,"reticle, cursor_proportional_y",0.073146
+1610.862813,14.134209,input,track,joystick_x,-1.75
+1610.86292,14.134209,input,track,joystick_y,-1.25
+1610.862972,14.134209,performance,track,joystick_x,-1.75
+1610.863007,14.134209,performance,track,joystick_y,-1.25
+1610.863066,14.134209,performance,track,cursor_in_target,1
+1610.863111,14.134209,performance,track,center_deviation,42.160222
+1610.863289,14.134209,state,track,"reticle, cursor_relative_x",30.000967
+1610.86334,14.134209,state,track,"reticle, cursor_relative_y",27.866302
+1610.863384,14.134209,state,track,"reticle, cursor_proportional_x",0.077163
+1610.86344,14.134209,state,track,"reticle, cursor_proportional_y",0.071673
+1610.963218,14.234544,input,track,joystick_x,-1.75
+1610.96332,14.234544,input,track,joystick_y,-1.25
+1610.963369,14.234544,performance,track,joystick_x,-1.75
+1610.96348,14.234544,performance,track,joystick_y,-1.25
+1610.963544,14.234544,performance,track,cursor_in_target,1
+1610.963589,14.234544,performance,track,center_deviation,40.946169
+1610.963771,14.234544,state,track,"reticle, cursor_relative_x",28.875835
+1610.963834,14.234544,state,track,"reticle, cursor_relative_y",27.289437
+1610.963877,14.234544,state,track,"reticle, cursor_proportional_x",0.074269
+1610.963932,14.234544,state,track,"reticle, cursor_proportional_y",0.070189
+1611.079675,14.351017,input,track,joystick_x,-1.75
+1611.079782,14.351017,input,track,joystick_y,-1.25
+1611.079834,14.351017,performance,track,joystick_x,-1.75
+1611.079871,14.351017,performance,track,joystick_y,-1.25
+1611.079931,14.351017,performance,track,cursor_in_target,1
+1611.079973,14.351017,performance,track,center_deviation,39.730684
+1611.080163,14.351017,state,track,"reticle, cursor_relative_x",27.748381
+1611.080215,14.351017,state,track,"reticle, cursor_relative_y",26.708683
+1611.08026,14.351017,state,track,"reticle, cursor_proportional_x",0.071369
+1611.080315,14.351017,state,track,"reticle, cursor_proportional_y",0.068695
+1611.179936,14.4513,input,track,joystick_x,-1.75
+1611.180056,14.4513,input,track,joystick_y,-1.25
+1611.180109,14.4513,performance,track,joystick_x,-1.75
+1611.180146,14.4513,performance,track,joystick_y,-1.25
+1611.180205,14.4513,performance,track,cursor_in_target,1
+1611.180249,14.4513,performance,track,center_deviation,38.513977
+1611.180425,14.4513,state,track,"reticle, cursor_relative_x",26.61859
+1611.180478,14.4513,state,track,"reticle, cursor_relative_y",26.124015
+1611.180521,14.4513,state,track,"reticle, cursor_proportional_x",0.068463
+1611.180575,14.4513,state,track,"reticle, cursor_proportional_y",0.067191
+1611.296283,14.567568,input,track,joystick_x,-1.75
+1611.296386,14.567568,input,track,joystick_y,-1.25
+1611.296438,14.567568,performance,track,joystick_x,-1.75
+1611.296472,14.567568,performance,track,joystick_y,-1.25
+1611.296532,14.567568,performance,track,cursor_in_target,1
+1611.296574,14.567568,performance,track,center_deviation,37.296293
+1611.29675,14.567568,state,track,"reticle, cursor_relative_x",25.486446
+1611.296802,14.567568,state,track,"reticle, cursor_relative_y",25.53541
+1611.296846,14.567568,state,track,"reticle, cursor_proportional_x",0.065552
+1611.296902,14.567568,state,track,"reticle, cursor_proportional_y",0.065677
+1611.412864,14.68419,input,track,joystick_x,-1.75
+1611.412964,14.68419,input,track,joystick_y,-1.25
+1611.413012,14.68419,performance,track,joystick_x,-1.75
+1611.413046,14.68419,performance,track,joystick_y,-1.25
+1611.413104,14.68419,performance,track,cursor_in_target,1
+1611.413148,14.68419,performance,track,center_deviation,36.077917
+1611.413325,14.68419,state,track,"reticle, cursor_relative_x",24.351933
+1611.413377,14.68419,state,track,"reticle, cursor_relative_y",24.942844
+1611.413422,14.68419,state,track,"reticle, cursor_proportional_x",0.062634
+1611.413476,14.68419,state,track,"reticle, cursor_proportional_y",0.064153
+1611.512952,14.784303,input,track,joystick_x,-1.75
+1611.513053,14.784303,input,track,joystick_y,-1.25
+1611.513104,14.784303,performance,track,joystick_x,-1.75
+1611.513139,14.784303,performance,track,joystick_y,-1.25
+1611.513198,14.784303,performance,track,cursor_in_target,1
+1611.513241,14.784303,performance,track,center_deviation,34.859175
+1611.513419,14.784303,state,track,"reticle, cursor_relative_x",23.215036
+1611.51347,14.784303,state,track,"reticle, cursor_relative_y",24.346293
+1611.513515,14.784303,state,track,"reticle, cursor_proportional_x",0.059709
+1611.513571,14.784303,state,track,"reticle, cursor_proportional_y",0.062619
+1611.62957,14.900912,input,track,joystick_x,-1.75
+1611.629674,14.900912,input,track,joystick_y,-1.25
+1611.629726,14.900912,performance,track,joystick_x,-1.75
+1611.629761,14.900912,performance,track,joystick_y,-1.25
+1611.629821,14.900912,performance,track,cursor_in_target,1
+1611.629864,14.900912,performance,track,center_deviation,33.64045
+1611.630041,14.900912,state,track,"reticle, cursor_relative_x",22.075741
+1611.630092,14.900912,state,track,"reticle, cursor_relative_y",23.745733
+1611.630136,14.900912,state,track,"reticle, cursor_proportional_x",0.056779
+1611.630189,14.900912,state,track,"reticle, cursor_proportional_y",0.061074
+1611.746074,15.017424,input,track,joystick_x,-1.75
+1611.746178,15.017424,input,track,joystick_y,-1.25
+1611.746228,15.017424,performance,track,joystick_x,-1.75
+1611.746263,15.017424,performance,track,joystick_y,-1.25
+1611.746322,15.017424,performance,track,cursor_in_target,1
+1611.746365,15.017424,performance,track,center_deviation,32.422186
+1611.74654,15.017424,state,track,"reticle, cursor_relative_x",20.934031
+1611.746593,15.017424,state,track,"reticle, cursor_relative_y",23.141141
+1611.74664,15.017424,state,track,"reticle, cursor_proportional_x",0.053843
+1611.746695,15.017424,state,track,"reticle, cursor_proportional_y",0.059519
+1611.846098,15.117459,input,track,joystick_x,-1.75
+1611.846205,15.117459,input,track,joystick_y,-1.25
+1611.846258,15.117459,performance,track,joystick_x,-1.75
+1611.846294,15.117459,performance,track,joystick_y,-1.25
+1611.846353,15.117459,performance,track,cursor_in_target,1
+1611.846398,15.117459,performance,track,center_deviation,31.204904
+1611.84658,15.117459,state,track,"reticle, cursor_relative_x",19.789891
+1611.84663,15.117459,state,track,"reticle, cursor_relative_y",22.532495
+1611.846676,15.117459,state,track,"reticle, cursor_proportional_x",0.0509
+1611.846731,15.117459,state,track,"reticle, cursor_proportional_y",0.057954
+1611.946198,15.217512,input,track,joystick_x,-1.75
+1611.946301,15.217512,input,track,joystick_y,-1.25
+1611.946352,15.217512,performance,track,joystick_x,-1.75
+1611.946387,15.217512,performance,track,joystick_y,-1.25
+1611.946448,15.217512,performance,track,cursor_in_target,1
+1611.946492,15.217512,performance,track,center_deviation,29.989217
+1611.946669,15.217512,state,track,"reticle, cursor_relative_x",18.643307
+1611.94672,15.217512,state,track,"reticle, cursor_relative_y",21.91977
+1611.946765,15.217512,state,track,"reticle, cursor_proportional_x",0.047951
+1611.946819,15.217512,state,track,"reticle, cursor_proportional_y",0.056378
+1612.062981,15.334207,input,track,joystick_x,-1.75
+1612.06308,15.334207,input,track,joystick_y,-1.25
+1612.06313,15.334207,performance,track,joystick_x,-1.75
+1612.063166,15.334207,performance,track,joystick_y,-1.25
+1612.063225,15.334207,performance,track,cursor_in_target,1
+1612.063268,15.334207,performance,track,center_deviation,28.775844
+1612.063442,15.334207,state,track,"reticle, cursor_relative_x",17.494263
+1612.063493,15.334207,state,track,"reticle, cursor_relative_y",21.302944
+1612.063538,15.334207,state,track,"reticle, cursor_proportional_x",0.044996
+1612.063591,15.334207,state,track,"reticle, cursor_proportional_y",0.054792
+1612.17933,15.450669,input,track,joystick_x,-1.75
+1612.179436,15.450669,input,track,joystick_y,-1.25
+1612.179489,15.450669,performance,track,joystick_x,-1.75
+1612.179524,15.450669,performance,track,joystick_y,-1.25
+1612.179584,15.450669,performance,track,cursor_in_target,1
+1612.179628,15.450669,performance,track,center_deviation,27.565643
+1612.179804,15.450669,state,track,"reticle, cursor_relative_x",16.342744
+1612.179856,15.450669,state,track,"reticle, cursor_relative_y",20.681994
+1612.1799,15.450669,state,track,"reticle, cursor_proportional_x",0.042034
+1612.179955,15.450669,state,track,"reticle, cursor_proportional_y",0.053194
+1612.290766,15.562865,input,track,joystick_x,-1.75
+1612.290836,15.562865,input,track,joystick_y,-1.25
+1612.290859,15.562865,performance,track,joystick_x,-1.75
+1612.290876,15.562865,performance,track,joystick_y,-1.25
+1612.290913,15.562865,performance,track,cursor_in_target,1
+1612.290937,15.562865,performance,track,center_deviation,26.359631
+1612.291032,15.562865,state,track,"reticle, cursor_relative_x",15.188735
+1612.291055,15.562865,state,track,"reticle, cursor_relative_y",20.056898
+1612.291076,15.562865,state,track,"reticle, cursor_proportional_x",0.039066
+1612.291185,15.562865,state,track,"reticle, cursor_proportional_y",0.051587
+1613.954702,15.60135,state,track,"foreground, visibility",1
+1613.954781,15.60135,event,track,self,stop

@@ -1,13 +1,25 @@
 # Copyright 2023, by Julien Cegarra & Benoît Valéry. All rights reserved.
 # Institut National Universitaire Champollion (Albi, France).
 # License : CeCILL, version 2.1 (see the LICENSE file)
-
+import configparser
+import gettext
+import sys
+from pathlib import Path
 from collections import namedtuple
 from time import perf_counter
 from datetime import datetime
 from csv import DictWriter
 from core.constants import PATHS, REPLAY_MODE
 from core.utils import find_the_first_available_session_number, find_the_last_session_number
+
+config = configparser.ConfigParser()
+config.read('config.ini')
+scenario_path = config['Openmatb']['scenario_path']
+
+def get_scenario_prefix(scenario_path):
+    return scenario_path.split('_')[1]  # Extracting 'easy', 'medium', or 'hard'
+
+scenario_prefix = get_scenario_prefix(scenario_path)
 
 class Logger:
     def __init__(self):
@@ -20,17 +32,17 @@ class Logger:
 
         
         self.session_id = find_the_first_available_session_number()
-
-        self.path = PATHS['SESSIONS'].joinpath(self.datetime.strftime("%Y-%m-%d"), f"Session {self.session_id}").joinpath(f'{self.session_id}_{self.datetime.strftime("%y%m%d_%H%M%S")}.csv')
-        self.path_sysmon = PATHS['SESSIONS'].joinpath(self.datetime.strftime("%Y-%m-%d"), f"Session {self.session_id}").joinpath(f'{self.session_id}_{self.datetime.strftime("%y%m%d_%H%M%S")}_sysmon.csv')
-        self.path_track = PATHS['SESSIONS'].joinpath(self.datetime.strftime("%Y-%m-%d"), f"Session {self.session_id}").joinpath(f'{self.session_id}_{self.datetime.strftime("%y%m%d_%H%M%S")}_track.csv')
-        self.path_track_input_x = PATHS['SESSIONS'].joinpath(self.datetime.strftime("%Y-%m-%d"), f"Session {self.session_id}").joinpath(f'{self.session_id}_{self.datetime.strftime("%y%m%d_%H%M%S")}_track_input_x.csv')
-        self.path_track_input_y = PATHS['SESSIONS'].joinpath(self.datetime.strftime("%Y-%m-%d"), f"Session {self.session_id}").joinpath(f'{self.session_id}_{self.datetime.strftime("%y%m%d_%H%M%S")}_track_input_y.csv')
-        self.path_track_state_x = PATHS['SESSIONS'].joinpath(self.datetime.strftime("%Y-%m-%d"), f"Session {self.session_id}").joinpath(f'{self.session_id}_{self.datetime.strftime("%y%m%d_%H%M%S")}_track_state_x.csv')
-        self.path_track_state_y = PATHS['SESSIONS'].joinpath(self.datetime.strftime("%Y-%m-%d"), f"Session {self.session_id}").joinpath(f'{self.session_id}_{self.datetime.strftime("%y%m%d_%H%M%S")}_track_state_y.csv')
-        self.path_resman = PATHS['SESSIONS'].joinpath(self.datetime.strftime("%Y-%m-%d"), f"Session {self.session_id}").joinpath(f'{self.session_id}_{self.datetime.strftime("%y%m%d_%H%M%S")}_resman.csv')
-        self.path_scheduling = PATHS['SESSIONS'].joinpath(self.datetime.strftime("%Y-%m-%d"), f"Session {self.session_id}").joinpath(f'{self.session_id}_{self.datetime.strftime("%y%m%d_%H%M%S")}_scheduling.csv')
-        self.path_performance = PATHS['SESSIONS'].joinpath(self.datetime.strftime("%Y-%m-%d"), f"Session {self.session_id}").joinpath(f'{self.session_id}_{self.datetime.strftime("%y%m%d_%H%M%S")}_performance.csv')
+        session_dir = PATHS['SESSIONS'].joinpath(self.datetime.strftime("%Y-%m-%d"), f"Session {self.session_id} {scenario_prefix}")
+        self.path = session_dir.joinpath(f'{self.session_id}_{self.datetime.strftime("%y%m%d_%H%M%S")}.csv')
+        self.path_sysmon = session_dir.joinpath(f'{self.session_id}_{self.datetime.strftime("%y%m%d_%H%M%S")}_sysmon.csv')
+        self.path_track = session_dir.joinpath(f'{self.session_id}_{self.datetime.strftime("%y%m%d_%H%M%S")}_track.csv')
+        self.path_track_input_x = session_dir.joinpath(f'{self.session_id}_{self.datetime.strftime("%y%m%d_%H%M%S")}_track_input_x.csv')
+        self.path_track_input_y = session_dir.joinpath(f'{self.session_id}_{self.datetime.strftime("%y%m%d_%H%M%S")}_track_input_y.csv')
+        self.path_track_state_x = session_dir.joinpath(f'{self.session_id}_{self.datetime.strftime("%y%m%d_%H%M%S")}_track_state_x.csv')
+        self.path_track_state_y = session_dir.joinpath(f'{self.session_id}_{self.datetime.strftime("%y%m%d_%H%M%S")}_track_state_y.csv')
+        self.path_resman = session_dir.joinpath(f'{self.session_id}_{self.datetime.strftime("%y%m%d_%H%M%S")}_resman.csv')
+        self.path_scheduling = session_dir.joinpath(f'{self.session_id}_{self.datetime.strftime("%y%m%d_%H%M%S")}_scheduling.csv')
+        self.path_performance = session_dir.joinpath(f'{self.session_id}_{self.datetime.strftime("%y%m%d_%H%M%S")}_performance.csv')
 
         self.path.parent.mkdir(parents=True, exist_ok=True)
         self.mode = 'w'

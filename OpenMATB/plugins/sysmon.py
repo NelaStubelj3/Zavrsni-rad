@@ -90,7 +90,27 @@ class Sysmon(AbstractPlugin):
         if super().compute_next_plugin_state() == 0:
             return
 
-        # For the gauges that are on failure
+        event_occured = False
+        last_response_time = None
+        for scale in self.parameters['scales'].values():
+            if scale['_pos'] in [0, 1, 2, 8, 9, 10] :  
+                event_occured = True
+                last_response_time = scale['_milliresponsetime']
+                break
+
+        # Isto za svjetla
+        for light in self.parameters['lights'].values():
+            if light['failure']:
+                event_occured = True
+                break
+
+        self.log_performance('event_occured', 1 if event_occured else 0) 
+
+        if last_response_time is not None:
+            self.log_performance('response_time', last_response_time)
+        else:
+            self.log_performance('response_time', 0)  # Default value if no response time was found
+        
         for gauge in self.get_gauges_on_failure():
             # Decrement their failure timer / increment their response time
             gauge['_failuretimer'] -= self.parameters['taskupdatetime']
@@ -211,7 +231,7 @@ class Sysmon(AbstractPlugin):
             sdt_string, rt = 'HIT', gauge['_milliresponsetime']
         else:
             sdt_string, rt = 'MISS', float('nan')
-        sdt_string = 'HIT' if ft == 'positive' else 'MISS'
+        #sdt_string = 'HIT' if ft == 'positive' else 'MISS'
 
         self.log_performance('name', gauge['name'])
         self.log_performance('signal_detection', sdt_string)
@@ -278,8 +298,8 @@ class Sysmon(AbstractPlugin):
                 self.stop_failure(gauge=gauge, success=True)
             else:
                 self.log_performance('name', gauge['name'])
-                self.log_performance('signal_detection', 'FA')
-                self.log_performance('response_time', float('nan'))
+                self.log_performance('signal_detection', 'MISS')
+                #self.log_performance('response_time', float('nan'))
 
                 # Set a negative feedback if relevant
                 if self.parameters['feedbacks']['negative']['active']:

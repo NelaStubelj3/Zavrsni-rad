@@ -1,0 +1,2878 @@
+126156.358529,0.017353,event,sysmon,feedbacks-positive-color,"(0, 255, 0, 255)"
+126157.310057,0.034359,event,sysmon,feedbacks-negative-color,"(255, 0, 0, 255)"
+126157.344723,0.067323,aoi,sysmon,foreground,"(0, 1026.0, 672, 540.0)"
+126157.345709,0.067323,aoi,sysmon,overdue,"(0, 1026.0, 672, 540.0)"
+126157.361184,0.067323,aoi,sysmon,task_title,"(0, 1080.0, 672, 1026.0)"
+126157.362456,0.067323,aoi,sysmon,automode,"(285.6, 592.65, 386.40000000000003, 565.65)"
+126157.365834,0.067323,aoi,sysmon,scale1,"(50.4, 855.9, 117.6, 612.9)"
+126157.369495,0.067323,aoi,sysmon,scale2,"(218.4, 855.9, 285.6, 612.9)"
+126157.37308,0.067323,aoi,sysmon,scale3,"(386.4, 855.9, 453.59999999999997, 612.9)"
+126157.377933,0.067323,aoi,sysmon,scale4,"(554.4, 855.9, 621.6, 612.9)"
+126157.381212,0.067323,aoi,sysmon,light1,"(33.599999999999994, 977.4, 302.4, 904.5)"
+126157.384317,0.067323,aoi,sysmon,light2,"(369.6, 977.4, 638.4000000000001, 904.5)"
+126157.384414,0.067323,parameter,sysmon,title,System monitoring
+126157.384457,0.067323,parameter,sysmon,taskplacement,topleft
+126157.384499,0.067323,parameter,sysmon,taskupdatetime,100
+126157.384538,0.067323,parameter,sysmon,taskfeedback-overdue-active,0
+126157.384573,0.067323,parameter,sysmon,taskfeedback-overdue-color,"(241, 100, 100, 255)"
+126157.38461,0.067323,parameter,sysmon,taskfeedback-overdue-delayms,2000
+126157.384642,0.067323,parameter,sysmon,taskfeedback-overdue-blinkdurationms,1000
+126157.384675,0.067323,parameter,sysmon,taskfeedback-overdue-_nexttoggletime,0
+126157.384707,0.067323,parameter,sysmon,taskfeedback-overdue-_is_visible,0
+126157.38474,0.067323,parameter,sysmon,taskfeedback-overdue-widget,<core.widgets.frame.Frame object at 0x7fdf86b79550>
+126157.384794,0.067323,parameter,sysmon,alerttimeout,10000
+126157.384827,0.067323,parameter,sysmon,automaticsolver,0
+126157.384857,0.067323,parameter,sysmon,automaticsolverdelay,1000
+126157.384888,0.067323,parameter,sysmon,displayautomationstate,1
+126157.384919,0.067323,parameter,sysmon,allowanykey,0
+126157.384948,0.067323,parameter,sysmon,feedbackduration,1500
+126157.384981,0.067323,parameter,sysmon,feedbacks-positive-active,1
+126157.385012,0.067323,parameter,sysmon,feedbacks-positive-color,"(0, 255, 0, 255)"
+126157.385049,0.067323,parameter,sysmon,feedbacks-negative-active,1
+126157.38508,0.067323,parameter,sysmon,feedbacks-negative-color,"(255, 0, 0, 255)"
+126157.385115,0.067323,parameter,sysmon,lights-1-name,5
+126157.385147,0.067323,parameter,sysmon,lights-1-failure,0
+126157.385178,0.067323,parameter,sysmon,lights-1-default,on
+126157.385208,0.067323,parameter,sysmon,lights-1-oncolor,"(142, 219, 176, 255)"
+126157.385243,0.067323,parameter,sysmon,lights-1-key,_5
+126157.385273,0.067323,parameter,sysmon,lights-1-on,1
+126157.385304,0.067323,parameter,sysmon,lights-1-_failuretimer,
+126157.385334,0.067323,parameter,sysmon,lights-1-_onfailure,0
+126157.385364,0.067323,parameter,sysmon,lights-1-_milliresponsetime,0
+126157.385395,0.067323,parameter,sysmon,lights-1-_freezetimer,
+126157.385428,0.067323,parameter,sysmon,lights-1-widget,<core.widgets.light.Light object at 0x7fdf86b6e310>
+126157.385466,0.067323,parameter,sysmon,lights-2-name,6
+126157.385496,0.067323,parameter,sysmon,lights-2-failure,0
+126157.385527,0.067323,parameter,sysmon,lights-2-default,off
+126157.385556,0.067323,parameter,sysmon,lights-2-oncolor,"(241, 100, 100, 255)"
+126157.385589,0.067323,parameter,sysmon,lights-2-key,_6
+126157.385619,0.067323,parameter,sysmon,lights-2-on,0
+126157.385649,0.067323,parameter,sysmon,lights-2-_failuretimer,
+126157.385679,0.067323,parameter,sysmon,lights-2-_onfailure,0
+126157.38571,0.067323,parameter,sysmon,lights-2-_milliresponsetime,0
+126157.385741,0.067323,parameter,sysmon,lights-2-_freezetimer,
+126157.385771,0.067323,parameter,sysmon,lights-2-widget,<core.widgets.light.Light object at 0x7fdf86bb11f0>
+126157.385809,0.067323,parameter,sysmon,scales-1-name,1
+126157.385838,0.067323,parameter,sysmon,scales-1-failure,0
+126157.385869,0.067323,parameter,sysmon,scales-1-side,0
+126157.385903,0.067323,parameter,sysmon,scales-1-key,_1
+126157.385932,0.067323,parameter,sysmon,scales-1-_failuretimer,
+126157.385962,0.067323,parameter,sysmon,scales-1-_onfailure,0
+126157.385992,0.067323,parameter,sysmon,scales-1-_milliresponsetime,0
+126157.386023,0.067323,parameter,sysmon,scales-1-_freezetimer,
+126157.386053,0.067323,parameter,sysmon,scales-1-_pos,5
+126157.386084,0.067323,parameter,sysmon,scales-1-_zone,0
+126157.386115,0.067323,parameter,sysmon,scales-1-_feedbacktimer,
+126157.386144,0.067323,parameter,sysmon,scales-1-_feedbacktype,
+126157.386175,0.067323,parameter,sysmon,scales-1-widget,<core.widgets.scale.Scale object at 0x7fdf86b72400>
+126157.386211,0.067323,parameter,sysmon,scales-2-name,2
+126157.386241,0.067323,parameter,sysmon,scales-2-failure,0
+126157.386271,0.067323,parameter,sysmon,scales-2-side,0
+126157.386304,0.067323,parameter,sysmon,scales-2-key,_2
+126157.386335,0.067323,parameter,sysmon,scales-2-_failuretimer,
+126157.386365,0.067323,parameter,sysmon,scales-2-_onfailure,0
+126157.386396,0.067323,parameter,sysmon,scales-2-_milliresponsetime,0
+126157.386426,0.067323,parameter,sysmon,scales-2-_freezetimer,
+126157.386456,0.067323,parameter,sysmon,scales-2-_pos,5
+126157.386487,0.067323,parameter,sysmon,scales-2-_zone,0
+126157.386517,0.067323,parameter,sysmon,scales-2-_feedbacktimer,
+126157.386547,0.067323,parameter,sysmon,scales-2-_feedbacktype,
+126157.386577,0.067323,parameter,sysmon,scales-2-widget,<core.widgets.scale.Scale object at 0x7fdf86b721c0>
+126157.386613,0.067323,parameter,sysmon,scales-3-name,3
+126157.386643,0.067323,parameter,sysmon,scales-3-failure,0
+126157.386673,0.067323,parameter,sysmon,scales-3-side,0
+126157.386704,0.067323,parameter,sysmon,scales-3-key,_3
+126157.386733,0.067323,parameter,sysmon,scales-3-_failuretimer,
+126157.386763,0.067323,parameter,sysmon,scales-3-_onfailure,0
+126157.386794,0.067323,parameter,sysmon,scales-3-_milliresponsetime,0
+126157.386828,0.067323,parameter,sysmon,scales-3-_freezetimer,
+126157.386859,0.067323,parameter,sysmon,scales-3-_pos,5
+126157.386889,0.067323,parameter,sysmon,scales-3-_zone,0
+126157.386922,0.067323,parameter,sysmon,scales-3-_feedbacktimer,
+126157.386952,0.067323,parameter,sysmon,scales-3-_feedbacktype,
+126157.386982,0.067323,parameter,sysmon,scales-3-widget,<core.widgets.scale.Scale object at 0x7fdf86b67ca0>
+126157.387019,0.067323,parameter,sysmon,scales-4-name,4
+126157.387048,0.067323,parameter,sysmon,scales-4-failure,0
+126157.387078,0.067323,parameter,sysmon,scales-4-side,0
+126157.387121,0.067323,parameter,sysmon,scales-4-key,_4
+126157.387167,0.067323,parameter,sysmon,scales-4-_failuretimer,
+126157.387199,0.067323,parameter,sysmon,scales-4-_onfailure,0
+126157.387229,0.067323,parameter,sysmon,scales-4-_milliresponsetime,0
+126157.38726,0.067323,parameter,sysmon,scales-4-_freezetimer,
+126157.38729,0.067323,parameter,sysmon,scales-4-_pos,5
+126157.387321,0.067323,parameter,sysmon,scales-4-_zone,0
+126157.387351,0.067323,parameter,sysmon,scales-4-_feedbacktimer,
+126157.387381,0.067323,parameter,sysmon,scales-4-_feedbacktype,
+126157.387411,0.067323,parameter,sysmon,scales-4-widget,<core.widgets.scale.Scale object at 0x7fdf86b73100>
+126157.408522,0.067323,state,sysmon,"foreground, visibility",1
+126157.408754,0.067323,state,sysmon,"overdue, visibility",1
+126157.412149,0.067323,event,sysmon,self,start
+126157.414188,0.138574,performance,sysmon,event_occured,0
+126157.414381,0.138574,seed_value,sysmon,,
+126157.414403,0.138574,seed_output,sysmon,,-1
+126157.414438,0.138574,seed_value,sysmon,,
+126157.414454,0.138574,seed_output,sysmon,,-1
+126157.414482,0.138574,seed_value,sysmon,,
+126157.414498,0.138574,seed_output,sysmon,,-1
+126157.414525,0.138574,seed_value,sysmon,,
+126157.41454,0.138574,seed_output,sysmon,,-1
+126157.41461,0.138574,state,sysmon,"foreground, visibility",0
+126157.416127,0.138574,state,sysmon,"automode, text",MANUAL
+126157.416181,0.138574,state,sysmon,"overdue, visibility",0
+126157.416231,0.138574,state,sysmon,"scale1, arrow",4
+126157.416261,0.138574,state,sysmon,"scale2, arrow",4
+126157.416285,0.138574,state,sysmon,"scale3, arrow",4
+126157.416339,0.138574,state,sysmon,"scale4, arrow",4
+126157.530587,0.254872,performance,sysmon,event_occured,0
+126157.53088,0.254872,seed_value,sysmon,,
+126157.530924,0.254872,seed_output,sysmon,,-1
+126157.530993,0.254872,seed_value,sysmon,,
+126157.531027,0.254872,seed_output,sysmon,,-1
+126157.531089,0.254872,seed_value,sysmon,,
+126157.531123,0.254872,seed_output,sysmon,,-1
+126157.531183,0.254872,seed_value,sysmon,,
+126157.531214,0.254872,seed_output,sysmon,,1
+126157.531375,0.254872,state,sysmon,"scale1, arrow",3
+126157.531434,0.254872,state,sysmon,"scale2, arrow",3
+126157.531484,0.254872,state,sysmon,"scale3, arrow",3
+126157.531529,0.254872,state,sysmon,"scale4, arrow",5
+126157.647207,0.37154,performance,sysmon,event_occured,0
+126157.6476,0.37154,seed_value,sysmon,,
+126157.647677,0.37154,seed_output,sysmon,,1
+126157.64779,0.37154,seed_value,sysmon,,
+126157.647848,0.37154,seed_output,sysmon,,-1
+126157.647931,0.37154,seed_value,sysmon,,
+126157.647966,0.37154,seed_output,sysmon,,1
+126157.648063,0.37154,seed_value,sysmon,,
+126157.648102,0.37154,seed_output,sysmon,,1
+126157.648222,0.37154,state,sysmon,"scale1, arrow",4
+126157.64828,0.37154,state,sysmon,"scale2, arrow",4
+126157.648325,0.37154,state,sysmon,"scale3, arrow",4
+126157.648367,0.37154,state,sysmon,"scale4, arrow",6
+126157.763707,0.488037,performance,sysmon,event_occured,0
+126157.763979,0.488037,seed_value,sysmon,,
+126157.764059,0.488037,seed_output,sysmon,,1
+126157.76414,0.488037,seed_value,sysmon,,
+126157.764175,0.488037,seed_output,sysmon,,-1
+126157.764238,0.488037,seed_value,sysmon,,
+126157.764272,0.488037,seed_output,sysmon,,-1
+126157.764334,0.488037,seed_value,sysmon,,
+126157.764368,0.488037,seed_output,sysmon,,1
+126157.764544,0.488037,state,sysmon,"scale1, arrow",5
+126157.764622,0.488037,state,sysmon,"scale2, arrow",3
+126157.764673,0.488037,state,sysmon,"scale3, arrow",3
+126157.764715,0.488037,state,sysmon,"scale4, arrow",7
+126157.863837,0.588142,performance,sysmon,event_occured,0
+126157.864126,0.588142,seed_value,sysmon,,
+126157.864175,0.588142,seed_output,sysmon,,-1
+126157.864248,0.588142,seed_value,sysmon,,
+126157.864283,0.588142,seed_output,sysmon,,-1
+126157.864347,0.588142,seed_value,sysmon,,
+126157.864379,0.588142,seed_output,sysmon,,1
+126157.864439,0.588142,seed_value,sysmon,,
+126157.864471,0.588142,seed_output,sysmon,,-1
+126157.864634,0.588142,state,sysmon,"scale1, arrow",4
+126157.8647,0.588142,state,sysmon,"scale2, arrow",4
+126157.864756,0.588142,state,sysmon,"scale3, arrow",4
+126157.864811,0.588142,state,sysmon,"scale4, arrow",6
+126157.980661,0.704975,performance,sysmon,event_occured,0
+126157.981008,0.704975,seed_value,sysmon,,
+126157.981078,0.704975,seed_output,sysmon,,1
+126157.981156,0.704975,seed_value,sysmon,,
+126157.981191,0.704975,seed_output,sysmon,,-1
+126157.981259,0.704975,seed_value,sysmon,,
+126157.981293,0.704975,seed_output,sysmon,,1
+126157.981354,0.704975,seed_value,sysmon,,
+126157.981387,0.704975,seed_output,sysmon,,1
+126157.981544,0.704975,state,sysmon,"scale1, arrow",5
+126157.981609,0.704975,state,sysmon,"scale2, arrow",3
+126157.981658,0.704975,state,sysmon,"scale3, arrow",5
+126157.981701,0.704975,state,sysmon,"scale4, arrow",7
+126158.080735,0.805045,performance,sysmon,event_occured,0
+126158.081037,0.805045,seed_value,sysmon,,
+126158.081081,0.805045,seed_output,sysmon,,1
+126158.081155,0.805045,seed_value,sysmon,,
+126158.081192,0.805045,seed_output,sysmon,,-1
+126158.081257,0.805045,seed_value,sysmon,,
+126158.081291,0.805045,seed_output,sysmon,,-1
+126158.081377,0.805045,seed_value,sysmon,,
+126158.081409,0.805045,seed_output,sysmon,,1
+126158.081567,0.805045,state,sysmon,"scale1, arrow",6
+126158.081629,0.805045,state,sysmon,"scale2, arrow",4
+126158.081681,0.805045,state,sysmon,"scale3, arrow",4
+126158.081727,0.805045,state,sysmon,"scale4, arrow",6
+126158.196852,0.921168,performance,sysmon,event_occured,0
+126158.197098,0.921168,seed_value,sysmon,,
+126158.197144,0.921168,seed_output,sysmon,,1
+126158.197209,0.921168,seed_value,sysmon,,
+126158.197241,0.921168,seed_output,sysmon,,-1
+126158.197301,0.921168,seed_value,sysmon,,
+126158.197332,0.921168,seed_output,sysmon,,1
+126158.197388,0.921168,seed_value,sysmon,,
+126158.197417,0.921168,seed_output,sysmon,,1
+126158.197559,0.921168,state,sysmon,"scale1, arrow",7
+126158.197621,0.921168,state,sysmon,"scale2, arrow",3
+126158.197672,0.921168,state,sysmon,"scale3, arrow",5
+126158.197721,0.921168,state,sysmon,"scale4, arrow",7
+126158.297413,1.02174,performance,sysmon,event_occured,0
+126158.297664,1.02174,seed_value,sysmon,,
+126158.29771,1.02174,seed_output,sysmon,,-1
+126158.297782,1.02174,seed_value,sysmon,,
+126158.297817,1.02174,seed_output,sysmon,,-1
+126158.297881,1.02174,seed_value,sysmon,,
+126158.297917,1.02174,seed_output,sysmon,,1
+126158.297976,1.02174,seed_value,sysmon,,
+126158.298007,1.02174,seed_output,sysmon,,-1
+126158.298163,1.02174,state,sysmon,"scale1, arrow",6
+126158.298225,1.02174,state,sysmon,"scale2, arrow",4
+126158.298275,1.02174,state,sysmon,"scale3, arrow",6
+126158.29838,1.02174,state,sysmon,"scale4, arrow",6
+126158.413939,1.138229,performance,sysmon,event_occured,0
+126158.414218,1.138229,seed_value,sysmon,,
+126158.414264,1.138229,seed_output,sysmon,,-1
+126158.414334,1.138229,seed_value,sysmon,,
+126158.41437,1.138229,seed_output,sysmon,,-1
+126158.414432,1.138229,seed_value,sysmon,,
+126158.414464,1.138229,seed_output,sysmon,,1
+126158.414525,1.138229,seed_value,sysmon,,
+126158.414556,1.138229,seed_output,sysmon,,1
+126158.414709,1.138229,state,sysmon,"scale1, arrow",5
+126158.414773,1.138229,state,sysmon,"scale2, arrow",3
+126158.414821,1.138229,state,sysmon,"scale3, arrow",7
+126158.414869,1.138229,state,sysmon,"scale4, arrow",7
+126158.530216,1.254546,performance,sysmon,event_occured,0
+126158.530506,1.254546,seed_value,sysmon,,
+126158.530555,1.254546,seed_output,sysmon,,-1
+126158.530629,1.254546,seed_value,sysmon,,
+126158.530663,1.254546,seed_output,sysmon,,-1
+126158.530726,1.254546,seed_value,sysmon,,
+126158.530758,1.254546,seed_output,sysmon,,1
+126158.530817,1.254546,seed_value,sysmon,,
+126158.530848,1.254546,seed_output,sysmon,,-1
+126158.531024,1.254546,state,sysmon,"scale1, arrow",4
+126158.531083,1.254546,state,sysmon,"scale2, arrow",4
+126158.531134,1.254546,state,sysmon,"scale3, arrow",6
+126158.531182,1.254546,state,sysmon,"scale4, arrow",6
+126158.646951,1.371272,performance,sysmon,event_occured,0
+126158.647215,1.371272,seed_value,sysmon,,
+126158.647263,1.371272,seed_output,sysmon,,1
+126158.647334,1.371272,seed_value,sysmon,,
+126158.647369,1.371272,seed_output,sysmon,,1
+126158.647431,1.371272,seed_value,sysmon,,
+126158.647463,1.371272,seed_output,sysmon,,-1
+126158.647523,1.371272,seed_value,sysmon,,
+126158.647557,1.371272,seed_output,sysmon,,-1
+126158.647716,1.371272,state,sysmon,"scale1, arrow",5
+126158.647776,1.371272,state,sysmon,"scale2, arrow",5
+126158.647827,1.371272,state,sysmon,"scale3, arrow",5
+126158.64787,1.371272,state,sysmon,"scale4, arrow",5
+126158.74719,1.471488,performance,sysmon,event_occured,0
+126158.747434,1.471488,seed_value,sysmon,,
+126158.747478,1.471488,seed_output,sysmon,,-1
+126158.747548,1.471488,seed_value,sysmon,,
+126158.747582,1.471488,seed_output,sysmon,,1
+126158.747645,1.471488,seed_value,sysmon,,
+126158.747679,1.471488,seed_output,sysmon,,-1
+126158.747739,1.471488,seed_value,sysmon,,
+126158.747776,1.471488,seed_output,sysmon,,1
+126158.747951,1.471488,state,sysmon,"scale1, arrow",4
+126158.748038,1.471488,state,sysmon,"scale2, arrow",6
+126158.748088,1.471488,state,sysmon,"scale3, arrow",4
+126158.748131,1.471488,state,sysmon,"scale4, arrow",6
+126158.863629,1.587939,performance,sysmon,event_occured,0
+126158.863908,1.587939,seed_value,sysmon,,
+126158.863953,1.587939,seed_output,sysmon,,1
+126158.864039,1.587939,seed_value,sysmon,,
+126158.864073,1.587939,seed_output,sysmon,,-1
+126158.864134,1.587939,seed_value,sysmon,,
+126158.864167,1.587939,seed_output,sysmon,,-1
+126158.864227,1.587939,seed_value,sysmon,,
+126158.864258,1.587939,seed_output,sysmon,,1
+126158.864417,1.587939,state,sysmon,"scale1, arrow",5
+126158.86463,1.587939,state,sysmon,"scale2, arrow",5
+126158.86468,1.587939,state,sysmon,"scale3, arrow",3
+126158.864729,1.587939,state,sysmon,"scale4, arrow",7
+126158.980446,1.704741,performance,sysmon,event_occured,0
+126158.980739,1.704741,seed_value,sysmon,,
+126158.980786,1.704741,seed_output,sysmon,,1
+126158.980859,1.704741,seed_value,sysmon,,
+126158.980893,1.704741,seed_output,sysmon,,-1
+126158.980955,1.704741,seed_value,sysmon,,
+126158.980987,1.704741,seed_output,sysmon,,1
+126158.981047,1.704741,seed_value,sysmon,,
+126158.981077,1.704741,seed_output,sysmon,,-1
+126158.981256,1.704741,state,sysmon,"scale1, arrow",6
+126158.981315,1.704741,state,sysmon,"scale2, arrow",4
+126158.981372,1.704741,state,sysmon,"scale3, arrow",4
+126158.98142,1.704741,state,sysmon,"scale4, arrow",6
+126159.08066,1.804929,performance,sysmon,event_occured,0
+126159.080984,1.804929,seed_value,sysmon,,
+126159.081029,1.804929,seed_output,sysmon,,-1
+126159.081095,1.804929,seed_value,sysmon,,
+126159.081127,1.804929,seed_output,sysmon,,1
+126159.08119,1.804929,seed_value,sysmon,,
+126159.081223,1.804929,seed_output,sysmon,,1
+126159.081284,1.804929,seed_value,sysmon,,
+126159.081317,1.804929,seed_output,sysmon,,-1
+126159.081546,1.804929,state,sysmon,"scale1, arrow",5
+126159.081606,1.804929,state,sysmon,"scale2, arrow",5
+126159.081658,1.804929,state,sysmon,"scale3, arrow",5
+126159.081708,1.804929,state,sysmon,"scale4, arrow",5
+126159.196597,1.920906,performance,sysmon,event_occured,0
+126159.196847,1.920906,seed_value,sysmon,,
+126159.196893,1.920906,seed_output,sysmon,,-1
+126159.196965,1.920906,seed_value,sysmon,,
+126159.196999,1.920906,seed_output,sysmon,,1
+126159.197062,1.920906,seed_value,sysmon,,
+126159.197095,1.920906,seed_output,sysmon,,-1
+126159.197158,1.920906,seed_value,sysmon,,
+126159.19719,1.920906,seed_output,sysmon,,-1
+126159.197363,1.920906,state,sysmon,"scale1, arrow",4
+126159.197423,1.920906,state,sysmon,"scale2, arrow",6
+126159.197534,1.920906,state,sysmon,"scale3, arrow",4
+126159.197582,1.920906,state,sysmon,"scale4, arrow",4
+126159.296719,2.021032,performance,sysmon,event_occured,0
+126159.296961,2.021032,seed_value,sysmon,,
+126159.297004,2.021032,seed_output,sysmon,,-1
+126159.297077,2.021032,seed_value,sysmon,,
+126159.297111,2.021032,seed_output,sysmon,,1
+126159.297174,2.021032,seed_value,sysmon,,
+126159.297209,2.021032,seed_output,sysmon,,-1
+126159.297269,2.021032,seed_value,sysmon,,
+126159.2973,2.021032,seed_output,sysmon,,-1
+126159.297446,2.021032,state,sysmon,"scale1, arrow",3
+126159.297507,2.021032,state,sysmon,"scale2, arrow",7
+126159.297556,2.021032,state,sysmon,"scale3, arrow",3
+126159.297598,2.021032,state,sysmon,"scale4, arrow",3
+126159.397079,2.121366,performance,sysmon,event_occured,0
+126159.397326,2.121366,seed_value,sysmon,,
+126159.397371,2.121366,seed_output,sysmon,,-1
+126159.397442,2.121366,seed_value,sysmon,,
+126159.397475,2.121366,seed_output,sysmon,,-1
+126159.397537,2.121366,seed_value,sysmon,,
+126159.397572,2.121366,seed_output,sysmon,,1
+126159.397631,2.121366,seed_value,sysmon,,
+126159.397663,2.121366,seed_output,sysmon,,1
+126159.397819,2.121366,state,sysmon,"scale1, arrow",4
+126159.397877,2.121366,state,sysmon,"scale2, arrow",6
+126159.397924,2.121366,state,sysmon,"scale3, arrow",4
+126159.397966,2.121366,state,sysmon,"scale4, arrow",4
+126159.497183,2.221488,performance,sysmon,event_occured,0
+126159.497414,2.221488,seed_value,sysmon,,
+126159.497458,2.221488,seed_output,sysmon,,1
+126159.497529,2.221488,seed_value,sysmon,,
+126159.497565,2.221488,seed_output,sysmon,,1
+126159.497627,2.221488,seed_value,sysmon,,
+126159.497658,2.221488,seed_output,sysmon,,1
+126159.497723,2.221488,seed_value,sysmon,,
+126159.497754,2.221488,seed_output,sysmon,,1
+126159.497894,2.221488,state,sysmon,"scale1, arrow",5
+126159.497953,2.221488,state,sysmon,"scale2, arrow",7
+126159.498002,2.221488,state,sysmon,"scale3, arrow",5
+126159.498045,2.221488,state,sysmon,"scale4, arrow",5
+126159.597187,2.321501,performance,sysmon,event_occured,0
+126159.597433,2.321501,seed_value,sysmon,,
+126159.597479,2.321501,seed_output,sysmon,,1
+126159.597548,2.321501,seed_value,sysmon,,
+126159.597582,2.321501,seed_output,sysmon,,1
+126159.597644,2.321501,seed_value,sysmon,,
+126159.597677,2.321501,seed_output,sysmon,,-1
+126159.597737,2.321501,seed_value,sysmon,,
+126159.59777,2.321501,seed_output,sysmon,,-1
+126159.597929,2.321501,state,sysmon,"scale1, arrow",6
+126159.597996,2.321501,state,sysmon,"scale2, arrow",6
+126159.598045,2.321501,state,sysmon,"scale3, arrow",4
+126159.598089,2.321501,state,sysmon,"scale4, arrow",4
+126159.713547,2.437799,performance,sysmon,event_occured,0
+126159.71381,2.437799,seed_value,sysmon,,
+126159.713856,2.437799,seed_output,sysmon,,-1
+126159.713939,2.437799,seed_value,sysmon,,
+126159.713973,2.437799,seed_output,sysmon,,-1
+126159.714035,2.437799,seed_value,sysmon,,
+126159.714066,2.437799,seed_output,sysmon,,-1
+126159.714127,2.437799,seed_value,sysmon,,
+126159.714159,2.437799,seed_output,sysmon,,1
+126159.71431,2.437799,state,sysmon,"scale1, arrow",5
+126159.714373,2.437799,state,sysmon,"scale2, arrow",5
+126159.71442,2.437799,state,sysmon,"scale3, arrow",3
+126159.714462,2.437799,state,sysmon,"scale4, arrow",5
+126159.830435,2.554711,performance,sysmon,event_occured,0
+126159.830725,2.554711,seed_value,sysmon,,
+126159.830772,2.554711,seed_output,sysmon,,-1
+126159.830842,2.554711,seed_value,sysmon,,
+126159.830877,2.554711,seed_output,sysmon,,1
+126159.83094,2.554711,seed_value,sysmon,,
+126159.830972,2.554711,seed_output,sysmon,,1
+126159.831032,2.554711,seed_value,sysmon,,
+126159.831065,2.554711,seed_output,sysmon,,-1
+126159.8312,2.554711,state,sysmon,"scale1, arrow",4
+126159.831266,2.554711,state,sysmon,"scale2, arrow",6
+126159.831321,2.554711,state,sysmon,"scale3, arrow",4
+126159.831365,2.554711,state,sysmon,"scale4, arrow",4
+126159.930551,2.654828,performance,sysmon,event_occured,0
+126159.930841,2.654828,seed_value,sysmon,,
+126159.930888,2.654828,seed_output,sysmon,,-1
+126159.930959,2.654828,seed_value,sysmon,,
+126159.930994,2.654828,seed_output,sysmon,,1
+126159.931056,2.654828,seed_value,sysmon,,
+126159.931088,2.654828,seed_output,sysmon,,-1
+126159.931148,2.654828,seed_value,sysmon,,
+126159.93118,2.654828,seed_output,sysmon,,1
+126159.931339,2.654828,state,sysmon,"scale1, arrow",3
+126159.931402,2.654828,state,sysmon,"scale2, arrow",7
+126159.931453,2.654828,state,sysmon,"scale3, arrow",3
+126159.931499,2.654828,state,sysmon,"scale4, arrow",5
+126160.046787,2.771069,performance,sysmon,event_occured,0
+126160.047081,2.771069,seed_value,sysmon,,
+126160.047134,2.771069,seed_output,sysmon,,1
+126160.047206,2.771069,seed_value,sysmon,,
+126160.047242,2.771069,seed_output,sysmon,,1
+126160.047306,2.771069,seed_value,sysmon,,
+126160.047339,2.771069,seed_output,sysmon,,1
+126160.047398,2.771069,seed_value,sysmon,,
+126160.04743,2.771069,seed_output,sysmon,,-1
+126160.047587,2.771069,state,sysmon,"scale1, arrow",4
+126160.04764,2.771069,state,sysmon,"scale2, arrow",6
+126160.047691,2.771069,state,sysmon,"scale3, arrow",4
+126160.047733,2.771069,state,sysmon,"scale4, arrow",4
+126160.147009,2.871302,performance,sysmon,event_occured,0
+126160.147303,2.871302,seed_value,sysmon,,
+126160.147372,2.871302,seed_output,sysmon,,1
+126160.147476,2.871302,seed_value,sysmon,,
+126160.147517,2.871302,seed_output,sysmon,,1
+126160.147582,2.871302,seed_value,sysmon,,
+126160.147616,2.871302,seed_output,sysmon,,1
+126160.147683,2.871302,seed_value,sysmon,,
+126160.147715,2.871302,seed_output,sysmon,,-1
+126160.147872,2.871302,state,sysmon,"scale1, arrow",5
+126160.147929,2.871302,state,sysmon,"scale2, arrow",7
+126160.147974,2.871302,state,sysmon,"scale3, arrow",5
+126160.148039,2.871302,state,sysmon,"scale4, arrow",3
+126160.263331,2.987626,performance,sysmon,event_occured,0
+126160.26358,2.987626,seed_value,sysmon,,
+126160.263626,2.987626,seed_output,sysmon,,1
+126160.263697,2.987626,seed_value,sysmon,,
+126160.26373,2.987626,seed_output,sysmon,,-1
+126160.263791,2.987626,seed_value,sysmon,,
+126160.263823,2.987626,seed_output,sysmon,,-1
+126160.26411,2.987626,seed_value,sysmon,,
+126160.264147,2.987626,seed_output,sysmon,,-1
+126160.267082,2.987626,state,sysmon,"scale1, arrow",6
+126160.267142,2.987626,state,sysmon,"scale2, arrow",6
+126160.26719,2.987626,state,sysmon,"scale3, arrow",4
+126160.267233,2.987626,state,sysmon,"scale4, arrow",4
+126160.36363,3.087906,performance,sysmon,event_occured,0
+126160.363879,3.087906,seed_value,sysmon,,
+126160.363925,3.087906,seed_output,sysmon,,-1
+126160.363998,3.087906,seed_value,sysmon,,
+126160.36408,3.087906,seed_output,sysmon,,-1
+126160.364144,3.087906,seed_value,sysmon,,
+126160.364177,3.087906,seed_output,sysmon,,-1
+126160.364238,3.087906,seed_value,sysmon,,
+126160.36427,3.087906,seed_output,sysmon,,-1
+126160.364486,3.087906,state,sysmon,"scale1, arrow",5
+126160.364542,3.087906,state,sysmon,"scale2, arrow",5
+126160.364587,3.087906,state,sysmon,"scale3, arrow",3
+126160.36463,3.087906,state,sysmon,"scale4, arrow",3
+126160.4802,3.204465,performance,sysmon,event_occured,0
+126160.480454,3.204465,seed_value,sysmon,,
+126160.480498,3.204465,seed_output,sysmon,,-1
+126160.480569,3.204465,seed_value,sysmon,,
+126160.480602,3.204465,seed_output,sysmon,,1
+126160.480663,3.204465,seed_value,sysmon,,
+126160.480695,3.204465,seed_output,sysmon,,1
+126160.480752,3.204465,seed_value,sysmon,,
+126160.480784,3.204465,seed_output,sysmon,,1
+126160.480997,3.204465,state,sysmon,"scale1, arrow",4
+126160.481165,3.204465,state,sysmon,"scale2, arrow",6
+126160.481216,3.204465,state,sysmon,"scale3, arrow",4
+126160.48126,3.204465,state,sysmon,"scale4, arrow",4
+126160.580281,3.304573,performance,sysmon,event_occured,0
+126160.580527,3.304573,seed_value,sysmon,,
+126160.580573,3.304573,seed_output,sysmon,,1
+126160.580643,3.304573,seed_value,sysmon,,
+126160.580677,3.304573,seed_output,sysmon,,1
+126160.58074,3.304573,seed_value,sysmon,,
+126160.580772,3.304573,seed_output,sysmon,,-1
+126160.580832,3.304573,seed_value,sysmon,,
+126160.580863,3.304573,seed_output,sysmon,,1
+126160.581043,3.304573,state,sysmon,"scale1, arrow",5
+126160.5811,3.304573,state,sysmon,"scale2, arrow",7
+126160.581145,3.304573,state,sysmon,"scale3, arrow",3
+126160.581187,3.304573,state,sysmon,"scale4, arrow",5
+126160.680306,3.404596,performance,sysmon,event_occured,0
+126160.680573,3.404596,seed_value,sysmon,,
+126160.680618,3.404596,seed_output,sysmon,,-1
+126160.68069,3.404596,seed_value,sysmon,,
+126160.680726,3.404596,seed_output,sysmon,,-1
+126160.680789,3.404596,seed_value,sysmon,,
+126160.680821,3.404596,seed_output,sysmon,,-1
+126160.68088,3.404596,seed_value,sysmon,,
+126160.68091,3.404596,seed_output,sysmon,,-1
+126160.681057,3.404596,state,sysmon,"scale1, arrow",4
+126160.681117,3.404596,state,sysmon,"scale2, arrow",6
+126160.681169,3.404596,state,sysmon,"scale3, arrow",4
+126160.68121,3.404596,state,sysmon,"scale4, arrow",4
+126160.796444,3.520796,performance,sysmon,event_occured,0
+126160.796658,3.520796,seed_value,sysmon,,
+126160.796701,3.520796,seed_output,sysmon,,-1
+126160.796773,3.520796,seed_value,sysmon,,
+126160.796807,3.520796,seed_output,sysmon,,-1
+126160.79687,3.520796,seed_value,sysmon,,
+126160.796903,3.520796,seed_output,sysmon,,1
+126160.796964,3.520796,seed_value,sysmon,,
+126160.796995,3.520796,seed_output,sysmon,,-1
+126160.79715,3.520796,state,sysmon,"scale1, arrow",3
+126160.797211,3.520796,state,sysmon,"scale2, arrow",5
+126160.797256,3.520796,state,sysmon,"scale3, arrow",5
+126160.797297,3.520796,state,sysmon,"scale4, arrow",3
+126160.900227,3.624463,performance,sysmon,event_occured,0
+126160.900639,3.624463,seed_value,sysmon,,
+126160.900714,3.624463,seed_output,sysmon,,1
+126160.900822,3.624463,seed_value,sysmon,,
+126160.90088,3.624463,seed_output,sysmon,,-1
+126160.900955,3.624463,seed_value,sysmon,,
+126160.900999,3.624463,seed_output,sysmon,,1
+126160.901072,3.624463,seed_value,sysmon,,
+126160.901116,3.624463,seed_output,sysmon,,1
+126160.901277,3.624463,state,sysmon,"scale1, arrow",4
+126160.901348,3.624463,state,sysmon,"scale2, arrow",4
+126160.90141,3.624463,state,sysmon,"scale3, arrow",6
+126160.901468,3.624463,state,sysmon,"scale4, arrow",4
+126161.010687,3.735069,performance,sysmon,event_occured,0
+126161.010908,3.735069,seed_value,sysmon,,
+126161.010932,3.735069,seed_output,sysmon,,-1
+126161.010964,3.735069,seed_value,sysmon,,
+126161.010979,3.735069,seed_output,sysmon,,1
+126161.011007,3.735069,seed_value,sysmon,,
+126161.011022,3.735069,seed_output,sysmon,,-1
+126161.011052,3.735069,seed_value,sysmon,,
+126161.011065,3.735069,seed_output,sysmon,,-1
+126161.011219,3.735069,state,sysmon,"scale1, arrow",3
+126161.011259,3.735069,state,sysmon,"scale2, arrow",5
+126161.011287,3.735069,state,sysmon,"scale3, arrow",5
+126161.011322,3.735069,state,sysmon,"scale4, arrow",3
+126161.113337,3.837607,performance,sysmon,event_occured,0
+126161.113587,3.837607,seed_value,sysmon,,
+126161.113632,3.837607,seed_output,sysmon,,1
+126161.113706,3.837607,seed_value,sysmon,,
+126161.113739,3.837607,seed_output,sysmon,,1
+126161.113801,3.837607,seed_value,sysmon,,
+126161.113834,3.837607,seed_output,sysmon,,-1
+126161.113895,3.837607,seed_value,sysmon,,
+126161.113927,3.837607,seed_output,sysmon,,1
+126161.114132,3.837607,state,sysmon,"scale1, arrow",4
+126161.114187,3.837607,state,sysmon,"scale2, arrow",6
+126161.114232,3.837607,state,sysmon,"scale3, arrow",4
+126161.114279,3.837607,state,sysmon,"scale4, arrow",4
+126161.227801,3.952056,performance,sysmon,event_occured,0
+126161.228144,3.952056,seed_value,sysmon,,
+126161.22817,3.952056,seed_output,sysmon,,-1
+126161.228209,3.952056,seed_value,sysmon,,
+126161.228226,3.952056,seed_output,sysmon,,-1
+126161.228256,3.952056,seed_value,sysmon,,
+126161.228273,3.952056,seed_output,sysmon,,-1
+126161.228303,3.952056,seed_value,sysmon,,
+126161.228318,3.952056,seed_output,sysmon,,1
+126161.228522,3.952056,state,sysmon,"scale1, arrow",3
+126161.228561,3.952056,state,sysmon,"scale2, arrow",5
+126161.228589,3.952056,state,sysmon,"scale3, arrow",3
+126161.228613,3.952056,state,sysmon,"scale4, arrow",5
+126161.330373,4.05465,performance,sysmon,event_occured,0
+126161.330627,4.05465,seed_value,sysmon,,
+126161.330671,4.05465,seed_output,sysmon,,-1
+126161.330744,4.05465,seed_value,sysmon,,
+126161.330778,4.05465,seed_output,sysmon,,1
+126161.33084,4.05465,seed_value,sysmon,,
+126161.330877,4.05465,seed_output,sysmon,,-1
+126161.330938,4.05465,seed_value,sysmon,,
+126161.33097,4.05465,seed_output,sysmon,,1
+126161.331169,4.05465,state,sysmon,"scale1, arrow",4
+126161.331225,4.05465,state,sysmon,"scale2, arrow",6
+126161.331269,4.05465,state,sysmon,"scale3, arrow",4
+126161.33131,4.05465,state,sysmon,"scale4, arrow",6
+126161.446853,4.171157,performance,sysmon,event_occured,0
+126161.447089,4.171157,seed_value,sysmon,,
+126161.447136,4.171157,seed_output,sysmon,,1
+126161.447208,4.171157,seed_value,sysmon,,
+126161.447242,4.171157,seed_output,sysmon,,-1
+126161.447305,4.171157,seed_value,sysmon,,
+126161.447338,4.171157,seed_output,sysmon,,-1
+126161.4474,4.171157,seed_value,sysmon,,
+126161.447434,4.171157,seed_output,sysmon,,1
+126161.447601,4.171157,state,sysmon,"scale1, arrow",5
+126161.447656,4.171157,state,sysmon,"scale2, arrow",5
+126161.447701,4.171157,state,sysmon,"scale3, arrow",3
+126161.447743,4.171157,state,sysmon,"scale4, arrow",7
+126161.563824,4.288095,performance,sysmon,event_occured,0
+126161.564097,4.288095,seed_value,sysmon,,
+126161.564146,4.288095,seed_output,sysmon,,-1
+126161.564229,4.288095,seed_value,sysmon,,
+126161.564263,4.288095,seed_output,sysmon,,1
+126161.564343,4.288095,seed_value,sysmon,,
+126161.564379,4.288095,seed_output,sysmon,,1
+126161.56444,4.288095,seed_value,sysmon,,
+126161.564475,4.288095,seed_output,sysmon,,1
+126161.564636,4.288095,state,sysmon,"scale1, arrow",4
+126161.56469,4.288095,state,sysmon,"scale2, arrow",6
+126161.564734,4.288095,state,sysmon,"scale3, arrow",4
+126161.564776,4.288095,state,sysmon,"scale4, arrow",6
+126161.680091,4.404362,performance,sysmon,event_occured,0
+126161.680371,4.404362,seed_value,sysmon,,
+126161.680416,4.404362,seed_output,sysmon,,-1
+126161.680486,4.404362,seed_value,sysmon,,
+126161.680649,4.404362,seed_output,sysmon,,1
+126161.680717,4.404362,seed_value,sysmon,,
+126161.680757,4.404362,seed_output,sysmon,,-1
+126161.680819,4.404362,seed_value,sysmon,,
+126161.680857,4.404362,seed_output,sysmon,,-1
+126161.681012,4.404362,state,sysmon,"scale1, arrow",3
+126161.681069,4.404362,state,sysmon,"scale2, arrow",7
+126161.681113,4.404362,state,sysmon,"scale3, arrow",3
+126161.681155,4.404362,state,sysmon,"scale4, arrow",5
+126161.780159,4.5044,performance,sysmon,event_occured,0
+126161.780414,4.5044,seed_value,sysmon,,
+126161.780459,4.5044,seed_output,sysmon,,1
+126161.780531,4.5044,seed_value,sysmon,,
+126161.780568,4.5044,seed_output,sysmon,,1
+126161.78063,4.5044,seed_value,sysmon,,
+126161.780664,4.5044,seed_output,sysmon,,1
+126161.780726,4.5044,seed_value,sysmon,,
+126161.780757,4.5044,seed_output,sysmon,,-1
+126161.780942,4.5044,state,sysmon,"scale1, arrow",4
+126161.780995,4.5044,state,sysmon,"scale2, arrow",6
+126161.781041,4.5044,state,sysmon,"scale3, arrow",4
+126161.781082,4.5044,state,sysmon,"scale4, arrow",4
+126161.88026,4.604541,performance,sysmon,event_occured,0
+126161.880502,4.604541,seed_value,sysmon,,
+126161.880551,4.604541,seed_output,sysmon,,-1
+126161.880623,4.604541,seed_value,sysmon,,
+126161.880658,4.604541,seed_output,sysmon,,-1
+126161.880721,4.604541,seed_value,sysmon,,
+126161.880754,4.604541,seed_output,sysmon,,1
+126161.880817,4.604541,seed_value,sysmon,,
+126161.880849,4.604541,seed_output,sysmon,,-1
+126161.881034,4.604541,state,sysmon,"scale1, arrow",3
+126161.88109,4.604541,state,sysmon,"scale2, arrow",5
+126161.881134,4.604541,state,sysmon,"scale3, arrow",5
+126161.881177,4.604541,state,sysmon,"scale4, arrow",3
+126161.980425,4.704692,performance,sysmon,event_occured,0
+126161.980719,4.704692,seed_value,sysmon,,
+126161.980768,4.704692,seed_output,sysmon,,-1
+126161.980839,4.704692,seed_value,sysmon,,
+126161.980874,4.704692,seed_output,sysmon,,1
+126161.980939,4.704692,seed_value,sysmon,,
+126161.980971,4.704692,seed_output,sysmon,,1
+126161.981031,4.704692,seed_value,sysmon,,
+126161.981062,4.704692,seed_output,sysmon,,-1
+126161.98122,4.704692,state,sysmon,"scale1, arrow",4
+126161.981285,4.704692,state,sysmon,"scale2, arrow",6
+126161.981334,4.704692,state,sysmon,"scale3, arrow",6
+126161.981375,4.704692,state,sysmon,"scale4, arrow",4
+126162.096783,4.821064,performance,sysmon,event_occured,0
+126162.097038,4.821064,seed_value,sysmon,,
+126162.097083,4.821064,seed_output,sysmon,,-1
+126162.097154,4.821064,seed_value,sysmon,,
+126162.097188,4.821064,seed_output,sysmon,,-1
+126162.097251,4.821064,seed_value,sysmon,,
+126162.097285,4.821064,seed_output,sysmon,,-1
+126162.097345,4.821064,seed_value,sysmon,,
+126162.097377,4.821064,seed_output,sysmon,,1
+126162.097555,4.821064,state,sysmon,"scale1, arrow",3
+126162.097612,4.821064,state,sysmon,"scale2, arrow",5
+126162.097657,4.821064,state,sysmon,"scale3, arrow",5
+126162.097697,4.821064,state,sysmon,"scale4, arrow",5
+126162.196767,4.92109,performance,sysmon,event_occured,0
+126162.19702,4.92109,seed_value,sysmon,,
+126162.197065,4.92109,seed_output,sysmon,,-1
+126162.197139,4.92109,seed_value,sysmon,,
+126162.197174,4.92109,seed_output,sysmon,,1
+126162.197237,4.92109,seed_value,sysmon,,
+126162.197269,4.92109,seed_output,sysmon,,1
+126162.197328,4.92109,seed_value,sysmon,,
+126162.197359,4.92109,seed_output,sysmon,,1
+126162.197519,4.92109,state,sysmon,"scale1, arrow",4
+126162.197581,4.92109,state,sysmon,"scale2, arrow",6
+126162.19763,4.92109,state,sysmon,"scale3, arrow",6
+126162.197673,4.92109,state,sysmon,"scale4, arrow",6
+126162.2969,5.021216,performance,sysmon,event_occured,0
+126162.297134,5.021216,seed_value,sysmon,,
+126162.29718,5.021216,seed_output,sysmon,,1
+126162.297248,5.021216,seed_value,sysmon,,
+126162.297284,5.021216,seed_output,sysmon,,-1
+126162.297346,5.021216,seed_value,sysmon,,
+126162.297379,5.021216,seed_output,sysmon,,-1
+126162.297438,5.021216,seed_value,sysmon,,
+126162.297473,5.021216,seed_output,sysmon,,-1
+126162.29762,5.021216,state,sysmon,"scale1, arrow",5
+126162.29768,5.021216,state,sysmon,"scale2, arrow",5
+126162.297726,5.021216,state,sysmon,"scale3, arrow",5
+126162.297768,5.021216,state,sysmon,"scale4, arrow",5
+126162.413386,5.137689,performance,sysmon,event_occured,0
+126162.413667,5.137689,seed_value,sysmon,,
+126162.413714,5.137689,seed_output,sysmon,,1
+126162.413783,5.137689,seed_value,sysmon,,
+126162.413821,5.137689,seed_output,sysmon,,1
+126162.413883,5.137689,seed_value,sysmon,,
+126162.413914,5.137689,seed_output,sysmon,,1
+126162.413973,5.137689,seed_value,sysmon,,
+126162.414005,5.137689,seed_output,sysmon,,-1
+126162.414151,5.137689,state,sysmon,"scale1, arrow",6
+126162.414209,5.137689,state,sysmon,"scale2, arrow",6
+126162.414365,5.137689,state,sysmon,"scale3, arrow",6
+126162.414413,5.137689,state,sysmon,"scale4, arrow",4
+126162.52994,5.254253,performance,sysmon,event_occured,0
+126162.530224,5.254253,seed_value,sysmon,,
+126162.530271,5.254253,seed_output,sysmon,,-1
+126162.530342,5.254253,seed_value,sysmon,,
+126162.530377,5.254253,seed_output,sysmon,,1
+126162.530439,5.254253,seed_value,sysmon,,
+126162.530473,5.254253,seed_output,sysmon,,1
+126162.530533,5.254253,seed_value,sysmon,,
+126162.530566,5.254253,seed_output,sysmon,,1
+126162.530735,5.254253,state,sysmon,"scale1, arrow",5
+126162.530796,5.254253,state,sysmon,"scale2, arrow",7
+126162.530842,5.254253,state,sysmon,"scale3, arrow",7
+126162.530887,5.254253,state,sysmon,"scale4, arrow",5
+126162.630041,5.354294,performance,sysmon,event_occured,0
+126162.630324,5.354294,seed_value,sysmon,,
+126162.630369,5.354294,seed_output,sysmon,,1
+126162.630439,5.354294,seed_value,sysmon,,
+126162.630475,5.354294,seed_output,sysmon,,1
+126162.630539,5.354294,seed_value,sysmon,,
+126162.63057,5.354294,seed_output,sysmon,,-1
+126162.630631,5.354294,seed_value,sysmon,,
+126162.630661,5.354294,seed_output,sysmon,,1
+126162.630822,5.354294,state,sysmon,"scale1, arrow",6
+126162.63088,5.354294,state,sysmon,"scale2, arrow",6
+126162.630931,5.354294,state,sysmon,"scale3, arrow",6
+126162.630972,5.354294,state,sysmon,"scale4, arrow",6
+126162.730102,5.454401,performance,sysmon,event_occured,0
+126162.730422,5.454401,seed_value,sysmon,,
+126162.730469,5.454401,seed_output,sysmon,,1
+126162.730541,5.454401,seed_value,sysmon,,
+126162.730576,5.454401,seed_output,sysmon,,-1
+126162.730638,5.454401,seed_value,sysmon,,
+126162.730671,5.454401,seed_output,sysmon,,1
+126162.730731,5.454401,seed_value,sysmon,,
+126162.730764,5.454401,seed_output,sysmon,,1
+126162.730926,5.454401,state,sysmon,"scale1, arrow",7
+126162.730986,5.454401,state,sysmon,"scale2, arrow",5
+126162.731035,5.454401,state,sysmon,"scale3, arrow",7
+126162.731082,5.454401,state,sysmon,"scale4, arrow",7
+126162.84659,5.570906,performance,sysmon,event_occured,0
+126162.846825,5.570906,seed_value,sysmon,,
+126162.846868,5.570906,seed_output,sysmon,,-1
+126162.846938,5.570906,seed_value,sysmon,,
+126162.846976,5.570906,seed_output,sysmon,,-1
+126162.847039,5.570906,seed_value,sysmon,,
+126162.847073,5.570906,seed_output,sysmon,,-1
+126162.847133,5.570906,seed_value,sysmon,,
+126162.847165,5.570906,seed_output,sysmon,,1
+126162.847314,5.570906,state,sysmon,"scale1, arrow",6
+126162.847376,5.570906,state,sysmon,"scale2, arrow",4
+126162.847422,5.570906,state,sysmon,"scale3, arrow",6
+126162.847464,5.570906,state,sysmon,"scale4, arrow",6
+126162.946619,5.670941,performance,sysmon,event_occured,0
+126162.946851,5.670941,seed_value,sysmon,,
+126162.946897,5.670941,seed_output,sysmon,,1
+126162.94697,5.670941,seed_value,sysmon,,
+126162.947004,5.670941,seed_output,sysmon,,1
+126162.947211,5.670941,seed_value,sysmon,,
+126162.947247,5.670941,seed_output,sysmon,,1
+126162.94731,5.670941,seed_value,sysmon,,
+126162.947343,5.670941,seed_output,sysmon,,1
+126162.947532,5.670941,state,sysmon,"scale1, arrow",7
+126162.947587,5.670941,state,sysmon,"scale2, arrow",5
+126162.947632,5.670941,state,sysmon,"scale3, arrow",7
+126162.947674,5.670941,state,sysmon,"scale4, arrow",7
+126163.046634,5.770947,performance,sysmon,event_occured,0
+126163.046868,5.770947,seed_value,sysmon,,
+126163.047053,5.770947,seed_output,sysmon,,-1
+126163.04713,5.770947,seed_value,sysmon,,
+126163.047167,5.770947,seed_output,sysmon,,-1
+126163.047231,5.770947,seed_value,sysmon,,
+126163.047262,5.770947,seed_output,sysmon,,1
+126163.047323,5.770947,seed_value,sysmon,,
+126163.047355,5.770947,seed_output,sysmon,,-1
+126163.047542,5.770947,state,sysmon,"scale1, arrow",6
+126163.047594,5.770947,state,sysmon,"scale2, arrow",4
+126163.047638,5.770947,state,sysmon,"scale3, arrow",6
+126163.047679,5.770947,state,sysmon,"scale4, arrow",6
+126163.146654,5.87096,performance,sysmon,event_occured,0
+126163.146902,5.87096,seed_value,sysmon,,
+126163.146963,5.87096,seed_output,sysmon,,-1
+126163.147044,5.87096,seed_value,sysmon,,
+126163.147078,5.87096,seed_output,sysmon,,1
+126163.147141,5.87096,seed_value,sysmon,,
+126163.147176,5.87096,seed_output,sysmon,,1
+126163.147237,5.87096,seed_value,sysmon,,
+126163.14727,5.87096,seed_output,sysmon,,-1
+126163.147451,5.87096,state,sysmon,"scale1, arrow",5
+126163.147507,5.87096,state,sysmon,"scale2, arrow",5
+126163.14755,5.87096,state,sysmon,"scale3, arrow",7
+126163.147591,5.87096,state,sysmon,"scale4, arrow",5
+126163.260925,5.985282,performance,sysmon,event_occured,0
+126163.261149,5.985282,seed_value,sysmon,,
+126163.261174,5.985282,seed_output,sysmon,,-1
+126163.261211,5.985282,seed_value,sysmon,,
+126163.261228,5.985282,seed_output,sysmon,,-1
+126163.261258,5.985282,seed_value,sysmon,,
+126163.261274,5.985282,seed_output,sysmon,,1
+126163.261303,5.985282,seed_value,sysmon,,
+126163.261318,5.985282,seed_output,sysmon,,-1
+126163.261443,5.985282,state,sysmon,"scale1, arrow",4
+126163.261476,5.985282,state,sysmon,"scale2, arrow",4
+126163.261502,5.985282,state,sysmon,"scale3, arrow",6
+126163.261528,5.985282,state,sysmon,"scale4, arrow",4
+126163.36323,6.087561,performance,sysmon,event_occured,0
+126163.363507,6.087561,seed_value,sysmon,,
+126163.363553,6.087561,seed_output,sysmon,,1
+126163.363623,6.087561,seed_value,sysmon,,
+126163.363657,6.087561,seed_output,sysmon,,1
+126163.363719,6.087561,seed_value,sysmon,,
+126163.363751,6.087561,seed_output,sysmon,,-1
+126163.36381,6.087561,seed_value,sysmon,,
+126163.363841,6.087561,seed_output,sysmon,,-1
+126163.364056,6.087561,state,sysmon,"scale1, arrow",5
+126163.364121,6.087561,state,sysmon,"scale2, arrow",5
+126163.36417,6.087561,state,sysmon,"scale3, arrow",5
+126163.364215,6.087561,state,sysmon,"scale4, arrow",3
+126163.480051,6.204284,performance,sysmon,event_occured,0
+126163.480348,6.204284,seed_value,sysmon,,
+126163.480397,6.204284,seed_output,sysmon,,-1
+126163.480471,6.204284,seed_value,sysmon,,
+126163.480504,6.204284,seed_output,sysmon,,-1
+126163.480566,6.204284,seed_value,sysmon,,
+126163.480598,6.204284,seed_output,sysmon,,1
+126163.480661,6.204284,seed_value,sysmon,,
+126163.480693,6.204284,seed_output,sysmon,,1
+126163.480877,6.204284,state,sysmon,"scale1, arrow",4
+126163.480943,6.204284,state,sysmon,"scale2, arrow",4
+126163.48099,6.204284,state,sysmon,"scale3, arrow",6
+126163.481033,6.204284,state,sysmon,"scale4, arrow",4
+126163.596569,6.320884,performance,sysmon,event_occured,0
+126163.596812,6.320884,seed_value,sysmon,,
+126163.596858,6.320884,seed_output,sysmon,,-1
+126163.596931,6.320884,seed_value,sysmon,,
+126163.596966,6.320884,seed_output,sysmon,,1
+126163.597029,6.320884,seed_value,sysmon,,
+126163.597063,6.320884,seed_output,sysmon,,1
+126163.597123,6.320884,seed_value,sysmon,,
+126163.597155,6.320884,seed_output,sysmon,,1
+126163.597307,6.320884,state,sysmon,"scale1, arrow",3
+126163.597373,6.320884,state,sysmon,"scale2, arrow",5
+126163.597424,6.320884,state,sysmon,"scale3, arrow",7
+126163.597469,6.320884,state,sysmon,"scale4, arrow",5
+126163.713413,6.437706,performance,sysmon,event_occured,0
+126163.713672,6.437706,seed_value,sysmon,,
+126163.713716,6.437706,seed_output,sysmon,,1
+126163.713789,6.437706,seed_value,sysmon,,
+126163.713824,6.437706,seed_output,sysmon,,-1
+126163.713886,6.437706,seed_value,sysmon,,
+126163.713917,6.437706,seed_output,sysmon,,1
+126163.713976,6.437706,seed_value,sysmon,,
+126163.714007,6.437706,seed_output,sysmon,,-1
+126163.714159,6.437706,state,sysmon,"scale1, arrow",4
+126163.71422,6.437706,state,sysmon,"scale2, arrow",4
+126163.71427,6.437706,state,sysmon,"scale3, arrow",6
+126163.714312,6.437706,state,sysmon,"scale4, arrow",4
+126163.813548,6.537801,performance,sysmon,event_occured,0
+126163.813872,6.537801,seed_value,sysmon,,
+126163.81392,6.537801,seed_output,sysmon,,1
+126163.813994,6.537801,seed_value,sysmon,,
+126163.814029,6.537801,seed_output,sysmon,,-1
+126163.814096,6.537801,seed_value,sysmon,,
+126163.814128,6.537801,seed_output,sysmon,,1
+126163.814188,6.537801,seed_value,sysmon,,
+126163.814218,6.537801,seed_output,sysmon,,-1
+126163.81442,6.537801,state,sysmon,"scale1, arrow",5
+126163.814476,6.537801,state,sysmon,"scale2, arrow",3
+126163.81452,6.537801,state,sysmon,"scale3, arrow",7
+126163.814562,6.537801,state,sysmon,"scale4, arrow",3
+126163.930079,6.654351,performance,sysmon,event_occured,0
+126163.930496,6.654351,seed_value,sysmon,,
+126163.930561,6.654351,seed_output,sysmon,,1
+126163.930658,6.654351,seed_value,sysmon,,
+126163.93071,6.654351,seed_output,sysmon,,1
+126163.93078,6.654351,seed_value,sysmon,,
+126163.930813,6.654351,seed_output,sysmon,,1
+126163.930882,6.654351,seed_value,sysmon,,
+126163.930915,6.654351,seed_output,sysmon,,1
+126163.931113,6.654351,state,sysmon,"scale1, arrow",6
+126163.931168,6.654351,state,sysmon,"scale2, arrow",4
+126163.931213,6.654351,state,sysmon,"scale3, arrow",6
+126163.931254,6.654351,state,sysmon,"scale4, arrow",4
+126164.046977,6.771192,performance,sysmon,event_occured,0
+126164.047262,6.771192,seed_value,sysmon,,
+126164.047309,6.771192,seed_output,sysmon,,-1
+126164.047386,6.771192,seed_value,sysmon,,
+126164.047422,6.771192,seed_output,sysmon,,-1
+126164.047485,6.771192,seed_value,sysmon,,
+126164.047519,6.771192,seed_output,sysmon,,-1
+126164.047581,6.771192,seed_value,sysmon,,
+126164.047612,6.771192,seed_output,sysmon,,1
+126164.047817,6.771192,state,sysmon,"scale1, arrow",5
+126164.047874,6.771192,state,sysmon,"scale2, arrow",3
+126164.047921,6.771192,state,sysmon,"scale3, arrow",5
+126164.047965,6.771192,state,sysmon,"scale4, arrow",5
+126164.163473,6.887771,performance,sysmon,event_occured,0
+126164.163759,6.887771,seed_value,sysmon,,
+126164.163804,6.887771,seed_output,sysmon,,1
+126164.163874,6.887771,seed_value,sysmon,,
+126164.163909,6.887771,seed_output,sysmon,,-1
+126164.16397,6.887771,seed_value,sysmon,,
+126164.164029,6.887771,seed_output,sysmon,,-1
+126164.1641,6.887771,seed_value,sysmon,,
+126164.164131,6.887771,seed_output,sysmon,,-1
+126164.16429,6.887771,state,sysmon,"scale1, arrow",6
+126164.16435,6.887771,state,sysmon,"scale2, arrow",4
+126164.164396,6.887771,state,sysmon,"scale3, arrow",4
+126164.164438,6.887771,state,sysmon,"scale4, arrow",4
+126164.279878,7.004189,performance,sysmon,event_occured,0
+126164.280183,7.004189,seed_value,sysmon,,
+126164.280229,7.004189,seed_output,sysmon,,-1
+126164.280302,7.004189,seed_value,sysmon,,
+126164.280335,7.004189,seed_output,sysmon,,-1
+126164.280396,7.004189,seed_value,sysmon,,
+126164.280429,7.004189,seed_output,sysmon,,-1
+126164.280489,7.004189,seed_value,sysmon,,
+126164.280522,7.004189,seed_output,sysmon,,1
+126164.280694,7.004189,state,sysmon,"scale1, arrow",5
+126164.280756,7.004189,state,sysmon,"scale2, arrow",3
+126164.280809,7.004189,state,sysmon,"scale3, arrow",3
+126164.280856,7.004189,state,sysmon,"scale4, arrow",5
+126164.38325,7.10742,performance,sysmon,event_occured,0
+126164.383681,7.10742,seed_value,sysmon,,
+126164.383759,7.10742,seed_output,sysmon,,-1
+126164.38387,7.10742,seed_value,sysmon,,
+126164.383931,7.10742,seed_output,sysmon,,1
+126164.384049,7.10742,seed_value,sysmon,,
+126164.384101,7.10742,seed_output,sysmon,,-1
+126164.384188,7.10742,seed_value,sysmon,,
+126164.384244,7.10742,seed_output,sysmon,,-1
+126164.384431,7.10742,state,sysmon,"scale1, arrow",4
+126164.384532,7.10742,state,sysmon,"scale2, arrow",4
+126164.384619,7.10742,state,sysmon,"scale3, arrow",4
+126164.384698,7.10742,state,sysmon,"scale4, arrow",4
+126164.496704,7.221023,performance,sysmon,event_occured,0
+126164.496936,7.221023,seed_value,sysmon,,
+126164.496985,7.221023,seed_output,sysmon,,1
+126164.497055,7.221023,seed_value,sysmon,,
+126164.497091,7.221023,seed_output,sysmon,,1
+126164.497153,7.221023,seed_value,sysmon,,
+126164.497186,7.221023,seed_output,sysmon,,1
+126164.497247,7.221023,seed_value,sysmon,,
+126164.49728,7.221023,seed_output,sysmon,,-1
+126164.497441,7.221023,state,sysmon,"scale1, arrow",5
+126164.497501,7.221023,state,sysmon,"scale2, arrow",5
+126164.497549,7.221023,state,sysmon,"scale3, arrow",5
+126164.497589,7.221023,state,sysmon,"scale4, arrow",3
+126164.596723,7.321046,performance,sysmon,event_occured,0
+126164.596975,7.321046,seed_value,sysmon,,
+126164.597021,7.321046,seed_output,sysmon,,-1
+126164.597093,7.321046,seed_value,sysmon,,
+126164.597128,7.321046,seed_output,sysmon,,-1
+126164.597193,7.321046,seed_value,sysmon,,
+126164.597225,7.321046,seed_output,sysmon,,-1
+126164.597285,7.321046,seed_value,sysmon,,
+126164.597316,7.321046,seed_output,sysmon,,-1
+126164.597475,7.321046,state,sysmon,"scale1, arrow",4
+126164.597536,7.321046,state,sysmon,"scale2, arrow",4
+126164.597591,7.321046,state,sysmon,"scale3, arrow",4
+126164.597633,7.321046,state,sysmon,"scale4, arrow",4
+126164.713236,7.437539,performance,sysmon,event_occured,0
+126164.713526,7.437539,seed_value,sysmon,,
+126164.713574,7.437539,seed_output,sysmon,,1
+126164.713645,7.437539,seed_value,sysmon,,
+126164.713678,7.437539,seed_output,sysmon,,1
+126164.71374,7.437539,seed_value,sysmon,,
+126164.713772,7.437539,seed_output,sysmon,,-1
+126164.713835,7.437539,seed_value,sysmon,,
+126164.713865,7.437539,seed_output,sysmon,,1
+126164.714013,7.437539,state,sysmon,"scale1, arrow",5
+126164.714073,7.437539,state,sysmon,"scale2, arrow",5
+126164.714121,7.437539,state,sysmon,"scale3, arrow",3
+126164.714165,7.437539,state,sysmon,"scale4, arrow",5
+126164.813372,7.537677,performance,sysmon,event_occured,0
+126164.813657,7.537677,seed_value,sysmon,,
+126164.813703,7.537677,seed_output,sysmon,,-1
+126164.813777,7.537677,seed_value,sysmon,,
+126164.813812,7.537677,seed_output,sysmon,,1
+126164.813885,7.537677,seed_value,sysmon,,
+126164.813935,7.537677,seed_output,sysmon,,-1
+126164.814023,7.537677,seed_value,sysmon,,
+126164.814073,7.537677,seed_output,sysmon,,-1
+126164.814232,7.537677,state,sysmon,"scale1, arrow",4
+126164.81429,7.537677,state,sysmon,"scale2, arrow",6
+126164.814343,7.537677,state,sysmon,"scale3, arrow",4
+126164.814385,7.537677,state,sysmon,"scale4, arrow",4
+126164.92986,7.654162,performance,sysmon,event_occured,0
+126164.930145,7.654162,seed_value,sysmon,,
+126164.930191,7.654162,seed_output,sysmon,,-1
+126164.930262,7.654162,seed_value,sysmon,,
+126164.930296,7.654162,seed_output,sysmon,,-1
+126164.930358,7.654162,seed_value,sysmon,,
+126164.930389,7.654162,seed_output,sysmon,,-1
+126164.930448,7.654162,seed_value,sysmon,,
+126164.930479,7.654162,seed_output,sysmon,,-1
+126164.930653,7.654162,state,sysmon,"scale1, arrow",3
+126164.930714,7.654162,state,sysmon,"scale2, arrow",5
+126164.930764,7.654162,state,sysmon,"scale3, arrow",3
+126164.930818,7.654162,state,sysmon,"scale4, arrow",3
+126165.046379,7.770701,performance,sysmon,event_occured,0
+126165.046624,7.770701,seed_value,sysmon,,
+126165.046674,7.770701,seed_output,sysmon,,1
+126165.046746,7.770701,seed_value,sysmon,,
+126165.046781,7.770701,seed_output,sysmon,,1
+126165.046848,7.770701,seed_value,sysmon,,
+126165.04688,7.770701,seed_output,sysmon,,-1
+126165.046943,7.770701,seed_value,sysmon,,
+126165.046973,7.770701,seed_output,sysmon,,-1
+126165.047127,7.770701,state,sysmon,"scale1, arrow",4
+126165.047187,7.770701,state,sysmon,"scale2, arrow",6
+126165.047237,7.770701,state,sysmon,"scale3, arrow",4
+126165.047277,7.770701,state,sysmon,"scale4, arrow",4
+126165.147747,7.872045,performance,sysmon,event_occured,0
+126165.147994,7.872045,seed_value,sysmon,,
+126165.148058,7.872045,seed_output,sysmon,,1
+126165.14813,7.872045,seed_value,sysmon,,
+126165.148166,7.872045,seed_output,sysmon,,1
+126165.14823,7.872045,seed_value,sysmon,,
+126165.148264,7.872045,seed_output,sysmon,,-1
+126165.148324,7.872045,seed_value,sysmon,,
+126165.148356,7.872045,seed_output,sysmon,,1
+126165.148541,7.872045,state,sysmon,"scale1, arrow",5
+126165.148597,7.872045,state,sysmon,"scale2, arrow",7
+126165.148641,7.872045,state,sysmon,"scale3, arrow",3
+126165.148683,7.872045,state,sysmon,"scale4, arrow",5
+126165.263157,7.987385,performance,sysmon,event_occured,0
+126165.26345,7.987385,seed_value,sysmon,,
+126165.263497,7.987385,seed_output,sysmon,,1
+126165.263568,7.987385,seed_value,sysmon,,
+126165.263604,7.987385,seed_output,sysmon,,1
+126165.263669,7.987385,seed_value,sysmon,,
+126165.263705,7.987385,seed_output,sysmon,,1
+126165.263765,7.987385,seed_value,sysmon,,
+126165.263796,7.987385,seed_output,sysmon,,1
+126165.26409,7.987385,state,sysmon,"scale1, arrow",6
+126165.264169,7.987385,state,sysmon,"scale2, arrow",6
+126165.264233,7.987385,state,sysmon,"scale3, arrow",4
+126165.264282,7.987385,state,sysmon,"scale4, arrow",6
+126165.378973,8.103287,performance,sysmon,event_occured,0
+126165.379251,8.103287,seed_value,sysmon,,
+126165.37929,8.103287,seed_output,sysmon,,-1
+126165.379348,8.103287,seed_value,sysmon,,
+126165.379378,8.103287,seed_output,sysmon,,-1
+126165.37943,8.103287,seed_value,sysmon,,
+126165.379457,8.103287,seed_output,sysmon,,-1
+126165.379507,8.103287,seed_value,sysmon,,
+126165.379531,8.103287,seed_output,sysmon,,-1
+126165.379691,8.103287,state,sysmon,"scale1, arrow",5
+126165.379737,8.103287,state,sysmon,"scale2, arrow",5
+126165.379777,8.103287,state,sysmon,"scale3, arrow",3
+126165.379813,8.103287,state,sysmon,"scale4, arrow",5
+126165.494333,8.218576,performance,sysmon,event_occured,0
+126165.494631,8.218576,seed_value,sysmon,,
+126165.494654,8.218576,seed_output,sysmon,,-1
+126165.494689,8.218576,seed_value,sysmon,,
+126165.494705,8.218576,seed_output,sysmon,,-1
+126165.494733,8.218576,seed_value,sysmon,,
+126165.494748,8.218576,seed_output,sysmon,,-1
+126165.494775,8.218576,seed_value,sysmon,,
+126165.494789,8.218576,seed_output,sysmon,,-1
+126165.495,8.218576,state,sysmon,"scale1, arrow",4
+126165.495035,8.218576,state,sysmon,"scale2, arrow",4
+126165.49506,8.218576,state,sysmon,"scale3, arrow",4
+126165.495084,8.218576,state,sysmon,"scale4, arrow",4
+126165.596577,8.320842,performance,sysmon,event_occured,0
+126165.596881,8.320842,seed_value,sysmon,,
+126165.59693,8.320842,seed_output,sysmon,,-1
+126165.597003,8.320842,seed_value,sysmon,,
+126165.597039,8.320842,seed_output,sysmon,,1
+126165.597101,8.320842,seed_value,sysmon,,
+126165.597134,8.320842,seed_output,sysmon,,-1
+126165.597194,8.320842,seed_value,sysmon,,
+126165.597225,8.320842,seed_output,sysmon,,-1
+126165.597444,8.320842,state,sysmon,"scale1, arrow",3
+126165.597501,8.320842,state,sysmon,"scale2, arrow",5
+126165.597629,8.320842,state,sysmon,"scale3, arrow",3
+126165.597708,8.320842,state,sysmon,"scale4, arrow",3
+126165.714788,8.439063,performance,sysmon,event_occured,0
+126165.715089,8.439063,seed_value,sysmon,,
+126165.715136,8.439063,seed_output,sysmon,,1
+126165.715206,8.439063,seed_value,sysmon,,
+126165.71524,8.439063,seed_output,sysmon,,-1
+126165.715303,8.439063,seed_value,sysmon,,
+126165.715336,8.439063,seed_output,sysmon,,-1
+126165.715397,8.439063,seed_value,sysmon,,
+126165.715428,8.439063,seed_output,sysmon,,1
+126165.715625,8.439063,state,sysmon,"scale1, arrow",4
+126165.715682,8.439063,state,sysmon,"scale2, arrow",4
+126165.715727,8.439063,state,sysmon,"scale3, arrow",4
+126165.715768,8.439063,state,sysmon,"scale4, arrow",4
+126165.82997,8.55424,performance,sysmon,event_occured,0
+126165.830274,8.55424,seed_value,sysmon,,
+126165.830322,8.55424,seed_output,sysmon,,1
+126165.830394,8.55424,seed_value,sysmon,,
+126165.830428,8.55424,seed_output,sysmon,,-1
+126165.83049,8.55424,seed_value,sysmon,,
+126165.830523,8.55424,seed_output,sysmon,,1
+126165.830584,8.55424,seed_value,sysmon,,
+126165.830614,8.55424,seed_output,sysmon,,-1
+126165.830767,8.55424,state,sysmon,"scale1, arrow",5
+126165.830999,8.55424,state,sysmon,"scale2, arrow",3
+126165.831085,8.55424,state,sysmon,"scale3, arrow",5
+126165.831162,8.55424,state,sysmon,"scale4, arrow",3
+126165.946379,8.670651,performance,sysmon,event_occured,0
+126165.946636,8.670651,seed_value,sysmon,,
+126165.946683,8.670651,seed_output,sysmon,,-1
+126165.946757,8.670651,seed_value,sysmon,,
+126165.946794,8.670651,seed_output,sysmon,,1
+126165.946856,8.670651,seed_value,sysmon,,
+126165.94689,8.670651,seed_output,sysmon,,-1
+126165.946953,8.670651,seed_value,sysmon,,
+126165.946986,8.670651,seed_output,sysmon,,1
+126165.947175,8.670651,state,sysmon,"scale1, arrow",4
+126165.94723,8.670651,state,sysmon,"scale2, arrow",4
+126165.947275,8.670651,state,sysmon,"scale3, arrow",4
+126165.947317,8.670651,state,sysmon,"scale4, arrow",4
+126166.046511,8.770826,performance,sysmon,event_occured,0
+126166.046746,8.770826,seed_value,sysmon,,
+126166.046791,8.770826,seed_output,sysmon,,-1
+126166.046862,8.770826,seed_value,sysmon,,
+126166.046902,8.770826,seed_output,sysmon,,-1
+126166.046965,8.770826,seed_value,sysmon,,
+126166.046996,8.770826,seed_output,sysmon,,-1
+126166.047057,8.770826,seed_value,sysmon,,
+126166.047088,8.770826,seed_output,sysmon,,-1
+126166.047234,8.770826,state,sysmon,"scale1, arrow",3
+126166.047293,8.770826,state,sysmon,"scale2, arrow",3
+126166.047344,8.770826,state,sysmon,"scale3, arrow",3
+126166.047386,8.770826,state,sysmon,"scale4, arrow",3
+126166.162826,8.887155,performance,sysmon,event_occured,0
+126166.163101,8.887155,seed_value,sysmon,,
+126166.163145,8.887155,seed_output,sysmon,,1
+126166.163212,8.887155,seed_value,sysmon,,
+126166.163245,8.887155,seed_output,sysmon,,-1
+126166.163306,8.887155,seed_value,sysmon,,
+126166.163486,8.887155,seed_output,sysmon,,1
+126166.163555,8.887155,seed_value,sysmon,,
+126166.16359,8.887155,seed_output,sysmon,,1
+126166.16376,8.887155,state,sysmon,"scale1, arrow",4
+126166.16382,8.887155,state,sysmon,"scale2, arrow",4
+126166.163864,8.887155,state,sysmon,"scale3, arrow",4
+126166.163907,8.887155,state,sysmon,"scale4, arrow",4
+126166.263264,8.987577,performance,sysmon,event_occured,0
+126166.263517,8.987577,seed_value,sysmon,,
+126166.263563,8.987577,seed_output,sysmon,,-1
+126166.263635,8.987577,seed_value,sysmon,,
+126166.263668,8.987577,seed_output,sysmon,,1
+126166.263729,8.987577,seed_value,sysmon,,
+126166.263764,8.987577,seed_output,sysmon,,1
+126166.263823,8.987577,seed_value,sysmon,,
+126166.263854,8.987577,seed_output,sysmon,,1
+126166.26409,8.987577,state,sysmon,"scale1, arrow",3
+126166.26416,8.987577,state,sysmon,"scale2, arrow",5
+126166.26421,8.987577,state,sysmon,"scale3, arrow",5
+126166.264253,8.987577,state,sysmon,"scale4, arrow",5
+126166.379807,9.10412,performance,sysmon,event_occured,0
+126166.380141,9.10412,seed_value,sysmon,,
+126166.380189,9.10412,seed_output,sysmon,,-1
+126166.380261,9.10412,seed_value,sysmon,,
+126166.380295,9.10412,seed_output,sysmon,,1
+126166.380358,9.10412,seed_value,sysmon,,
+126166.380393,9.10412,seed_output,sysmon,,1
+126166.380453,9.10412,seed_value,sysmon,,
+126166.380483,9.10412,seed_output,sysmon,,1
+126166.380633,9.10412,state,sysmon,"scale1, arrow",4
+126166.380691,9.10412,state,sysmon,"scale2, arrow",6
+126166.380739,9.10412,state,sysmon,"scale3, arrow",6
+126166.380781,9.10412,state,sysmon,"scale4, arrow",6
+126166.496418,9.220745,performance,sysmon,event_occured,0
+126166.496654,9.220745,seed_value,sysmon,,
+126166.496699,9.220745,seed_output,sysmon,,-1
+126166.496769,9.220745,seed_value,sysmon,,
+126166.496804,9.220745,seed_output,sysmon,,1
+126166.496867,9.220745,seed_value,sysmon,,
+126166.496899,9.220745,seed_output,sysmon,,-1
+126166.496963,9.220745,seed_value,sysmon,,
+126166.496993,9.220745,seed_output,sysmon,,-1
+126166.497146,9.220745,state,sysmon,"scale1, arrow",3
+126166.497209,9.220745,state,sysmon,"scale2, arrow",7
+126166.497254,9.220745,state,sysmon,"scale3, arrow",5
+126166.497295,9.220745,state,sysmon,"scale4, arrow",5
+126166.596676,9.321005,performance,sysmon,event_occured,0
+126166.596923,9.321005,seed_value,sysmon,,
+126166.596968,9.321005,seed_output,sysmon,,1
+126166.597039,9.321005,seed_value,sysmon,,
+126166.597073,9.321005,seed_output,sysmon,,-1
+126166.597138,9.321005,seed_value,sysmon,,
+126166.597172,9.321005,seed_output,sysmon,,1
+126166.597234,9.321005,seed_value,sysmon,,
+126166.597265,9.321005,seed_output,sysmon,,1
+126166.597421,9.321005,state,sysmon,"scale1, arrow",4
+126166.597487,9.321005,state,sysmon,"scale2, arrow",6
+126166.597536,9.321005,state,sysmon,"scale3, arrow",6
+126166.597577,9.321005,state,sysmon,"scale4, arrow",6
+126166.713394,9.437678,performance,sysmon,event_occured,0
+126166.713851,9.437678,seed_value,sysmon,,
+126166.713903,9.437678,seed_output,sysmon,,1
+126166.713976,9.437678,seed_value,sysmon,,
+126166.714013,9.437678,seed_output,sysmon,,-1
+126166.714076,9.437678,seed_value,sysmon,,
+126166.714109,9.437678,seed_output,sysmon,,-1
+126166.71417,9.437678,seed_value,sysmon,,
+126166.714203,9.437678,seed_output,sysmon,,-1
+126166.714408,9.437678,state,sysmon,"scale1, arrow",5
+126166.714491,9.437678,state,sysmon,"scale2, arrow",5
+126166.714561,9.437678,state,sysmon,"scale3, arrow",5
+126166.714627,9.437678,state,sysmon,"scale4, arrow",5
+126166.829644,9.553968,performance,sysmon,event_occured,0
+126166.829923,9.553968,seed_value,sysmon,,
+126166.829975,9.553968,seed_output,sysmon,,1
+126166.830049,9.553968,seed_value,sysmon,,
+126166.830084,9.553968,seed_output,sysmon,,-1
+126166.830147,9.553968,seed_value,sysmon,,
+126166.830179,9.553968,seed_output,sysmon,,1
+126166.830239,9.553968,seed_value,sysmon,,
+126166.83027,9.553968,seed_output,sysmon,,1
+126166.830436,9.553968,state,sysmon,"scale1, arrow",6
+126166.830491,9.553968,state,sysmon,"scale2, arrow",4
+126166.830538,9.553968,state,sysmon,"scale3, arrow",6
+126166.830583,9.553968,state,sysmon,"scale4, arrow",6
+126166.929765,9.654074,performance,sysmon,event_occured,0
+126166.930054,9.654074,seed_value,sysmon,,
+126166.930099,9.654074,seed_output,sysmon,,-1
+126166.930168,9.654074,seed_value,sysmon,,
+126166.930204,9.654074,seed_output,sysmon,,-1
+126166.930266,9.654074,seed_value,sysmon,,
+126166.930298,9.654074,seed_output,sysmon,,1
+126166.930359,9.654074,seed_value,sysmon,,
+126166.930393,9.654074,seed_output,sysmon,,1
+126166.930554,9.654074,state,sysmon,"scale1, arrow",5
+126166.930609,9.654074,state,sysmon,"scale2, arrow",3
+126166.930655,9.654074,state,sysmon,"scale3, arrow",7
+126166.930699,9.654074,state,sysmon,"scale4, arrow",7
+126167.029839,9.754135,performance,sysmon,event_occured,0
+126167.030131,9.754135,seed_value,sysmon,,
+126167.030174,9.754135,seed_output,sysmon,,1
+126167.030247,9.754135,seed_value,sysmon,,
+126167.030281,9.754135,seed_output,sysmon,,1
+126167.030346,9.754135,seed_value,sysmon,,
+126167.030379,9.754135,seed_output,sysmon,,1
+126167.030441,9.754135,seed_value,sysmon,,
+126167.030472,9.754135,seed_output,sysmon,,-1
+126167.030633,9.754135,state,sysmon,"scale1, arrow",6
+126167.030694,9.754135,state,sysmon,"scale2, arrow",4
+126167.030741,9.754135,state,sysmon,"scale3, arrow",6
+126167.030785,9.754135,state,sysmon,"scale4, arrow",6
+126167.14641,9.870729,performance,sysmon,event_occured,0
+126167.146658,9.870729,seed_value,sysmon,,
+126167.146702,9.870729,seed_output,sysmon,,1
+126167.146773,9.870729,seed_value,sysmon,,
+126167.146829,9.870729,seed_output,sysmon,,-1
+126167.146893,9.870729,seed_value,sysmon,,
+126167.146934,9.870729,seed_output,sysmon,,-1
+126167.146997,9.870729,seed_value,sysmon,,
+126167.147029,9.870729,seed_output,sysmon,,1
+126167.147204,9.870729,state,sysmon,"scale1, arrow",7
+126167.147265,9.870729,state,sysmon,"scale2, arrow",3
+126167.147309,9.870729,state,sysmon,"scale3, arrow",5
+126167.147351,9.870729,state,sysmon,"scale4, arrow",7
+126167.246822,9.971113,performance,sysmon,event_occured,0
+126167.247073,9.971113,seed_value,sysmon,,
+126167.247122,9.971113,seed_output,sysmon,,1
+126167.247195,9.971113,seed_value,sysmon,,
+126167.247232,9.971113,seed_output,sysmon,,1
+126167.247296,9.971113,seed_value,sysmon,,
+126167.247329,9.971113,seed_output,sysmon,,1
+126167.2475,9.971113,seed_value,sysmon,,
+126167.247534,9.971113,seed_output,sysmon,,1
+126167.247705,9.971113,state,sysmon,"scale1, arrow",6
+126167.247777,9.971113,state,sysmon,"scale2, arrow",4
+126167.247823,9.971113,state,sysmon,"scale3, arrow",6
+126167.247865,9.971113,state,sysmon,"scale4, arrow",6
+126167.281306,10.004998,event,sysmon,scales-1-failure,1
+126167.296976,10.020768,event,sysmon,scales-1-side,-1
+126167.363365,10.087659,performance,sysmon,event_occured,0
+126167.363652,10.087659,seed_value,sysmon,,
+126167.363699,10.087659,seed_output,sysmon,,-1
+126167.363771,10.087659,seed_value,sysmon,,
+126167.363804,10.087659,seed_output,sysmon,,1
+126167.363867,10.087659,seed_value,sysmon,,
+126167.363901,10.087659,seed_output,sysmon,,-1
+126167.363961,10.087659,seed_value,sysmon,,
+126167.363993,10.087659,seed_output,sysmon,,1
+126167.364173,10.087659,state,sysmon,"scale1, arrow",5
+126167.364233,10.087659,state,sysmon,"scale2, arrow",5
+126167.36428,10.087659,state,sysmon,"scale3, arrow",5
+126167.364323,10.087659,state,sysmon,"scale4, arrow",7
+126167.479893,10.204191,performance,sysmon,event_occured,0
+126167.480209,10.204191,seed_value,sysmon,,
+126167.480256,10.204191,seed_output,sysmon,,9
+126167.480326,10.204191,seed_value,sysmon,,
+126167.48036,10.204191,seed_output,sysmon,,1
+126167.480423,10.204191,seed_value,sysmon,,
+126167.480457,10.204191,seed_output,sysmon,,-1
+126167.48052,10.204191,seed_value,sysmon,,
+126167.480551,10.204191,seed_output,sysmon,,1
+126167.480711,10.204191,state,sysmon,"scale1, arrow",9
+126167.480778,10.204191,state,sysmon,"scale2, arrow",6
+126167.48084,10.204191,state,sysmon,"scale3, arrow",4
+126167.480904,10.204191,state,sysmon,"scale4, arrow",6
+126167.579937,10.304247,performance,sysmon,event_occured,1
+126167.580275,10.304247,seed_value,sysmon,,
+126167.580324,10.304247,seed_output,sysmon,,-1
+126167.580398,10.304247,seed_value,sysmon,,
+126167.580434,10.304247,seed_output,sysmon,,1
+126167.580498,10.304247,seed_value,sysmon,,
+126167.58053,10.304247,seed_output,sysmon,,1
+126167.58059,10.304247,seed_value,sysmon,,
+126167.580621,10.304247,seed_output,sysmon,,-1
+126167.580777,10.304247,state,sysmon,"scale1, arrow",8
+126167.580836,10.304247,state,sysmon,"scale2, arrow",7
+126167.580883,10.304247,state,sysmon,"scale3, arrow",5
+126167.580926,10.304247,state,sysmon,"scale4, arrow",5
+126167.696669,10.420983,performance,sysmon,event_occured,1
+126167.69692,10.420983,seed_value,sysmon,,
+126167.696967,10.420983,seed_output,sysmon,,1
+126167.697039,10.420983,seed_value,sysmon,,
+126167.697074,10.420983,seed_output,sysmon,,-1
+126167.697137,10.420983,seed_value,sysmon,,
+126167.697169,10.420983,seed_output,sysmon,,-1
+126167.697229,10.420983,seed_value,sysmon,,
+126167.697262,10.420983,seed_output,sysmon,,1
+126167.69741,10.420983,state,sysmon,"scale1, arrow",9
+126167.697472,10.420983,state,sysmon,"scale2, arrow",6
+126167.697519,10.420983,state,sysmon,"scale3, arrow",4
+126167.697561,10.420983,state,sysmon,"scale4, arrow",6
+126167.812819,10.537121,performance,sysmon,event_occured,1
+126167.813101,10.537121,seed_value,sysmon,,
+126167.813147,10.537121,seed_output,sysmon,,-1
+126167.813219,10.537121,seed_value,sysmon,,
+126167.813253,10.537121,seed_output,sysmon,,1
+126167.813316,10.537121,seed_value,sysmon,,
+126167.813348,10.537121,seed_output,sysmon,,1
+126167.813408,10.537121,seed_value,sysmon,,
+126167.813443,10.537121,seed_output,sysmon,,1
+126167.813589,10.537121,state,sysmon,"scale1, arrow",8
+126167.813649,10.537121,state,sysmon,"scale2, arrow",7
+126167.813695,10.537121,state,sysmon,"scale3, arrow",5
+126167.813738,10.537121,state,sysmon,"scale4, arrow",7
+126167.913146,10.637456,performance,sysmon,event_occured,1
+126167.913435,10.637456,seed_value,sysmon,,
+126167.913485,10.637456,seed_output,sysmon,,1
+126167.913565,10.637456,seed_value,sysmon,,
+126167.913601,10.637456,seed_output,sysmon,,1
+126167.913666,10.637456,seed_value,sysmon,,
+126167.913699,10.637456,seed_output,sysmon,,-1
+126167.913761,10.637456,seed_value,sysmon,,
+126167.913795,10.637456,seed_output,sysmon,,-1
+126167.913957,10.637456,state,sysmon,"scale1, arrow",9
+126167.914016,10.637456,state,sysmon,"scale2, arrow",6
+126167.914066,10.637456,state,sysmon,"scale3, arrow",4
+126167.914111,10.637456,state,sysmon,"scale4, arrow",6
+126168.013176,10.73748,performance,sysmon,event_occured,1
+126168.013461,10.73748,seed_value,sysmon,,
+126168.013507,10.73748,seed_output,sysmon,,-1
+126168.013578,10.73748,seed_value,sysmon,,
+126168.013613,10.73748,seed_output,sysmon,,1
+126168.013683,10.73748,seed_value,sysmon,,
+126168.013717,10.73748,seed_output,sysmon,,-1
+126168.013777,10.73748,seed_value,sysmon,,
+126168.013809,10.73748,seed_output,sysmon,,1
+126168.013958,10.73748,state,sysmon,"scale1, arrow",8
+126168.014022,10.73748,state,sysmon,"scale2, arrow",7
+126168.014069,10.73748,state,sysmon,"scale3, arrow",3
+126168.014112,10.73748,state,sysmon,"scale4, arrow",7
+126168.113209,10.83751,performance,sysmon,event_occured,1
+126168.113486,10.83751,seed_value,sysmon,,
+126168.113532,10.83751,seed_output,sysmon,,-1
+126168.113602,10.83751,seed_value,sysmon,,
+126168.113635,10.83751,seed_output,sysmon,,1
+126168.113698,10.83751,seed_value,sysmon,,
+126168.11373,10.83751,seed_output,sysmon,,-1
+126168.11379,10.83751,seed_value,sysmon,,
+126168.113823,10.83751,seed_output,sysmon,,-1
+126168.11397,10.83751,state,sysmon,"scale1, arrow",9
+126168.114035,10.83751,state,sysmon,"scale2, arrow",6
+126168.114085,10.83751,state,sysmon,"scale3, arrow",4
+126168.114129,10.83751,state,sysmon,"scale4, arrow",6
+126168.213179,10.937511,performance,sysmon,event_occured,1
+126168.213468,10.937511,seed_value,sysmon,,
+126168.21352,10.937511,seed_output,sysmon,,-1
+126168.213592,10.937511,seed_value,sysmon,,
+126168.213627,10.937511,seed_output,sysmon,,1
+126168.213692,10.937511,seed_value,sysmon,,
+126168.213725,10.937511,seed_output,sysmon,,1
+126168.213785,10.937511,seed_value,sysmon,,
+126168.213817,10.937511,seed_output,sysmon,,-1
+126168.213977,10.937511,state,sysmon,"scale1, arrow",8
+126168.214039,10.937511,state,sysmon,"scale2, arrow",7
+126168.214091,10.937511,state,sysmon,"scale3, arrow",5
+126168.214226,10.937511,state,sysmon,"scale4, arrow",5
+126168.329613,11.05389,performance,sysmon,event_occured,1
+126168.329903,11.05389,seed_value,sysmon,,
+126168.329954,11.05389,seed_output,sysmon,,1
+126168.330026,11.05389,seed_value,sysmon,,
+126168.330064,11.05389,seed_output,sysmon,,-1
+126168.330129,11.05389,seed_value,sysmon,,
+126168.330163,11.05389,seed_output,sysmon,,-1
+126168.330225,11.05389,seed_value,sysmon,,
+126168.330257,11.05389,seed_output,sysmon,,1
+126168.330412,11.05389,state,sysmon,"scale1, arrow",9
+126168.330476,11.05389,state,sysmon,"scale2, arrow",6
+126168.330528,11.05389,state,sysmon,"scale3, arrow",4
+126168.33057,11.05389,state,sysmon,"scale4, arrow",6
+126168.429712,11.153968,performance,sysmon,event_occured,1
+126168.430008,11.153968,seed_value,sysmon,,
+126168.430057,11.153968,seed_output,sysmon,,-1
+126168.430127,11.153968,seed_value,sysmon,,
+126168.430163,11.153968,seed_output,sysmon,,1
+126168.430226,11.153968,seed_value,sysmon,,
+126168.430258,11.153968,seed_output,sysmon,,-1
+126168.43032,11.153968,seed_value,sysmon,,
+126168.430352,11.153968,seed_output,sysmon,,-1
+126168.430506,11.153968,state,sysmon,"scale1, arrow",8
+126168.430571,11.153968,state,sysmon,"scale2, arrow",7
+126168.43062,11.153968,state,sysmon,"scale3, arrow",3
+126168.430661,11.153968,state,sysmon,"scale4, arrow",5
+126168.529751,11.254045,performance,sysmon,event_occured,1
+126168.530036,11.254045,seed_value,sysmon,,
+126168.530083,11.254045,seed_output,sysmon,,-1
+126168.530156,11.254045,seed_value,sysmon,,
+126168.530191,11.254045,seed_output,sysmon,,1
+126168.530253,11.254045,seed_value,sysmon,,
+126168.530285,11.254045,seed_output,sysmon,,-1
+126168.530345,11.254045,seed_value,sysmon,,
+126168.530375,11.254045,seed_output,sysmon,,-1
+126168.530534,11.254045,state,sysmon,"scale1, arrow",9
+126168.530594,11.254045,state,sysmon,"scale2, arrow",6
+126168.530643,11.254045,state,sysmon,"scale3, arrow",4
+126168.530776,11.254045,state,sysmon,"scale4, arrow",4
+126168.646395,11.370675,performance,sysmon,event_occured,1
+126168.646654,11.370675,seed_value,sysmon,,
+126168.6467,11.370675,seed_output,sysmon,,1
+126168.646771,11.370675,seed_value,sysmon,,
+126168.646805,11.370675,seed_output,sysmon,,1
+126168.646871,11.370675,seed_value,sysmon,,
+126168.646904,11.370675,seed_output,sysmon,,1
+126168.646964,11.370675,seed_value,sysmon,,
+126168.646994,11.370675,seed_output,sysmon,,1
+126168.647184,11.370675,state,sysmon,"scale1, arrow",10
+126168.64724,11.370675,state,sysmon,"scale2, arrow",7
+126168.647286,11.370675,state,sysmon,"scale3, arrow",5
+126168.647329,11.370675,state,sysmon,"scale4, arrow",5
+126168.763143,11.487436,performance,sysmon,event_occured,1
+126168.76341,11.487436,seed_value,sysmon,,
+126168.76346,11.487436,seed_output,sysmon,,1
+126168.76353,11.487436,seed_value,sysmon,,
+126168.763714,11.487436,seed_output,sysmon,,1
+126168.763785,11.487436,seed_value,sysmon,,
+126168.763819,11.487436,seed_output,sysmon,,1
+126168.763885,11.487436,seed_value,sysmon,,
+126168.763918,11.487436,seed_output,sysmon,,1
+126168.764135,11.487436,state,sysmon,"scale1, arrow",9
+126168.764193,11.487436,state,sysmon,"scale2, arrow",6
+126168.764245,11.487436,state,sysmon,"scale3, arrow",6
+126168.764288,11.487436,state,sysmon,"scale4, arrow",6
+126168.879781,11.604092,performance,sysmon,event_occured,1
+126168.880133,11.604092,seed_value,sysmon,,
+126168.88018,11.604092,seed_output,sysmon,,-1
+126168.880253,11.604092,seed_value,sysmon,,
+126168.880287,11.604092,seed_output,sysmon,,-1
+126168.880348,11.604092,seed_value,sysmon,,
+126168.88038,11.604092,seed_output,sysmon,,-1
+126168.880441,11.604092,seed_value,sysmon,,
+126168.880471,11.604092,seed_output,sysmon,,1
+126168.880633,11.604092,state,sysmon,"scale1, arrow",8
+126168.880691,11.604092,state,sysmon,"scale2, arrow",5
+126168.880744,11.604092,state,sysmon,"scale3, arrow",5
+126168.880786,11.604092,state,sysmon,"scale4, arrow",7
+126168.996422,11.720743,performance,sysmon,event_occured,1
+126168.996678,11.720743,seed_value,sysmon,,
+126168.996726,11.720743,seed_output,sysmon,,-1
+126168.996797,11.720743,seed_value,sysmon,,
+126168.996834,11.720743,seed_output,sysmon,,-1
+126168.996899,11.720743,seed_value,sysmon,,
+126168.996933,11.720743,seed_output,sysmon,,1
+126168.996996,11.720743,seed_value,sysmon,,
+126168.997029,11.720743,seed_output,sysmon,,1
+126168.997206,11.720743,state,sysmon,"scale1, arrow",9
+126168.997264,11.720743,state,sysmon,"scale2, arrow",4
+126168.997309,11.720743,state,sysmon,"scale3, arrow",6
+126168.997351,11.720743,state,sysmon,"scale4, arrow",6
+126169.1131,11.837408,performance,sysmon,event_occured,1
+126169.113395,11.837408,seed_value,sysmon,,
+126169.113442,11.837408,seed_output,sysmon,,-1
+126169.113513,11.837408,seed_value,sysmon,,
+126169.113547,11.837408,seed_output,sysmon,,1
+126169.113611,11.837408,seed_value,sysmon,,
+126169.113643,11.837408,seed_output,sysmon,,-1
+126169.113704,11.837408,seed_value,sysmon,,
+126169.113743,11.837408,seed_output,sysmon,,-1
+126169.113887,11.837408,state,sysmon,"scale1, arrow",8
+126169.113947,11.837408,state,sysmon,"scale2, arrow",5
+126169.113994,11.837408,state,sysmon,"scale3, arrow",5
+126169.114037,11.837408,state,sysmon,"scale4, arrow",5
+126169.229516,11.95383,performance,sysmon,event_occured,1
+126169.229816,11.95383,seed_value,sysmon,,
+126169.229862,11.95383,seed_output,sysmon,,1
+126169.229933,11.95383,seed_value,sysmon,,
+126169.229968,11.95383,seed_output,sysmon,,1
+126169.230031,11.95383,seed_value,sysmon,,
+126169.230065,11.95383,seed_output,sysmon,,1
+126169.230126,11.95383,seed_value,sysmon,,
+126169.230158,11.95383,seed_output,sysmon,,-1
+126169.230334,11.95383,state,sysmon,"scale1, arrow",9
+126169.230394,11.95383,state,sysmon,"scale2, arrow",6
+126169.230442,11.95383,state,sysmon,"scale3, arrow",6
+126169.230486,11.95383,state,sysmon,"scale4, arrow",4
+126169.329755,12.054077,performance,sysmon,event_occured,1
+126169.330033,12.054077,seed_value,sysmon,,
+126169.330081,12.054077,seed_output,sysmon,,1
+126169.33015,12.054077,seed_value,sysmon,,
+126169.330184,12.054077,seed_output,sysmon,,1
+126169.330248,12.054077,seed_value,sysmon,,
+126169.330279,12.054077,seed_output,sysmon,,-1
+126169.330339,12.054077,seed_value,sysmon,,
+126169.33037,12.054077,seed_output,sysmon,,1
+126169.33054,12.054077,state,sysmon,"scale1, arrow",10
+126169.330601,12.054077,state,sysmon,"scale2, arrow",7
+126169.33065,12.054077,state,sysmon,"scale3, arrow",5
+126169.330702,12.054077,state,sysmon,"scale4, arrow",5
+126169.430452,12.154709,performance,sysmon,event_occured,1
+126169.430807,12.154709,seed_value,sysmon,,
+126169.430856,12.154709,seed_output,sysmon,,-1
+126169.430929,12.154709,seed_value,sysmon,,
+126169.430964,12.154709,seed_output,sysmon,,1
+126169.431027,12.154709,seed_value,sysmon,,
+126169.431065,12.154709,seed_output,sysmon,,1
+126169.431128,12.154709,seed_value,sysmon,,
+126169.43116,12.154709,seed_output,sysmon,,1
+126169.431328,12.154709,state,sysmon,"scale1, arrow",9
+126169.431387,12.154709,state,sysmon,"scale2, arrow",6
+126169.431439,12.154709,state,sysmon,"scale3, arrow",6
+126169.431485,12.154709,state,sysmon,"scale4, arrow",6
+126169.546448,12.270762,performance,sysmon,event_occured,1
+126169.546738,12.270762,seed_value,sysmon,,
+126169.546784,12.270762,seed_output,sysmon,,1
+126169.546854,12.270762,seed_value,sysmon,,
+126169.546892,12.270762,seed_output,sysmon,,1
+126169.546956,12.270762,seed_value,sysmon,,
+126169.546988,12.270762,seed_output,sysmon,,-1
+126169.54705,12.270762,seed_value,sysmon,,
+126169.547082,12.270762,seed_output,sysmon,,-1
+126169.547265,12.270762,state,sysmon,"scale1, arrow",10
+126169.547322,12.270762,state,sysmon,"scale2, arrow",7
+126169.547369,12.270762,state,sysmon,"scale3, arrow",5
+126169.547412,12.270762,state,sysmon,"scale4, arrow",5
+126169.662839,12.387125,performance,sysmon,event_occured,1
+126169.663089,12.387125,seed_value,sysmon,,
+126169.663137,12.387125,seed_output,sysmon,,-1
+126169.663209,12.387125,seed_value,sysmon,,
+126169.663242,12.387125,seed_output,sysmon,,1
+126169.663304,12.387125,seed_value,sysmon,,
+126169.663335,12.387125,seed_output,sysmon,,-1
+126169.663395,12.387125,seed_value,sysmon,,
+126169.663425,12.387125,seed_output,sysmon,,-1
+126169.663609,12.387125,state,sysmon,"scale1, arrow",9
+126169.663664,12.387125,state,sysmon,"scale2, arrow",6
+126169.66371,12.387125,state,sysmon,"scale3, arrow",4
+126169.663753,12.387125,state,sysmon,"scale4, arrow",4
+126169.780779,12.505006,performance,sysmon,event_occured,1
+126169.781168,12.505006,seed_value,sysmon,,
+126169.781217,12.505006,seed_output,sysmon,,1
+126169.781293,12.505006,seed_value,sysmon,,
+126169.781333,12.505006,seed_output,sysmon,,1
+126169.781403,12.505006,seed_value,sysmon,,
+126169.781438,12.505006,seed_output,sysmon,,1
+126169.781502,12.505006,seed_value,sysmon,,
+126169.781537,12.505006,seed_output,sysmon,,-1
+126169.781741,12.505006,state,sysmon,"scale1, arrow",10
+126169.781809,12.505006,state,sysmon,"scale2, arrow",7
+126169.781873,12.505006,state,sysmon,"scale3, arrow",5
+126169.781925,12.505006,state,sysmon,"scale4, arrow",3
+126169.894076,12.618416,performance,sysmon,event_occured,1
+126169.894371,12.618416,seed_value,sysmon,,
+126169.894393,12.618416,seed_output,sysmon,,-1
+126169.89443,12.618416,seed_value,sysmon,,
+126169.894447,12.618416,seed_output,sysmon,,-1
+126169.894478,12.618416,seed_value,sysmon,,
+126169.894492,12.618416,seed_output,sysmon,,1
+126169.894521,12.618416,seed_value,sysmon,,
+126169.894542,12.618416,seed_output,sysmon,,-1
+126169.8947,12.618416,state,sysmon,"scale1, arrow",9
+126169.89473,12.618416,state,sysmon,"scale2, arrow",6
+126169.894765,12.618416,state,sysmon,"scale3, arrow",6
+126169.894791,12.618416,state,sysmon,"scale4, arrow",4
+126169.995721,12.720007,performance,sysmon,event_occured,1
+126169.996043,12.720007,seed_value,sysmon,,
+126169.996081,12.720007,seed_output,sysmon,,-1
+126169.996135,12.720007,seed_value,sysmon,,
+126169.996162,12.720007,seed_output,sysmon,,-1
+126169.996211,12.720007,seed_value,sysmon,,
+126169.996391,12.720007,seed_output,sysmon,,1
+126169.99646,12.720007,seed_value,sysmon,,
+126169.996504,12.720007,seed_output,sysmon,,-1
+126169.996736,12.720007,state,sysmon,"scale1, arrow",8
+126169.996789,12.720007,state,sysmon,"scale2, arrow",5
+126169.996825,12.720007,state,sysmon,"scale3, arrow",7
+126169.99686,12.720007,state,sysmon,"scale4, arrow",3
+126170.113495,12.837786,performance,sysmon,event_occured,1
+126170.113773,12.837786,seed_value,sysmon,,
+126170.113817,12.837786,seed_output,sysmon,,-1
+126170.113887,12.837786,seed_value,sysmon,,
+126170.11392,12.837786,seed_output,sysmon,,1
+126170.113983,12.837786,seed_value,sysmon,,
+126170.114016,12.837786,seed_output,sysmon,,-1
+126170.114077,12.837786,seed_value,sysmon,,
+126170.114109,12.837786,seed_output,sysmon,,-1
+126170.114269,12.837786,state,sysmon,"scale1, arrow",9
+126170.114333,12.837786,state,sysmon,"scale2, arrow",6
+126170.114384,12.837786,state,sysmon,"scale3, arrow",6
+126170.114426,12.837786,state,sysmon,"scale4, arrow",4
+126170.229548,12.953846,performance,sysmon,event_occured,1
+126170.229917,12.953846,seed_value,sysmon,,
+126170.229966,12.953846,seed_output,sysmon,,1
+126170.230035,12.953846,seed_value,sysmon,,
+126170.230068,12.953846,seed_output,sysmon,,1
+126170.23013,12.953846,seed_value,sysmon,,
+126170.230163,12.953846,seed_output,sysmon,,-1
+126170.230226,12.953846,seed_value,sysmon,,
+126170.230258,12.953846,seed_output,sysmon,,-1
+126170.230435,12.953846,state,sysmon,"scale1, arrow",10
+126170.2305,12.953846,state,sysmon,"scale2, arrow",7
+126170.230551,12.953846,state,sysmon,"scale3, arrow",5
+126170.230598,12.953846,state,sysmon,"scale4, arrow",3
+126170.329556,13.053875,performance,sysmon,event_occured,1
+126170.329852,13.053875,seed_value,sysmon,,
+126170.329898,13.053875,seed_output,sysmon,,1
+126170.329968,13.053875,seed_value,sysmon,,
+126170.330007,13.053875,seed_output,sysmon,,1
+126170.330072,13.053875,seed_value,sysmon,,
+126170.330104,13.053875,seed_output,sysmon,,1
+126170.330164,13.053875,seed_value,sysmon,,
+126170.330195,13.053875,seed_output,sysmon,,1
+126170.330355,13.053875,state,sysmon,"scale1, arrow",9
+126170.330411,13.053875,state,sysmon,"scale2, arrow",6
+126170.330461,13.053875,state,sysmon,"scale3, arrow",6
+126170.330505,13.053875,state,sysmon,"scale4, arrow",4
+126170.446379,13.170656,performance,sysmon,event_occured,1
+126170.446634,13.170656,seed_value,sysmon,,
+126170.446683,13.170656,seed_output,sysmon,,1
+126170.446753,13.170656,seed_value,sysmon,,
+126170.44679,13.170656,seed_output,sysmon,,-1
+126170.446854,13.170656,seed_value,sysmon,,
+126170.446889,13.170656,seed_output,sysmon,,1
+126170.44695,13.170656,seed_value,sysmon,,
+126170.446981,13.170656,seed_output,sysmon,,-1
+126170.44718,13.170656,state,sysmon,"scale1, arrow",10
+126170.447235,13.170656,state,sysmon,"scale2, arrow",5
+126170.447281,13.170656,state,sysmon,"scale3, arrow",7
+126170.447328,13.170656,state,sysmon,"scale4, arrow",3
+126170.546427,13.27075,performance,sysmon,event_occured,1
+126170.546678,13.27075,seed_value,sysmon,,
+126170.546725,13.27075,seed_output,sysmon,,-1
+126170.546794,13.27075,seed_value,sysmon,,
+126170.546829,13.27075,seed_output,sysmon,,-1
+126170.546894,13.27075,seed_value,sysmon,,
+126170.546926,13.27075,seed_output,sysmon,,-1
+126170.546988,13.27075,seed_value,sysmon,,
+126170.54702,13.27075,seed_output,sysmon,,-1
+126170.547174,13.27075,state,sysmon,"scale1, arrow",9
+126170.547235,13.27075,state,sysmon,"scale2, arrow",4
+126170.547285,13.27075,state,sysmon,"scale3, arrow",6
+126170.547327,13.27075,state,sysmon,"scale4, arrow",4
+126170.662903,13.387223,performance,sysmon,event_occured,1
+126170.663191,13.387223,seed_value,sysmon,,
+126170.663242,13.387223,seed_output,sysmon,,1
+126170.663314,13.387223,seed_value,sysmon,,
+126170.663351,13.387223,seed_output,sysmon,,-1
+126170.663415,13.387223,seed_value,sysmon,,
+126170.663449,13.387223,seed_output,sysmon,,-1
+126170.66351,13.387223,seed_value,sysmon,,
+126170.663543,13.387223,seed_output,sysmon,,1
+126170.663694,13.387223,state,sysmon,"scale1, arrow",10
+126170.663758,13.387223,state,sysmon,"scale2, arrow",3
+126170.663807,13.387223,state,sysmon,"scale3, arrow",5
+126170.66385,13.387223,state,sysmon,"scale4, arrow",5
+126170.76314,13.487432,performance,sysmon,event_occured,1
+126170.763417,13.487432,seed_value,sysmon,,
+126170.763465,13.487432,seed_output,sysmon,,1
+126170.763535,13.487432,seed_value,sysmon,,
+126170.763571,13.487432,seed_output,sysmon,,-1
+126170.763635,13.487432,seed_value,sysmon,,
+126170.763675,13.487432,seed_output,sysmon,,1
+126170.763737,13.487432,seed_value,sysmon,,
+126170.763769,13.487432,seed_output,sysmon,,-1
+126170.763916,13.487432,state,sysmon,"scale1, arrow",9
+126170.76398,13.487432,state,sysmon,"scale2, arrow",4
+126170.764105,13.487432,state,sysmon,"scale3, arrow",6
+126170.764167,13.487432,state,sysmon,"scale4, arrow",4
+126170.87978,13.604082,performance,sysmon,event_occured,1
+126170.880065,13.604082,seed_value,sysmon,,
+126170.880117,13.604082,seed_output,sysmon,,1
+126170.88019,13.604082,seed_value,sysmon,,
+126170.880225,13.604082,seed_output,sysmon,,-1
+126170.880291,13.604082,seed_value,sysmon,,
+126170.880475,13.604082,seed_output,sysmon,,-1
+126170.880546,13.604082,seed_value,sysmon,,
+126170.88058,13.604082,seed_output,sysmon,,-1
+126170.880783,13.604082,state,sysmon,"scale1, arrow",10
+126170.880864,13.604082,state,sysmon,"scale2, arrow",3
+126170.880914,13.604082,state,sysmon,"scale3, arrow",5
+126170.880957,13.604082,state,sysmon,"scale4, arrow",3
+126170.996302,13.720559,performance,sysmon,event_occured,1
+126170.996581,13.720559,seed_value,sysmon,,
+126170.99663,13.720559,seed_output,sysmon,,1
+126170.996701,13.720559,seed_value,sysmon,,
+126170.996738,13.720559,seed_output,sysmon,,1
+126170.996804,13.720559,seed_value,sysmon,,
+126170.996837,13.720559,seed_output,sysmon,,1
+126170.996898,13.720559,seed_value,sysmon,,
+126170.996928,13.720559,seed_output,sysmon,,1
+126170.997101,13.720559,state,sysmon,"scale1, arrow",9
+126170.997162,13.720559,state,sysmon,"scale2, arrow",4
+126170.997208,13.720559,state,sysmon,"scale3, arrow",6
+126170.997249,13.720559,state,sysmon,"scale4, arrow",4
+126171.096415,13.820693,performance,sysmon,event_occured,1
+126171.096679,13.820693,seed_value,sysmon,,
+126171.096723,13.820693,seed_output,sysmon,,1
+126171.096792,13.820693,seed_value,sysmon,,
+126171.096825,13.820693,seed_output,sysmon,,-1
+126171.09689,13.820693,seed_value,sysmon,,
+126171.096924,13.820693,seed_output,sysmon,,-1
+126171.096983,13.820693,seed_value,sysmon,,
+126171.097013,13.820693,seed_output,sysmon,,-1
+126171.097196,13.820693,state,sysmon,"scale1, arrow",10
+126171.097258,13.820693,state,sysmon,"scale2, arrow",3
+126171.097321,13.820693,state,sysmon,"scale3, arrow",5
+126171.097366,13.820693,state,sysmon,"scale4, arrow",3
+126171.213172,13.937403,performance,sysmon,event_occured,1
+126171.213442,13.937403,seed_value,sysmon,,
+126171.213487,13.937403,seed_output,sysmon,,-1
+126171.213557,13.937403,seed_value,sysmon,,
+126171.21359,13.937403,seed_output,sysmon,,-1
+126171.213654,13.937403,seed_value,sysmon,,
+126171.213687,13.937403,seed_output,sysmon,,-1
+126171.21375,13.937403,seed_value,sysmon,,
+126171.213782,13.937403,seed_output,sysmon,,1
+126171.213968,13.937403,state,sysmon,"scale1, arrow",9
+126171.214033,13.937403,state,sysmon,"scale2, arrow",4
+126171.214098,13.937403,state,sysmon,"scale3, arrow",4
+126171.214145,13.937403,state,sysmon,"scale4, arrow",4
+126171.313833,14.038041,performance,sysmon,event_occured,1
+126171.314095,14.038041,seed_value,sysmon,,
+126171.31415,14.038041,seed_output,sysmon,,1
+126171.314221,14.038041,seed_value,sysmon,,
+126171.314254,14.038041,seed_output,sysmon,,1
+126171.314315,14.038041,seed_value,sysmon,,
+126171.314348,14.038041,seed_output,sysmon,,1
+126171.314407,14.038041,seed_value,sysmon,,
+126171.314439,14.038041,seed_output,sysmon,,1
+126171.314629,14.038041,state,sysmon,"scale1, arrow",10
+126171.314703,14.038041,state,sysmon,"scale2, arrow",5
+126171.314751,14.038041,state,sysmon,"scale3, arrow",5
+126171.314792,14.038041,state,sysmon,"scale4, arrow",5
+126171.429366,14.153631,performance,sysmon,event_occured,1
+126171.429703,14.153631,seed_value,sysmon,,
+126171.429751,14.153631,seed_output,sysmon,,1
+126171.429821,14.153631,seed_value,sysmon,,
+126171.429857,14.153631,seed_output,sysmon,,1
+126171.429921,14.153631,seed_value,sysmon,,
+126171.429955,14.153631,seed_output,sysmon,,-1
+126171.430017,14.153631,seed_value,sysmon,,
+126171.43005,14.153631,seed_output,sysmon,,-1
+126171.430243,14.153631,state,sysmon,"scale1, arrow",9
+126171.430307,14.153631,state,sysmon,"scale2, arrow",6
+126171.430358,14.153631,state,sysmon,"scale3, arrow",4
+126171.430404,14.153631,state,sysmon,"scale4, arrow",4
+126171.529534,14.253816,performance,sysmon,event_occured,1
+126171.529882,14.253816,seed_value,sysmon,,
+126171.529933,14.253816,seed_output,sysmon,,-1
+126171.530013,14.253816,seed_value,sysmon,,
+126171.530066,14.253816,seed_output,sysmon,,1
+126171.530137,14.253816,seed_value,sysmon,,
+126171.53017,14.253816,seed_output,sysmon,,-1
+126171.530235,14.253816,seed_value,sysmon,,
+126171.530266,14.253816,seed_output,sysmon,,1
+126171.530446,14.253816,state,sysmon,"scale1, arrow",8
+126171.530516,14.253816,state,sysmon,"scale2, arrow",7
+126171.530563,14.253816,state,sysmon,"scale3, arrow",3
+126171.530607,14.253816,state,sysmon,"scale4, arrow",5
+126171.646164,14.370486,performance,sysmon,event_occured,1
+126171.646414,14.370486,seed_value,sysmon,,
+126171.646462,14.370486,seed_output,sysmon,,1
+126171.646533,14.370486,seed_value,sysmon,,
+126171.646566,14.370486,seed_output,sysmon,,1
+126171.646631,14.370486,seed_value,sysmon,,
+126171.646663,14.370486,seed_output,sysmon,,-1
+126171.646725,14.370486,seed_value,sysmon,,
+126171.646756,14.370486,seed_output,sysmon,,-1
+126171.64691,14.370486,state,sysmon,"scale1, arrow",9
+126171.646972,14.370486,state,sysmon,"scale2, arrow",6
+126171.64702,14.370486,state,sysmon,"scale3, arrow",4
+126171.647062,14.370486,state,sysmon,"scale4, arrow",4
+126171.762944,14.487252,performance,sysmon,event_occured,1
+126171.763206,14.487252,seed_value,sysmon,,
+126171.763253,14.487252,seed_output,sysmon,,1
+126171.763328,14.487252,seed_value,sysmon,,
+126171.763363,14.487252,seed_output,sysmon,,-1
+126171.763426,14.487252,seed_value,sysmon,,
+126171.763461,14.487252,seed_output,sysmon,,1
+126171.763522,14.487252,seed_value,sysmon,,
+126171.763554,14.487252,seed_output,sysmon,,-1
+126171.763709,14.487252,state,sysmon,"scale1, arrow",10
+126171.763776,14.487252,state,sysmon,"scale2, arrow",5
+126171.763826,14.487252,state,sysmon,"scale3, arrow",5
+126171.763868,14.487252,state,sysmon,"scale4, arrow",3
+126171.879572,14.603879,performance,sysmon,event_occured,1
+126171.879866,14.603879,seed_value,sysmon,,
+126171.879913,14.603879,seed_output,sysmon,,1
+126171.879984,14.603879,seed_value,sysmon,,
+126171.880064,14.603879,seed_output,sysmon,,1
+126171.880129,14.603879,seed_value,sysmon,,
+126171.880162,14.603879,seed_output,sysmon,,-1
+126171.880224,14.603879,seed_value,sysmon,,
+126171.880256,14.603879,seed_output,sysmon,,-1
+126171.880414,14.603879,state,sysmon,"scale1, arrow",9
+126171.880477,14.603879,state,sysmon,"scale2, arrow",6
+126171.880525,14.603879,state,sysmon,"scale3, arrow",4
+126171.880569,14.603879,state,sysmon,"scale4, arrow",4
+126171.979639,14.703971,performance,sysmon,event_occured,1
+126171.979942,14.703971,seed_value,sysmon,,
+126171.979987,14.703971,seed_output,sysmon,,-1
+126171.980089,14.703971,seed_value,sysmon,,
+126171.980124,14.703971,seed_output,sysmon,,1
+126171.980188,14.703971,seed_value,sysmon,,
+126171.980221,14.703971,seed_output,sysmon,,-1
+126171.980282,14.703971,seed_value,sysmon,,
+126171.980314,14.703971,seed_output,sysmon,,1
+126171.980475,14.703971,state,sysmon,"scale1, arrow",8
+126171.980539,14.703971,state,sysmon,"scale2, arrow",7
+126171.980589,14.703971,state,sysmon,"scale3, arrow",3
+126171.980634,14.703971,state,sysmon,"scale4, arrow",5
+126172.096047,14.820351,performance,sysmon,event_occured,1
+126172.096305,14.820351,seed_value,sysmon,,
+126172.096348,14.820351,seed_output,sysmon,,-1
+126172.096417,14.820351,seed_value,sysmon,,
+126172.096452,14.820351,seed_output,sysmon,,-1
+126172.096515,14.820351,seed_value,sysmon,,
+126172.096546,14.820351,seed_output,sysmon,,-1
+126172.096605,14.820351,seed_value,sysmon,,
+126172.096636,14.820351,seed_output,sysmon,,-1
+126172.096808,14.820351,state,sysmon,"scale1, arrow",9
+126172.096869,14.820351,state,sysmon,"scale2, arrow",6
+126172.096916,14.820351,state,sysmon,"scale3, arrow",4
+126172.096958,14.820351,state,sysmon,"scale4, arrow",4
+126172.196114,14.920402,performance,sysmon,event_occured,1
+126172.196406,14.920402,seed_value,sysmon,,
+126172.196457,14.920402,seed_output,sysmon,,-1
+126172.196532,14.920402,seed_value,sysmon,,
+126172.196581,14.920402,seed_output,sysmon,,-1
+126172.196666,14.920402,seed_value,sysmon,,
+126172.19672,14.920402,seed_output,sysmon,,1
+126172.196808,14.920402,seed_value,sysmon,,
+126172.196848,14.920402,seed_output,sysmon,,1
+126172.197032,14.920402,state,sysmon,"scale1, arrow",8
+126172.197095,14.920402,state,sysmon,"scale2, arrow",5
+126172.197163,14.920402,state,sysmon,"scale3, arrow",5
+126172.197207,14.920402,state,sysmon,"scale4, arrow",5
+126172.312876,15.037179,performance,sysmon,event_occured,1
+126172.313149,15.037179,seed_value,sysmon,,
+126172.313198,15.037179,seed_output,sysmon,,-1
+126172.31327,15.037179,seed_value,sysmon,,
+126172.313305,15.037179,seed_output,sysmon,,1
+126172.313376,15.037179,seed_value,sysmon,,
+126172.313409,15.037179,seed_output,sysmon,,1
+126172.313469,15.037179,seed_value,sysmon,,
+126172.3135,15.037179,seed_output,sysmon,,-1
+126172.313658,15.037179,state,sysmon,"scale1, arrow",9
+126172.313719,15.037179,state,sysmon,"scale2, arrow",6
+126172.31377,15.037179,state,sysmon,"scale3, arrow",6
+126172.313815,15.037179,state,sysmon,"scale4, arrow",4
+126172.429244,15.153546,performance,sysmon,event_occured,1
+126172.429576,15.153546,seed_value,sysmon,,
+126172.429622,15.153546,seed_output,sysmon,,-1
+126172.429694,15.153546,seed_value,sysmon,,
+126172.429727,15.153546,seed_output,sysmon,,1
+126172.429789,15.153546,seed_value,sysmon,,
+126172.429826,15.153546,seed_output,sysmon,,1
+126172.429888,15.153546,seed_value,sysmon,,
+126172.42992,15.153546,seed_output,sysmon,,-1
+126172.430098,15.153546,state,sysmon,"scale1, arrow",8
+126172.430156,15.153546,state,sysmon,"scale2, arrow",7
+126172.430206,15.153546,state,sysmon,"scale3, arrow",7
+126172.430255,15.153546,state,sysmon,"scale4, arrow",3
+126172.529493,15.253804,performance,sysmon,event_occured,1
+126172.529765,15.253804,seed_value,sysmon,,
+126172.529811,15.253804,seed_output,sysmon,,-1
+126172.529904,15.253804,seed_value,sysmon,,
+126172.529947,15.253804,seed_output,sysmon,,1
+126172.530013,15.253804,seed_value,sysmon,,
+126172.530047,15.253804,seed_output,sysmon,,1
+126172.530128,15.253804,seed_value,sysmon,,
+126172.530162,15.253804,seed_output,sysmon,,-1
+126172.530317,15.253804,state,sysmon,"scale1, arrow",9
+126172.530379,15.253804,state,sysmon,"scale2, arrow",6
+126172.530429,15.253804,state,sysmon,"scale3, arrow",6
+126172.530471,15.253804,state,sysmon,"scale4, arrow",4
+126172.632925,15.357116,performance,sysmon,event_occured,1
+126172.633354,15.357116,seed_value,sysmon,,
+126172.633434,15.357116,seed_output,sysmon,,-1
+126172.633532,15.357116,seed_value,sysmon,,
+126172.633601,15.357116,seed_output,sysmon,,1
+126172.633743,15.357116,seed_value,sysmon,,
+126172.633801,15.357116,seed_output,sysmon,,1
+126172.633889,15.357116,seed_value,sysmon,,
+126172.633952,15.357116,seed_output,sysmon,,1
+126172.634152,15.357116,state,sysmon,"scale1, arrow",8
+126172.634243,15.357116,state,sysmon,"scale2, arrow",7
+126172.634328,15.357116,state,sysmon,"scale3, arrow",7
+126172.6344,15.357116,state,sysmon,"scale4, arrow",5
+126172.74598,15.470283,performance,sysmon,event_occured,1
+126172.746282,15.470283,seed_value,sysmon,,
+126172.746333,15.470283,seed_output,sysmon,,1
+126172.746409,15.470283,seed_value,sysmon,,
+126172.746443,15.470283,seed_output,sysmon,,-1
+126172.746507,15.470283,seed_value,sysmon,,
+126172.746539,15.470283,seed_output,sysmon,,1
+126172.746706,15.470283,seed_value,sysmon,,
+126172.746758,15.470283,seed_output,sysmon,,1
+126172.74695,15.470283,state,sysmon,"scale1, arrow",9
+126172.747041,15.470283,state,sysmon,"scale2, arrow",6
+126172.747105,15.470283,state,sysmon,"scale3, arrow",6
+126172.747148,15.470283,state,sysmon,"scale4, arrow",6
+126172.862798,15.587099,performance,sysmon,event_occured,1
+126172.863112,15.587099,seed_value,sysmon,,
+126172.863165,15.587099,seed_output,sysmon,,1
+126172.863236,15.587099,seed_value,sysmon,,
+126172.863271,15.587099,seed_output,sysmon,,-1
+126172.863335,15.587099,seed_value,sysmon,,
+126172.863367,15.587099,seed_output,sysmon,,-1
+126172.863429,15.587099,seed_value,sysmon,,
+126172.863477,15.587099,seed_output,sysmon,,1
+126172.863698,15.587099,state,sysmon,"scale1, arrow",10
+126172.863757,15.587099,state,sysmon,"scale2, arrow",5
+126172.863803,15.587099,state,sysmon,"scale3, arrow",5
+126172.863852,15.587099,state,sysmon,"scale4, arrow",7
+126172.979484,15.70376,performance,sysmon,event_occured,1
+126172.979777,15.70376,seed_value,sysmon,,
+126172.979825,15.70376,seed_output,sysmon,,-1
+126172.979894,15.70376,seed_value,sysmon,,
+126172.979928,15.70376,seed_output,sysmon,,1
+126172.979989,15.70376,seed_value,sysmon,,
+126172.980065,15.70376,seed_output,sysmon,,-1
+126172.980287,15.70376,seed_value,sysmon,,
+126172.98035,15.70376,seed_output,sysmon,,1
+126172.980531,15.70376,state,sysmon,"scale1, arrow",9
+126172.980622,15.70376,state,sysmon,"scale2, arrow",6
+126172.980675,15.70376,state,sysmon,"scale3, arrow",4
+126172.980718,15.70376,state,sysmon,"scale4, arrow",6
+126173.096154,15.820471,performance,sysmon,event_occured,1
+126173.096396,15.820471,seed_value,sysmon,,
+126173.096445,15.820471,seed_output,sysmon,,-1
+126173.096514,15.820471,seed_value,sysmon,,
+126173.096546,15.820471,seed_output,sysmon,,1
+126173.096611,15.820471,seed_value,sysmon,,
+126173.096644,15.820471,seed_output,sysmon,,1
+126173.096705,15.820471,seed_value,sysmon,,
+126173.096736,15.820471,seed_output,sysmon,,1
+126173.096893,15.820471,state,sysmon,"scale1, arrow",8
+126173.09696,15.820471,state,sysmon,"scale2, arrow",7
+126173.097012,15.820471,state,sysmon,"scale3, arrow",5
+126173.097055,15.820471,state,sysmon,"scale4, arrow",7
+126173.212825,15.937135,performance,sysmon,event_occured,1
+126173.213092,15.937135,seed_value,sysmon,,
+126173.213138,15.937135,seed_output,sysmon,,1
+126173.213208,15.937135,seed_value,sysmon,,
+126173.213243,15.937135,seed_output,sysmon,,-1
+126173.213306,15.937135,seed_value,sysmon,,
+126173.213338,15.937135,seed_output,sysmon,,1
+126173.213399,15.937135,seed_value,sysmon,,
+126173.213429,15.937135,seed_output,sysmon,,1
+126173.213581,15.937135,state,sysmon,"scale1, arrow",9
+126173.213646,15.937135,state,sysmon,"scale2, arrow",6
+126173.213692,15.937135,state,sysmon,"scale3, arrow",6
+126173.213735,15.937135,state,sysmon,"scale4, arrow",6
+126173.313226,16.037446,performance,sysmon,event_occured,1
+126173.313526,16.037446,seed_value,sysmon,,
+126173.313574,16.037446,seed_output,sysmon,,1
+126173.313645,16.037446,seed_value,sysmon,,
+126173.31368,16.037446,seed_output,sysmon,,1
+126173.313742,16.037446,seed_value,sysmon,,
+126173.313774,16.037446,seed_output,sysmon,,-1
+126173.313835,16.037446,seed_value,sysmon,,
+126173.313865,16.037446,seed_output,sysmon,,-1
+126173.314079,16.037446,state,sysmon,"scale1, arrow",10
+126173.314137,16.037446,state,sysmon,"scale2, arrow",7
+126173.314187,16.037446,state,sysmon,"scale3, arrow",5
+126173.314229,16.037446,state,sysmon,"scale4, arrow",5
+126173.429378,16.153653,performance,sysmon,event_occured,1
+126173.4297,16.153653,seed_value,sysmon,,
+126173.429746,16.153653,seed_output,sysmon,,1
+126173.429816,16.153653,seed_value,sysmon,,
+126173.429853,16.153653,seed_output,sysmon,,1
+126173.429917,16.153653,seed_value,sysmon,,
+126173.429948,16.153653,seed_output,sysmon,,-1
+126173.430009,16.153653,seed_value,sysmon,,
+126173.43004,16.153653,seed_output,sysmon,,1
+126173.430228,16.153653,state,sysmon,"scale1, arrow",9
+126173.430291,16.153653,state,sysmon,"scale2, arrow",6
+126173.430341,16.153653,state,sysmon,"scale3, arrow",4
+126173.430384,16.153653,state,sysmon,"scale4, arrow",6
+126173.543872,16.268236,performance,sysmon,event_occured,1
+126173.544116,16.268236,seed_value,sysmon,,
+126173.544146,16.268236,seed_output,sysmon,,1
+126173.544194,16.268236,seed_value,sysmon,,
+126173.544218,16.268236,seed_output,sysmon,,-1
+126173.544247,16.268236,seed_value,sysmon,,
+126173.544265,16.268236,seed_output,sysmon,,1
+126173.544296,16.268236,seed_value,sysmon,,
+126173.544311,16.268236,seed_output,sysmon,,-1
+126173.544444,16.268236,state,sysmon,"scale1, arrow",10
+126173.544482,16.268236,state,sysmon,"scale2, arrow",5
+126173.544509,16.268236,state,sysmon,"scale3, arrow",5
+126173.544533,16.268236,state,sysmon,"scale4, arrow",5
+126173.646115,16.370431,performance,sysmon,event_occured,1
+126173.646428,16.370431,seed_value,sysmon,,
+126173.646481,16.370431,seed_output,sysmon,,-1
+126173.646554,16.370431,seed_value,sysmon,,
+126173.646588,16.370431,seed_output,sysmon,,-1
+126173.646652,16.370431,seed_value,sysmon,,
+126173.646683,16.370431,seed_output,sysmon,,-1
+126173.646745,16.370431,seed_value,sysmon,,
+126173.646777,16.370431,seed_output,sysmon,,1
+126173.646977,16.370431,state,sysmon,"scale1, arrow",9
+126173.647032,16.370431,state,sysmon,"scale2, arrow",4
+126173.647077,16.370431,state,sysmon,"scale3, arrow",4
+126173.647123,16.370431,state,sysmon,"scale4, arrow",6
+126173.76278,16.487036,performance,sysmon,event_occured,1
+126173.763075,16.487036,seed_value,sysmon,,
+126173.763121,16.487036,seed_output,sysmon,,-1
+126173.763193,16.487036,seed_value,sysmon,,
+126173.763226,16.487036,seed_output,sysmon,,1
+126173.763287,16.487036,seed_value,sysmon,,
+126173.763321,16.487036,seed_output,sysmon,,-1
+126173.763381,16.487036,seed_value,sysmon,,
+126173.763412,16.487036,seed_output,sysmon,,1
+126173.763584,16.487036,state,sysmon,"scale1, arrow",8
+126173.763645,16.487036,state,sysmon,"scale2, arrow",5
+126173.763691,16.487036,state,sysmon,"scale3, arrow",3
+126173.763733,16.487036,state,sysmon,"scale4, arrow",7
+126173.8629,16.587158,performance,sysmon,event_occured,1
+126173.863169,16.587158,seed_value,sysmon,,
+126173.863216,16.587158,seed_output,sysmon,,1
+126173.863292,16.587158,seed_value,sysmon,,
+126173.863327,16.587158,seed_output,sysmon,,1
+126173.863389,16.587158,seed_value,sysmon,,
+126173.863424,16.587158,seed_output,sysmon,,-1
+126173.863486,16.587158,seed_value,sysmon,,
+126173.863517,16.587158,seed_output,sysmon,,-1
+126173.863698,16.587158,state,sysmon,"scale1, arrow",9
+126173.863755,16.587158,state,sysmon,"scale2, arrow",6
+126173.863799,16.587158,state,sysmon,"scale3, arrow",4
+126173.863842,16.587158,state,sysmon,"scale4, arrow",6
+126173.979389,16.70366,performance,sysmon,event_occured,1
+126173.979709,16.70366,seed_value,sysmon,,
+126173.979757,16.70366,seed_output,sysmon,,1
+126173.979827,16.70366,seed_value,sysmon,,
+126173.97986,16.70366,seed_output,sysmon,,1
+126173.979922,16.70366,seed_value,sysmon,,
+126173.979954,16.70366,seed_output,sysmon,,-1
+126173.980037,16.70366,seed_value,sysmon,,
+126173.980072,16.70366,seed_output,sysmon,,-1
+126173.980238,16.70366,state,sysmon,"scale1, arrow",10
+126173.980298,16.70366,state,sysmon,"scale2, arrow",7
+126173.980342,16.70366,state,sysmon,"scale3, arrow",3
+126173.980387,16.70366,state,sysmon,"scale4, arrow",5
+126174.09604,16.820306,performance,sysmon,event_occured,1
+126174.096311,16.820306,seed_value,sysmon,,
+126174.096359,16.820306,seed_output,sysmon,,-1
+126174.096439,16.820306,seed_value,sysmon,,
+126174.096474,16.820306,seed_output,sysmon,,-1
+126174.096537,16.820306,seed_value,sysmon,,
+126174.09657,16.820306,seed_output,sysmon,,1
+126174.096632,16.820306,seed_value,sysmon,,
+126174.096662,16.820306,seed_output,sysmon,,1
+126174.096866,16.820306,state,sysmon,"scale1, arrow",9
+126174.096923,16.820306,state,sysmon,"scale2, arrow",6
+126174.096968,16.820306,state,sysmon,"scale3, arrow",4
+126174.097016,16.820306,state,sysmon,"scale4, arrow",6
+126174.162885,16.870272,performance,sysmon,name,1
+126174.163133,16.870272,performance,sysmon,signal_detection,HIT
+126174.163178,16.870272,performance,sysmon,response_time,6100
+126174.163555,16.887748,state,sysmon,"scale1, feedback_color","(0, 255, 0, 255)"
+126174.163649,16.887748,state,sysmon,"scale1, feedback_visible",1
+126174.196113,16.920418,performance,sysmon,event_occured,1
+126174.196374,16.920418,seed_value,sysmon,,
+126174.196419,16.920418,seed_output,sysmon,,6
+126174.196491,16.920418,seed_value,sysmon,,
+126174.196525,16.920418,seed_output,sysmon,,-1
+126174.196589,16.920418,seed_value,sysmon,,
+126174.196625,16.920418,seed_output,sysmon,,1
+126174.196687,16.920418,seed_value,sysmon,,
+126174.196721,16.920418,seed_output,sysmon,,1
+126174.196886,16.920418,state,sysmon,"scale1, arrow",5
+126174.196961,16.920418,state,sysmon,"scale2, arrow",5
+126174.197008,16.920418,state,sysmon,"scale3, arrow",5
+126174.197052,16.920418,state,sysmon,"scale4, arrow",7
+126174.296306,17.020613,performance,sysmon,event_occured,0
+126174.296556,17.020613,seed_value,sysmon,,
+126174.296605,17.020613,seed_output,sysmon,,1
+126174.296679,17.020613,seed_value,sysmon,,
+126174.296718,17.020613,seed_output,sysmon,,1
+126174.296783,17.020613,seed_value,sysmon,,
+126174.296816,17.020613,seed_output,sysmon,,1
+126174.296877,17.020613,seed_value,sysmon,,
+126174.296909,17.020613,seed_output,sysmon,,-1
+126174.297114,17.020613,state,sysmon,"scale2, arrow",6
+126174.29717,17.020613,state,sysmon,"scale3, arrow",6
+126174.297217,17.020613,state,sysmon,"scale4, arrow",6
+126174.412791,17.13701,performance,sysmon,event_occured,0
+126174.413113,17.13701,seed_value,sysmon,,
+126174.413159,17.13701,seed_output,sysmon,,1
+126174.413231,17.13701,seed_value,sysmon,,
+126174.413266,17.13701,seed_output,sysmon,,-1
+126174.41333,17.13701,seed_value,sysmon,,
+126174.413361,17.13701,seed_output,sysmon,,-1
+126174.41342,17.13701,seed_value,sysmon,,
+126174.413453,17.13701,seed_output,sysmon,,1
+126174.413678,17.13701,state,sysmon,"scale2, arrow",5
+126174.413743,17.13701,state,sysmon,"scale3, arrow",5
+126174.413798,17.13701,state,sysmon,"scale4, arrow",7
+126174.529277,17.253585,performance,sysmon,event_occured,0
+126174.529565,17.253585,seed_value,sysmon,,
+126174.529611,17.253585,seed_output,sysmon,,1
+126174.529682,17.253585,seed_value,sysmon,,
+126174.529716,17.253585,seed_output,sysmon,,1
+126174.529778,17.253585,seed_value,sysmon,,
+126174.529812,17.253585,seed_output,sysmon,,-1
+126174.529876,17.253585,seed_value,sysmon,,
+126174.529907,17.253585,seed_output,sysmon,,-1
+126174.53008,17.253585,state,sysmon,"scale2, arrow",6
+126174.530279,17.253585,state,sysmon,"scale3, arrow",4
+126174.530332,17.253585,state,sysmon,"scale4, arrow",6
+126174.633112,17.357247,performance,sysmon,event_occured,0
+126174.633602,17.357247,seed_value,sysmon,,
+126174.633677,17.357247,seed_output,sysmon,,1
+126174.633791,17.357247,seed_value,sysmon,,
+126174.633847,17.357247,seed_output,sysmon,,1
+126174.633945,17.357247,seed_value,sysmon,,
+126174.634,17.357247,seed_output,sysmon,,-1
+126174.634099,17.357247,seed_value,sysmon,,
+126174.634155,17.357247,seed_output,sysmon,,1
+126174.634381,17.357247,state,sysmon,"scale2, arrow",7
+126174.63447,17.357247,state,sysmon,"scale3, arrow",3
+126174.634546,17.357247,state,sysmon,"scale4, arrow",7
+126174.746201,17.47047,performance,sysmon,event_occured,0
+126174.74649,17.47047,seed_value,sysmon,,
+126174.74654,17.47047,seed_output,sysmon,,-1
+126174.746611,17.47047,seed_value,sysmon,,
+126174.746646,17.47047,seed_output,sysmon,,-1
+126174.74671,17.47047,seed_value,sysmon,,
+126174.746744,17.47047,seed_output,sysmon,,1
+126174.746806,17.47047,seed_value,sysmon,,
+126174.746837,17.47047,seed_output,sysmon,,1
+126174.747025,17.47047,state,sysmon,"scale2, arrow",6
+126174.747092,17.47047,state,sysmon,"scale3, arrow",4
+126174.74714,17.47047,state,sysmon,"scale4, arrow",6
+126174.860153,17.584487,performance,sysmon,event_occured,0
+126174.860402,17.584487,seed_value,sysmon,,
+126174.860422,17.584487,seed_output,sysmon,,1
+126174.860456,17.584487,seed_value,sysmon,,
+126174.860471,17.584487,seed_output,sysmon,,-1
+126174.860499,17.584487,seed_value,sysmon,,
+126174.860514,17.584487,seed_output,sysmon,,-1
+126174.860541,17.584487,seed_value,sysmon,,
+126174.860556,17.584487,seed_output,sysmon,,1
+126174.860709,17.584487,state,sysmon,"scale2, arrow",5
+126174.860738,17.584487,state,sysmon,"scale3, arrow",3
+126174.860764,17.584487,state,sysmon,"scale4, arrow",7
+126174.962633,17.686938,performance,sysmon,event_occured,0
+126174.962899,17.686938,seed_value,sysmon,,
+126174.962949,17.686938,seed_output,sysmon,,1
+126174.96302,17.686938,seed_value,sysmon,,
+126174.963057,17.686938,seed_output,sysmon,,1
+126174.96312,17.686938,seed_value,sysmon,,
+126174.963152,17.686938,seed_output,sysmon,,1
+126174.963217,17.686938,seed_value,sysmon,,
+126174.963249,17.686938,seed_output,sysmon,,1
+126174.963414,17.686938,state,sysmon,"scale2, arrow",6
+126174.963473,17.686938,state,sysmon,"scale3, arrow",4
+126174.96352,17.686938,state,sysmon,"scale4, arrow",6
+126175.062862,17.787152,performance,sysmon,event_occured,0
+126175.063123,17.787152,seed_value,sysmon,,
+126175.063167,17.787152,seed_output,sysmon,,-1
+126175.063238,17.787152,seed_value,sysmon,,
+126175.063272,17.787152,seed_output,sysmon,,-1
+126175.063334,17.787152,seed_value,sysmon,,
+126175.063367,17.787152,seed_output,sysmon,,-1
+126175.063427,17.787152,seed_value,sysmon,,
+126175.063583,17.787152,seed_output,sysmon,,-1
+126175.063799,17.787152,state,sysmon,"scale2, arrow",5
+126175.06388,17.787152,state,sysmon,"scale3, arrow",3
+126175.063933,17.787152,state,sysmon,"scale4, arrow",5
+126175.17895,17.903276,performance,sysmon,event_occured,0
+126175.179216,17.903276,seed_value,sysmon,,
+126175.179259,17.903276,seed_output,sysmon,,1
+126175.179326,17.903276,seed_value,sysmon,,
+126175.179357,17.903276,seed_output,sysmon,,1
+126175.179414,17.903276,seed_value,sysmon,,
+126175.179443,17.903276,seed_output,sysmon,,-1
+126175.179501,17.903276,seed_value,sysmon,,
+126175.17953,17.903276,seed_output,sysmon,,-1
+126175.179714,17.903276,state,sysmon,"scale2, arrow",6
+126175.179778,17.903276,state,sysmon,"scale3, arrow",4
+126175.179844,17.903276,state,sysmon,"scale4, arrow",4
+126175.279377,18.003687,performance,sysmon,event_occured,0
+126175.279654,18.003687,seed_value,sysmon,,
+126175.279698,18.003687,seed_output,sysmon,,-1
+126175.27977,18.003687,seed_value,sysmon,,
+126175.279807,18.003687,seed_output,sysmon,,1
+126175.27987,18.003687,seed_value,sysmon,,
+126175.279901,18.003687,seed_output,sysmon,,-1
+126175.279961,18.003687,seed_value,sysmon,,
+126175.279991,18.003687,seed_output,sysmon,,1
+126175.280184,18.003687,state,sysmon,"scale2, arrow",7
+126175.280243,18.003687,state,sysmon,"scale3, arrow",3
+126175.280293,18.003687,state,sysmon,"scale4, arrow",5
+126175.395724,18.120053,performance,sysmon,event_occured,0
+126175.395981,18.120053,seed_value,sysmon,,
+126175.396051,18.120053,seed_output,sysmon,,-1
+126175.396125,18.120053,seed_value,sysmon,,
+126175.396158,18.120053,seed_output,sysmon,,-1
+126175.396221,18.120053,seed_value,sysmon,,
+126175.396254,18.120053,seed_output,sysmon,,1
+126175.396314,18.120053,seed_value,sysmon,,
+126175.396345,18.120053,seed_output,sysmon,,1
+126175.396524,18.120053,state,sysmon,"scale2, arrow",6
+126175.396582,18.120053,state,sysmon,"scale3, arrow",4
+126175.396627,18.120053,state,sysmon,"scale4, arrow",6
+126175.496274,18.220582,performance,sysmon,event_occured,0
+126175.496521,18.220582,seed_value,sysmon,,
+126175.496573,18.220582,seed_output,sysmon,,-1
+126175.496651,18.220582,seed_value,sysmon,,
+126175.496687,18.220582,seed_output,sysmon,,-1
+126175.496753,18.220582,seed_value,sysmon,,
+126175.496787,18.220582,seed_output,sysmon,,1
+126175.496849,18.220582,seed_value,sysmon,,
+126175.49688,18.220582,seed_output,sysmon,,1
+126175.4971,18.220582,state,sysmon,"scale2, arrow",5
+126175.49718,18.220582,state,sysmon,"scale3, arrow",5
+126175.497231,18.220582,state,sysmon,"scale4, arrow",7
+126175.612886,18.337078,performance,sysmon,event_occured,0
+126175.613158,18.337078,seed_value,sysmon,,
+126175.613362,18.337078,seed_output,sysmon,,1
+126175.613438,18.337078,seed_value,sysmon,,
+126175.613477,18.337078,seed_output,sysmon,,1
+126175.613583,18.337078,seed_value,sysmon,,
+126175.61362,18.337078,seed_output,sysmon,,-1
+126175.613684,18.337078,seed_value,sysmon,,
+126175.613719,18.337078,seed_output,sysmon,,-1
+126175.613892,18.337078,state,sysmon,"scale2, arrow",6
+126175.613948,18.337078,state,sysmon,"scale3, arrow",4
+126175.613992,18.337078,state,sysmon,"scale4, arrow",6
+126175.728926,18.453236,performance,sysmon,event_occured,0
+126175.729195,18.453236,seed_value,sysmon,,
+126175.729243,18.453236,seed_output,sysmon,,-1
+126175.729317,18.453236,seed_value,sysmon,,
+126175.729353,18.453236,seed_output,sysmon,,-1
+126175.729417,18.453236,seed_value,sysmon,,
+126175.729449,18.453236,seed_output,sysmon,,-1
+126175.729509,18.453236,seed_value,sysmon,,
+126175.729541,18.453236,seed_output,sysmon,,1
+126175.729707,18.453236,state,sysmon,"scale1, arrow",4
+126175.729766,18.453236,state,sysmon,"scale1, feedback_visible",0
+126175.729823,18.453236,state,sysmon,"scale2, arrow",5
+126175.729867,18.453236,state,sysmon,"scale3, arrow",3
+126175.729912,18.453236,state,sysmon,"scale4, arrow",7
+126175.829342,18.553644,performance,sysmon,event_occured,0
+126175.829626,18.553644,seed_value,sysmon,,
+126175.829669,18.553644,seed_output,sysmon,,1
+126175.829743,18.553644,seed_value,sysmon,,
+126175.829775,18.553644,seed_output,sysmon,,1
+126175.829838,18.553644,seed_value,sysmon,,
+126175.829871,18.553644,seed_output,sysmon,,-1
+126175.829933,18.553644,seed_value,sysmon,,
+126175.829967,18.553644,seed_output,sysmon,,1
+126175.83013,18.553644,state,sysmon,"scale1, arrow",5
+126175.830196,18.553644,state,sysmon,"scale2, arrow",6
+126175.830247,18.553644,state,sysmon,"scale3, arrow",4
+126175.830291,18.553644,state,sysmon,"scale4, arrow",6
+126175.945904,18.670221,performance,sysmon,event_occured,0
+126175.946143,18.670221,seed_value,sysmon,,
+126175.94619,18.670221,seed_output,sysmon,,1
+126175.946263,18.670221,seed_value,sysmon,,
+126175.946298,18.670221,seed_output,sysmon,,-1
+126175.946362,18.670221,seed_value,sysmon,,
+126175.946395,18.670221,seed_output,sysmon,,1
+126175.946454,18.670221,seed_value,sysmon,,
+126175.946486,18.670221,seed_output,sysmon,,1
+126175.94665,18.670221,state,sysmon,"scale1, arrow",6
+126175.946712,18.670221,state,sysmon,"scale2, arrow",5
+126175.946759,18.670221,state,sysmon,"scale3, arrow",5
+126175.946802,18.670221,state,sysmon,"scale4, arrow",7
+126176.062572,18.786824,performance,sysmon,event_occured,0
+126176.062853,18.786824,seed_value,sysmon,,
+126176.0629,18.786824,seed_output,sysmon,,-1
+126176.062971,18.786824,seed_value,sysmon,,
+126176.063007,18.786824,seed_output,sysmon,,-1
+126176.063071,18.786824,seed_value,sysmon,,
+126176.063103,18.786824,seed_output,sysmon,,1
+126176.063165,18.786824,seed_value,sysmon,,
+126176.063197,18.786824,seed_output,sysmon,,-1
+126176.063381,18.786824,state,sysmon,"scale1, arrow",5
+126176.063441,18.786824,state,sysmon,"scale2, arrow",4
+126176.063486,18.786824,state,sysmon,"scale3, arrow",6
+126176.063527,18.786824,state,sysmon,"scale4, arrow",6
+126176.162683,18.886953,performance,sysmon,event_occured,0
+126176.162975,18.886953,seed_value,sysmon,,
+126176.163021,18.886953,seed_output,sysmon,,1
+126176.163093,18.886953,seed_value,sysmon,,
+126176.163128,18.886953,seed_output,sysmon,,1
+126176.163193,18.886953,seed_value,sysmon,,
+126176.163226,18.886953,seed_output,sysmon,,1
+126176.163286,18.886953,seed_value,sysmon,,
+126176.163318,18.886953,seed_output,sysmon,,1
+126176.163493,18.886953,state,sysmon,"scale1, arrow",6
+126176.163556,18.886953,state,sysmon,"scale2, arrow",5
+126176.163601,18.886953,state,sysmon,"scale3, arrow",7
+126176.163645,18.886953,state,sysmon,"scale4, arrow",7
+126176.279382,19.003645,performance,sysmon,event_occured,0
+126176.279677,19.003645,seed_value,sysmon,,
+126176.279724,19.003645,seed_output,sysmon,,-1
+126176.279796,19.003645,seed_value,sysmon,,
+126176.279831,19.003645,seed_output,sysmon,,-1
+126176.279893,19.003645,seed_value,sysmon,,
+126176.279929,19.003645,seed_output,sysmon,,1
+126176.27999,19.003645,seed_value,sysmon,,
+126176.280048,19.003645,seed_output,sysmon,,-1
+126176.280221,19.003645,state,sysmon,"scale1, arrow",5
+126176.280279,19.003645,state,sysmon,"scale2, arrow",4
+126176.280324,19.003645,state,sysmon,"scale3, arrow",6
+126176.280366,19.003645,state,sysmon,"scale4, arrow",6
+126176.379407,19.103662,performance,sysmon,event_occured,0
+126176.379697,19.103662,seed_value,sysmon,,
+126176.379745,19.103662,seed_output,sysmon,,-1
+126176.379817,19.103662,seed_value,sysmon,,
+126176.379851,19.103662,seed_output,sysmon,,-1
+126176.379913,19.103662,seed_value,sysmon,,
+126176.379945,19.103662,seed_output,sysmon,,1
+126176.380054,19.103662,seed_value,sysmon,,
+126176.38009,19.103662,seed_output,sysmon,,-1
+126176.38028,19.103662,state,sysmon,"scale1, arrow",4
+126176.380336,19.103662,state,sysmon,"scale2, arrow",3
+126176.380383,19.103662,state,sysmon,"scale3, arrow",7
+126176.380425,19.103662,state,sysmon,"scale4, arrow",5
+126176.494612,19.218924,performance,sysmon,event_occured,0
+126176.494907,19.218924,seed_value,sysmon,,
+126176.494945,19.218924,seed_output,sysmon,,-1
+126176.494996,19.218924,seed_value,sysmon,,
+126176.495024,19.218924,seed_output,sysmon,,-1
+126176.495078,19.218924,seed_value,sysmon,,
+126176.495104,19.218924,seed_output,sysmon,,1
+126176.495156,19.218924,seed_value,sysmon,,
+126176.495184,19.218924,seed_output,sysmon,,1
+126176.495367,19.218924,state,sysmon,"scale1, arrow",3
+126176.495435,19.218924,state,sysmon,"scale2, arrow",4
+126176.495482,19.218924,state,sysmon,"scale3, arrow",6
+126176.495525,19.218924,state,sysmon,"scale4, arrow",6
+126176.596055,19.320322,performance,sysmon,event_occured,0
+126176.596322,19.320322,seed_value,sysmon,,
+126176.596369,19.320322,seed_output,sysmon,,-1
+126176.59644,19.320322,seed_value,sysmon,,
+126176.596475,19.320322,seed_output,sysmon,,-1
+126176.596538,19.320322,seed_value,sysmon,,
+126176.596571,19.320322,seed_output,sysmon,,1
+126176.596634,19.320322,seed_value,sysmon,,
+126176.596664,19.320322,seed_output,sysmon,,1
+126176.596856,19.320322,state,sysmon,"scale1, arrow",4
+126176.596908,19.320322,state,sysmon,"scale2, arrow",3
+126176.596954,19.320322,state,sysmon,"scale3, arrow",7
+126176.596996,19.320322,state,sysmon,"scale4, arrow",7
+126176.712535,19.436835,performance,sysmon,event_occured,0
+126176.712805,19.436835,seed_value,sysmon,,
+126176.712848,19.436835,seed_output,sysmon,,1
+126176.71292,19.436835,seed_value,sysmon,,
+126176.712955,19.436835,seed_output,sysmon,,-1
+126176.713019,19.436835,seed_value,sysmon,,
+126176.713054,19.436835,seed_output,sysmon,,-1
+126176.713118,19.436835,seed_value,sysmon,,
+126176.713149,19.436835,seed_output,sysmon,,-1
+126176.713303,19.436835,state,sysmon,"scale1, arrow",5
+126176.71337,19.436835,state,sysmon,"scale2, arrow",4
+126176.713421,19.436835,state,sysmon,"scale3, arrow",6
+126176.713465,19.436835,state,sysmon,"scale4, arrow",6
+126176.829325,19.553613,performance,sysmon,event_occured,0
+126176.829656,19.553613,seed_value,sysmon,,
+126176.829725,19.553613,seed_output,sysmon,,-1
+126176.829803,19.553613,seed_value,sysmon,,
+126176.829837,19.553613,seed_output,sysmon,,-1
+126176.8299,19.553613,seed_value,sysmon,,
+126176.829933,19.553613,seed_output,sysmon,,-1
+126176.829995,19.553613,seed_value,sysmon,,
+126176.830026,19.553613,seed_output,sysmon,,-1
+126176.830184,19.553613,state,sysmon,"scale1, arrow",4
+126176.830248,19.553613,state,sysmon,"scale2, arrow",3
+126176.830308,19.553613,state,sysmon,"scale3, arrow",5
+126176.830349,19.553613,state,sysmon,"scale4, arrow",5
+126176.929413,19.653728,performance,sysmon,event_occured,0
+126176.929685,19.653728,seed_value,sysmon,,
+126176.929732,19.653728,seed_output,sysmon,,1
+126176.929803,19.653728,seed_value,sysmon,,
+126176.92984,19.653728,seed_output,sysmon,,-1
+126176.929906,19.653728,seed_value,sysmon,,
+126176.929937,19.653728,seed_output,sysmon,,1
+126176.929996,19.653728,seed_value,sysmon,,
+126176.930028,19.653728,seed_output,sysmon,,1
+126176.930347,19.653728,state,sysmon,"scale1, arrow",5
+126176.93041,19.653728,state,sysmon,"scale2, arrow",4
+126176.930455,19.653728,state,sysmon,"scale3, arrow",6
+126176.930497,19.653728,state,sysmon,"scale4, arrow",6
+126177.045731,19.770049,performance,sysmon,event_occured,0
+126177.046013,19.770049,seed_value,sysmon,,
+126177.046075,19.770049,seed_output,sysmon,,1
+126177.04615,19.770049,seed_value,sysmon,,
+126177.046185,19.770049,seed_output,sysmon,,1
+126177.046248,19.770049,seed_value,sysmon,,
+126177.046282,19.770049,seed_output,sysmon,,1
+126177.046344,19.770049,seed_value,sysmon,,
+126177.046376,19.770049,seed_output,sysmon,,-1
+126177.046576,19.770049,state,sysmon,"scale1, arrow",6
+126177.04663,19.770049,state,sysmon,"scale2, arrow",5
+126177.046674,19.770049,state,sysmon,"scale3, arrow",7
+126177.046721,19.770049,state,sysmon,"scale4, arrow",5
+126177.162638,19.886976,performance,sysmon,event_occured,0
+126177.16301,19.886976,seed_value,sysmon,,
+126177.163067,19.886976,seed_output,sysmon,,1
+126177.163142,19.886976,seed_value,sysmon,,
+126177.163177,19.886976,seed_output,sysmon,,1
+126177.163243,19.886976,seed_value,sysmon,,
+126177.163276,19.886976,seed_output,sysmon,,1
+126177.163336,19.886976,seed_value,sysmon,,
+126177.163367,19.886976,seed_output,sysmon,,1
+126177.163539,19.886976,state,sysmon,"scale1, arrow",7
+126177.163601,19.886976,state,sysmon,"scale2, arrow",6
+126177.16365,19.886976,state,sysmon,"scale3, arrow",6
+126177.163697,19.886976,state,sysmon,"scale4, arrow",6
+126177.279084,20.003398,performance,sysmon,event_occured,0
+126177.279406,20.003398,seed_value,sysmon,,
+126177.279473,20.003398,seed_output,sysmon,,1
+126177.279548,20.003398,seed_value,sysmon,,
+126177.279583,20.003398,seed_output,sysmon,,1
+126177.279647,20.003398,seed_value,sysmon,,
+126177.27968,20.003398,seed_output,sysmon,,-1
+126177.279743,20.003398,seed_value,sysmon,,
+126177.279775,20.003398,seed_output,sysmon,,1
+126177.279946,20.003398,state,sysmon,"scale1, arrow",6
+126177.280054,20.003398,state,sysmon,"scale2, arrow",7
+126177.28011,20.003398,state,sysmon,"scale3, arrow",5
+126177.280175,20.003398,state,sysmon,"scale4, arrow",7
+126177.379094,20.103407,performance,sysmon,event_occured,0
+126177.379387,20.103407,seed_value,sysmon,,
+126177.379432,20.103407,seed_output,sysmon,,-1
+126177.379505,20.103407,seed_value,sysmon,,
+126177.37954,20.103407,seed_output,sysmon,,-1
+126177.379605,20.103407,seed_value,sysmon,,
+126177.379637,20.103407,seed_output,sysmon,,-1
+126177.3797,20.103407,seed_value,sysmon,,
+126177.379732,20.103407,seed_output,sysmon,,1
+126177.3799,20.103407,state,sysmon,"scale1, arrow",5
+126177.379963,20.103407,state,sysmon,"scale2, arrow",6
+126177.380042,20.103407,state,sysmon,"scale3, arrow",4
+126177.380089,20.103407,state,sysmon,"scale4, arrow",6
+126177.479116,20.203438,performance,sysmon,event_occured,0
+126177.479399,20.203438,seed_value,sysmon,,
+126177.47945,20.203438,seed_output,sysmon,,1
+126177.479523,20.203438,seed_value,sysmon,,
+126177.479558,20.203438,seed_output,sysmon,,1
+126177.479622,20.203438,seed_value,sysmon,,
+126177.479654,20.203438,seed_output,sysmon,,1
+126177.479713,20.203438,seed_value,sysmon,,
+126177.479744,20.203438,seed_output,sysmon,,1
+126177.479917,20.203438,state,sysmon,"scale1, arrow",6
+126177.480032,20.203438,state,sysmon,"scale2, arrow",7
+126177.480097,20.203438,state,sysmon,"scale3, arrow",5
+126177.480145,20.203438,state,sysmon,"scale4, arrow",7
+126177.579188,20.303506,performance,sysmon,event_occured,0
+126177.579462,20.303506,seed_value,sysmon,,
+126177.57951,20.303506,seed_output,sysmon,,-1
+126177.579584,20.303506,seed_value,sysmon,,
+126177.579618,20.303506,seed_output,sysmon,,1
+126177.57968,20.303506,seed_value,sysmon,,
+126177.579717,20.303506,seed_output,sysmon,,-1
+126177.579781,20.303506,seed_value,sysmon,,
+126177.579813,20.303506,seed_output,sysmon,,-1
+126177.579982,20.303506,state,sysmon,"scale1, arrow",5
+126177.580059,20.303506,state,sysmon,"scale2, arrow",6
+126177.580111,20.303506,state,sysmon,"scale3, arrow",4
+126177.580156,20.303506,state,sysmon,"scale4, arrow",6
+126177.695861,20.420183,performance,sysmon,event_occured,0
+126177.696138,20.420183,seed_value,sysmon,,
+126177.696186,20.420183,seed_output,sysmon,,-1
+126177.696257,20.420183,seed_value,sysmon,,
+126177.696291,20.420183,seed_output,sysmon,,-1
+126177.696353,20.420183,seed_value,sysmon,,
+126177.6965,20.420183,seed_output,sysmon,,-1
+126177.69657,20.420183,seed_value,sysmon,,
+126177.696602,20.420183,seed_output,sysmon,,-1
+126177.696781,20.420183,state,sysmon,"scale1, arrow",4
+126177.696835,20.420183,state,sysmon,"scale2, arrow",5
+126177.696878,20.420183,state,sysmon,"scale3, arrow",3
+126177.696919,20.420183,state,sysmon,"scale4, arrow",5
+126177.812604,20.536909,performance,sysmon,event_occured,0
+126177.812876,20.536909,seed_value,sysmon,,
+126177.812923,20.536909,seed_output,sysmon,,-1
+126177.812993,20.536909,seed_value,sysmon,,
+126177.813029,20.536909,seed_output,sysmon,,1
+126177.813091,20.536909,seed_value,sysmon,,
+126177.813125,20.536909,seed_output,sysmon,,1
+126177.813185,20.536909,seed_value,sysmon,,
+126177.813215,20.536909,seed_output,sysmon,,-1
+126177.813361,20.536909,state,sysmon,"scale1, arrow",3
+126177.813425,20.536909,state,sysmon,"scale2, arrow",6
+126177.813477,20.536909,state,sysmon,"scale3, arrow",4
+126177.813522,20.536909,state,sysmon,"scale4, arrow",4
+126177.914407,20.638674,performance,sysmon,event_occured,0
+126177.914701,20.638674,seed_value,sysmon,,
+126177.914753,20.638674,seed_output,sysmon,,1
+126177.914827,20.638674,seed_value,sysmon,,
+126177.914864,20.638674,seed_output,sysmon,,-1
+126177.914929,20.638674,seed_value,sysmon,,
+126177.914961,20.638674,seed_output,sysmon,,1
+126177.915022,20.638674,seed_value,sysmon,,
+126177.915054,20.638674,seed_output,sysmon,,-1
+126177.915231,20.638674,state,sysmon,"scale1, arrow",4
+126177.915294,20.638674,state,sysmon,"scale2, arrow",5
+126177.915344,20.638674,state,sysmon,"scale3, arrow",5
+126177.915408,20.638674,state,sysmon,"scale4, arrow",3
+126178.02937,20.753677,performance,sysmon,event_occured,0
+126178.029657,20.753677,seed_value,sysmon,,
+126178.029705,20.753677,seed_output,sysmon,,1
+126178.029781,20.753677,seed_value,sysmon,,
+126178.029816,20.753677,seed_output,sysmon,,1
+126178.029876,20.753677,seed_value,sysmon,,
+126178.029909,20.753677,seed_output,sysmon,,1
+126178.02997,20.753677,seed_value,sysmon,,
+126178.030008,20.753677,seed_output,sysmon,,-1
+126178.030162,20.753677,state,sysmon,"scale1, arrow",5
+126178.030225,20.753677,state,sysmon,"scale2, arrow",6
+126178.030274,20.753677,state,sysmon,"scale3, arrow",6
+126178.030317,20.753677,state,sysmon,"scale4, arrow",4
+126178.1296,20.853879,performance,sysmon,event_occured,0
+126178.12987,20.853879,seed_value,sysmon,,
+126178.129916,20.853879,seed_output,sysmon,,-1
+126178.130011,20.853879,seed_value,sysmon,,
+126178.130052,20.853879,seed_output,sysmon,,-1
+126178.130129,20.853879,seed_value,sysmon,,
+126178.130162,20.853879,seed_output,sysmon,,-1
+126178.130224,20.853879,seed_value,sysmon,,
+126178.130256,20.853879,seed_output,sysmon,,1
+126178.130403,20.853879,state,sysmon,"scale1, arrow",4
+126178.130464,20.853879,state,sysmon,"scale2, arrow",5
+126178.130513,20.853879,state,sysmon,"scale3, arrow",5
+126178.130613,20.853879,state,sysmon,"scale4, arrow",5
+126178.245765,20.970078,performance,sysmon,event_occured,0
+126178.246006,20.970078,seed_value,sysmon,,
+126178.246053,20.970078,seed_output,sysmon,,1
+126178.246124,20.970078,seed_value,sysmon,,
+126178.24616,20.970078,seed_output,sysmon,,1
+126178.246233,20.970078,seed_value,sysmon,,
+126178.246269,20.970078,seed_output,sysmon,,-1
+126178.246332,20.970078,seed_value,sysmon,,
+126178.246364,20.970078,seed_output,sysmon,,1
+126178.246516,20.970078,state,sysmon,"scale1, arrow",5
+126178.246579,20.970078,state,sysmon,"scale2, arrow",6
+126178.246685,20.970078,state,sysmon,"scale3, arrow",4
+126178.246732,20.970078,state,sysmon,"scale4, arrow",6
+126178.362417,21.086718,performance,sysmon,event_occured,0
+126178.362678,21.086718,seed_value,sysmon,,
+126178.362843,21.086718,seed_output,sysmon,,1
+126178.362922,21.086718,seed_value,sysmon,,
+126178.362959,21.086718,seed_output,sysmon,,-1
+126178.363024,21.086718,seed_value,sysmon,,
+126178.363059,21.086718,seed_output,sysmon,,-1
+126178.363121,21.086718,seed_value,sysmon,,
+126178.363153,21.086718,seed_output,sysmon,,1
+126178.363338,21.086718,state,sysmon,"scale1, arrow",6
+126178.363392,21.086718,state,sysmon,"scale2, arrow",5
+126178.363435,21.086718,state,sysmon,"scale3, arrow",3
+126178.363477,21.086718,state,sysmon,"scale4, arrow",7
+126178.479401,21.203705,performance,sysmon,event_occured,0
+126178.479697,21.203705,seed_value,sysmon,,
+126178.479746,21.203705,seed_output,sysmon,,-1
+126178.479819,21.203705,seed_value,sysmon,,
+126178.479854,21.203705,seed_output,sysmon,,-1
+126178.479918,21.203705,seed_value,sysmon,,
+126178.47995,21.203705,seed_output,sysmon,,-1
+126178.480044,21.203705,seed_value,sysmon,,
+126178.480076,21.203705,seed_output,sysmon,,-1
+126178.480233,21.203705,state,sysmon,"scale1, arrow",5
+126178.480292,21.203705,state,sysmon,"scale2, arrow",4
+126178.480341,21.203705,state,sysmon,"scale3, arrow",4
+126178.480389,21.203705,state,sysmon,"scale4, arrow",6
+126178.595872,21.32019,performance,sysmon,event_occured,0
+126178.596144,21.32019,seed_value,sysmon,,
+126178.596195,21.32019,seed_output,sysmon,,-1
+126178.596268,21.32019,seed_value,sysmon,,
+126178.596302,21.32019,seed_output,sysmon,,1
+126178.596366,21.32019,seed_value,sysmon,,
+126178.596397,21.32019,seed_output,sysmon,,1
+126178.596456,21.32019,seed_value,sysmon,,
+126178.596488,21.32019,seed_output,sysmon,,-1
+126178.596678,21.32019,state,sysmon,"scale1, arrow",4
+126178.596741,21.32019,state,sysmon,"scale2, arrow",5
+126178.596785,21.32019,state,sysmon,"scale3, arrow",5
+126178.596838,21.32019,state,sysmon,"scale4, arrow",5
+126178.712364,21.43668,performance,sysmon,event_occured,0
+126178.712647,21.43668,seed_value,sysmon,,
+126178.712693,21.43668,seed_output,sysmon,,1
+126178.712767,21.43668,seed_value,sysmon,,
+126178.7128,21.43668,seed_output,sysmon,,1
+126178.712862,21.43668,seed_value,sysmon,,
+126178.712896,21.43668,seed_output,sysmon,,-1
+126178.712957,21.43668,seed_value,sysmon,,
+126178.712989,21.43668,seed_output,sysmon,,1
+126178.71315,21.43668,state,sysmon,"scale1, arrow",5
+126178.713211,21.43668,state,sysmon,"scale2, arrow",6
+126178.713267,21.43668,state,sysmon,"scale3, arrow",4
+126178.713315,21.43668,state,sysmon,"scale4, arrow",6
+126178.812552,21.53686,performance,sysmon,event_occured,0
+126178.812835,21.53686,seed_value,sysmon,,
+126178.812882,21.53686,seed_output,sysmon,,1
+126178.812955,21.53686,seed_value,sysmon,,
+126178.81299,21.53686,seed_output,sysmon,,-1
+126178.813053,21.53686,seed_value,sysmon,,
+126178.813085,21.53686,seed_output,sysmon,,-1
+126178.813146,21.53686,seed_value,sysmon,,
+126178.813178,21.53686,seed_output,sysmon,,1
+126178.813326,21.53686,state,sysmon,"scale1, arrow",6
+126178.81339,21.53686,state,sysmon,"scale2, arrow",5
+126178.813442,21.53686,state,sysmon,"scale3, arrow",3
+126178.813485,21.53686,state,sysmon,"scale4, arrow",7
+126178.912838,21.637073,performance,sysmon,event_occured,0
+126178.913166,21.637073,seed_value,sysmon,,
+126178.913217,21.637073,seed_output,sysmon,,-1
+126178.913296,21.637073,seed_value,sysmon,,
+126178.913333,21.637073,seed_output,sysmon,,-1
+126178.913402,21.637073,seed_value,sysmon,,
+126178.913437,21.637073,seed_output,sysmon,,-1
+126178.913505,21.637073,seed_value,sysmon,,
+126178.913539,21.637073,seed_output,sysmon,,1
+126178.913713,21.637073,state,sysmon,"scale1, arrow",5
+126178.913788,21.637073,state,sysmon,"scale2, arrow",4
+126178.913845,21.637073,state,sysmon,"scale3, arrow",4
+126178.913905,21.637073,state,sysmon,"scale4, arrow",6
+126179.026626,21.751,performance,sysmon,event_occured,0
+126179.026834,21.751,seed_value,sysmon,,
+126179.026857,21.751,seed_output,sysmon,,-1
+126179.02689,21.751,seed_value,sysmon,,
+126179.026907,21.751,seed_output,sysmon,,1
+126179.026936,21.751,seed_value,sysmon,,
+126179.026951,21.751,seed_output,sysmon,,1
+126179.026978,21.751,seed_value,sysmon,,
+126179.026991,21.751,seed_output,sysmon,,1
+126179.027161,21.751,state,sysmon,"scale1, arrow",4
+126179.027201,21.751,state,sysmon,"scale2, arrow",5
+126179.027228,21.751,state,sysmon,"scale3, arrow",5
+126179.027251,21.751,state,sysmon,"scale4, arrow",7
+126179.128784,21.853063,performance,sysmon,event_occured,0
+126179.129087,21.853063,seed_value,sysmon,,
+126179.129138,21.853063,seed_output,sysmon,,-1
+126179.129212,21.853063,seed_value,sysmon,,
+126179.129248,21.853063,seed_output,sysmon,,-1
+126179.129312,21.853063,seed_value,sysmon,,
+126179.129345,21.853063,seed_output,sysmon,,1
+126179.129406,21.853063,seed_value,sysmon,,
+126179.129438,21.853063,seed_output,sysmon,,1
+126179.129651,21.853063,state,sysmon,"scale1, arrow",3
+126179.129714,21.853063,state,sysmon,"scale2, arrow",4
+126179.129764,21.853063,state,sysmon,"scale3, arrow",6
+126179.129815,21.853063,state,sysmon,"scale4, arrow",6
+126179.245299,21.969628,performance,sysmon,event_occured,0
+126179.245536,21.969628,seed_value,sysmon,,
+126179.245579,21.969628,seed_output,sysmon,,-1
+126179.245647,21.969628,seed_value,sysmon,,
+126179.245679,21.969628,seed_output,sysmon,,1
+126179.24574,21.969628,seed_value,sysmon,,
+126179.245771,21.969628,seed_output,sysmon,,1
+126179.245829,21.969628,seed_value,sysmon,,
+126179.245858,21.969628,seed_output,sysmon,,-1
+126179.246003,21.969628,state,sysmon,"scale1, arrow",4
+126179.246064,21.969628,state,sysmon,"scale2, arrow",5
+126179.246114,21.969628,state,sysmon,"scale3, arrow",7
+126179.246158,21.969628,state,sysmon,"scale4, arrow",5
+126179.345742,22.070054,performance,sysmon,event_occured,0
+126179.345984,22.070054,seed_value,sysmon,,
+126179.34603,22.070054,seed_output,sysmon,,1
+126179.346103,22.070054,seed_value,sysmon,,
+126179.346137,22.070054,seed_output,sysmon,,-1
+126179.346201,22.070054,seed_value,sysmon,,
+126179.346237,22.070054,seed_output,sysmon,,-1
+126179.346299,22.070054,seed_value,sysmon,,
+126179.346332,22.070054,seed_output,sysmon,,1
+126179.346482,22.070054,state,sysmon,"scale1, arrow",5
+126179.346543,22.070054,state,sysmon,"scale2, arrow",4
+126179.346592,22.070054,state,sysmon,"scale3, arrow",6
+126179.346633,22.070054,state,sysmon,"scale4, arrow",6
+126179.462254,22.186445,performance,sysmon,event_occured,0
+126179.462536,22.186445,seed_value,sysmon,,
+126179.462584,22.186445,seed_output,sysmon,,-1
+126179.462677,22.186445,seed_value,sysmon,,
+126179.462723,22.186445,seed_output,sysmon,,-1
+126179.462789,22.186445,seed_value,sysmon,,
+126179.462824,22.186445,seed_output,sysmon,,1
+126179.462885,22.186445,seed_value,sysmon,,
+126179.462916,22.186445,seed_output,sysmon,,-1
+126179.463124,22.186445,state,sysmon,"scale1, arrow",4
+126179.463181,22.186445,state,sysmon,"scale2, arrow",3
+126179.463229,22.186445,state,sysmon,"scale3, arrow",7
+126179.463278,22.186445,state,sysmon,"scale4, arrow",5
+126179.56234,22.286588,performance,sysmon,event_occured,0
+126179.562606,22.286588,seed_value,sysmon,,
+126179.562652,22.286588,seed_output,sysmon,,-1
+126179.562725,22.286588,seed_value,sysmon,,
+126179.562765,22.286588,seed_output,sysmon,,-1
+126179.56283,22.286588,seed_value,sysmon,,
+126179.562862,22.286588,seed_output,sysmon,,1
+126179.562922,22.286588,seed_value,sysmon,,
+126179.562953,22.286588,seed_output,sysmon,,-1
+126179.563141,22.286588,state,sysmon,"scale1, arrow",3
+126179.563207,22.286588,state,sysmon,"scale2, arrow",4
+126179.563254,22.286588,state,sysmon,"scale3, arrow",6
+126179.563298,22.286588,state,sysmon,"scale4, arrow",4
+126179.662314,22.38664,performance,sysmon,event_occured,0
+126179.662613,22.38664,seed_value,sysmon,,
+126179.662656,22.38664,seed_output,sysmon,,1
+126179.662726,22.38664,seed_value,sysmon,,
+126179.662758,22.38664,seed_output,sysmon,,-1
+126179.662822,22.38664,seed_value,sysmon,,
+126179.662854,22.38664,seed_output,sysmon,,-1
+126179.662914,22.38664,seed_value,sysmon,,
+126179.662946,22.38664,seed_output,sysmon,,-1
+126179.66312,22.38664,state,sysmon,"scale1, arrow",4
+126179.663182,22.38664,state,sysmon,"scale2, arrow",3
+126179.663403,22.38664,state,sysmon,"scale3, arrow",5
+126179.663478,22.38664,state,sysmon,"scale4, arrow",3
+126179.762402,22.48672,performance,sysmon,event_occured,0
+126179.762675,22.48672,seed_value,sysmon,,
+126179.762719,22.48672,seed_output,sysmon,,1
+126179.762789,22.48672,seed_value,sysmon,,
+126179.762823,22.48672,seed_output,sysmon,,-1
+126179.762885,22.48672,seed_value,sysmon,,
+126179.762917,22.48672,seed_output,sysmon,,1
+126179.762976,22.48672,seed_value,sysmon,,
+126179.763009,22.48672,seed_output,sysmon,,1
+126179.763311,22.48672,state,sysmon,"scale1, arrow",5
+126179.763376,22.48672,state,sysmon,"scale2, arrow",4
+126179.763423,22.48672,state,sysmon,"scale3, arrow",6
+126179.763465,22.48672,state,sysmon,"scale4, arrow",4
+126179.878863,22.60318,performance,sysmon,event_occured,0
+126179.879141,22.60318,seed_value,sysmon,,
+126179.879185,22.60318,seed_output,sysmon,,-1
+126179.879259,22.60318,seed_value,sysmon,,
+126179.879293,22.60318,seed_output,sysmon,,-1
+126179.879354,22.60318,seed_value,sysmon,,
+126179.879388,22.60318,seed_output,sysmon,,-1
+126179.87945,22.60318,seed_value,sysmon,,
+126179.879482,22.60318,seed_output,sysmon,,1
+126179.879647,22.60318,state,sysmon,"scale1, arrow",4
+126179.879709,22.60318,state,sysmon,"scale2, arrow",3
+126179.879761,22.60318,state,sysmon,"scale3, arrow",5
+126179.879805,22.60318,state,sysmon,"scale4, arrow",5
+126179.979122,22.703423,performance,sysmon,event_occured,0
+126179.979411,22.703423,seed_value,sysmon,,
+126179.979455,22.703423,seed_output,sysmon,,-1
+126179.979526,22.703423,seed_value,sysmon,,
+126179.97956,22.703423,seed_output,sysmon,,-1
+126179.979622,22.703423,seed_value,sysmon,,
+126179.979654,22.703423,seed_output,sysmon,,1
+126179.979718,22.703423,seed_value,sysmon,,
+126179.97975,22.703423,seed_output,sysmon,,1
+126179.979914,22.703423,state,sysmon,"scale1, arrow",3
+126179.979973,22.703423,state,sysmon,"scale2, arrow",4
+126179.980053,22.703423,state,sysmon,"scale3, arrow",6
+126179.980104,22.703423,state,sysmon,"scale4, arrow",6
+126180.079112,22.80343,performance,sysmon,event_occured,0
+126180.07939,22.80343,seed_value,sysmon,,
+126180.079437,22.80343,seed_output,sysmon,,-1
+126180.079509,22.80343,seed_value,sysmon,,
+126180.079543,22.80343,seed_output,sysmon,,1
+126180.079604,22.80343,seed_value,sysmon,,
+126180.079635,22.80343,seed_output,sysmon,,1
+126180.0797,22.80343,seed_value,sysmon,,
+126180.079732,22.80343,seed_output,sysmon,,-1
+126180.079901,22.80343,state,sysmon,"scale1, arrow",4
+126180.079963,22.80343,state,sysmon,"scale2, arrow",5
+126180.080046,22.80343,state,sysmon,"scale3, arrow",7
+126180.080094,22.80343,state,sysmon,"scale4, arrow",5
+126180.194959,22.919291,performance,sysmon,event_occured,0
+126180.195194,22.919291,seed_value,sysmon,,
+126180.195241,22.919291,seed_output,sysmon,,1
+126180.195308,22.919291,seed_value,sysmon,,
+126180.195342,22.919291,seed_output,sysmon,,-1
+126180.195401,22.919291,seed_value,sysmon,,
+126180.195431,22.919291,seed_output,sysmon,,-1
+126180.195489,22.919291,seed_value,sysmon,,
+126180.195518,22.919291,seed_output,sysmon,,1
+126180.195667,22.919291,state,sysmon,"scale1, arrow",5
+126180.195723,22.919291,state,sysmon,"scale2, arrow",4
+126180.195775,22.919291,state,sysmon,"scale3, arrow",6
+126180.195818,22.919291,state,sysmon,"scale4, arrow",6
+126180.295379,23.019708,performance,sysmon,event_occured,0
+126180.295738,23.019708,seed_value,sysmon,,
+126180.295786,23.019708,seed_output,sysmon,,1
+126180.295853,23.019708,seed_value,sysmon,,
+126180.295885,23.019708,seed_output,sysmon,,-1
+126180.295944,23.019708,seed_value,sysmon,,
+126180.295976,23.019708,seed_output,sysmon,,-1
+126180.296057,23.019708,seed_value,sysmon,,
+126180.296091,23.019708,seed_output,sysmon,,-1
+126180.296296,23.019708,state,sysmon,"scale1, arrow",6
+126180.296347,23.019708,state,sysmon,"scale2, arrow",3
+126180.29639,23.019708,state,sysmon,"scale3, arrow",5
+126180.296433,23.019708,state,sysmon,"scale4, arrow",5
+126180.395985,23.120296,performance,sysmon,event_occured,0
+126180.396256,23.120296,seed_value,sysmon,,
+126180.3963,23.120296,seed_output,sysmon,,-1
+126180.396372,23.120296,seed_value,sysmon,,
+126180.396407,23.120296,seed_output,sysmon,,-1
+126180.396472,23.120296,seed_value,sysmon,,
+126180.396504,23.120296,seed_output,sysmon,,1
+126180.396564,23.120296,seed_value,sysmon,,
+126180.396597,23.120296,seed_output,sysmon,,1
+126180.3968,23.120296,state,sysmon,"scale1, arrow",5
+126180.396857,23.120296,state,sysmon,"scale2, arrow",4
+126180.396907,23.120296,state,sysmon,"scale3, arrow",6
+126180.396949,23.120296,state,sysmon,"scale4, arrow",6
+126180.512412,23.23672,performance,sysmon,event_occured,0
+126180.512682,23.23672,seed_value,sysmon,,
+126180.512727,23.23672,seed_output,sysmon,,1
+126180.5128,23.23672,seed_value,sysmon,,
+126180.512836,23.23672,seed_output,sysmon,,1
+126180.512899,23.23672,seed_value,sysmon,,
+126180.512931,23.23672,seed_output,sysmon,,-1
+126180.512991,23.23672,seed_value,sysmon,,
+126180.513023,23.23672,seed_output,sysmon,,1
+126180.513179,23.23672,state,sysmon,"scale1, arrow",6
+126180.51324,23.23672,state,sysmon,"scale2, arrow",5
+126180.513289,23.23672,state,sysmon,"scale3, arrow",5
+126180.513337,23.23672,state,sysmon,"scale4, arrow",7
+126182.1794,23.337014,performance,sysmon,event_occured,0
+126182.179574,23.337014,seed_value,sysmon,,
+126182.179619,23.337014,seed_output,sysmon,,1
+126182.179692,23.337014,seed_value,sysmon,,
+126182.179724,23.337014,seed_output,sysmon,,-1
+126182.179785,23.337014,seed_value,sysmon,,
+126182.179817,23.337014,seed_output,sysmon,,1
+126182.179877,23.337014,seed_value,sysmon,,
+126182.179907,23.337014,seed_output,sysmon,,-1
+126182.180037,23.337014,state,sysmon,"scale1, arrow",7
+126182.180094,23.337014,state,sysmon,"scale2, arrow",4
+126182.180141,23.337014,state,sysmon,"scale3, arrow",6
+126182.180184,23.337014,state,sysmon,"scale4, arrow",6
+126182.189515,23.337014,state,sysmon,"foreground, visibility",1
+126182.189605,23.337014,event,sysmon,self,stop
